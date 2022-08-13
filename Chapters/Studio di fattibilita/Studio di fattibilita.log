@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  30 JUL 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  13 AUG 2022 20:33
 entering extended mode
 **"c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex"
 (c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex
@@ -56,29 +56,51 @@ Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
 )) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count196
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count197
+\float@exts=\toks18
+\float@box=\box50
+\@float@everytoks=\toks19
+\@floatcapt=\box51
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box52
+\extrarowheight=\dimen141
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box53
+)
+\rotheadsize=\dimen142
+\c@nlinenum=\count198
+\TeXr@lab=\toks21
 ))) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
-\l__pdf_internal_box=\box50
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box54
 ) (Studio di fattibilita.aux)
 \openout1 = `"Studio di fattibilita.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Info: Redefining \it@ocap on input line 4.
-LaTeX Info: Redefining \it@ccap on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \it@ocap on input line 5.
+LaTeX Info: Redefining \it@ccap on input line 5.
 
 
 File italian.ldf warning: 
@@ -86,30 +108,37 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 4.
+italian.ldf    on input line 5.
 
 Capitolo 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
 [1
 
 
-{C:/Users/dino9/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (Studio di fattibilita.aux) ) 
+{C:/Users/dino9/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--54
+
+ []
+
+[2] [3] (Studio di fattibilita.aux) ) 
 Here is how much of TeX's memory you used:
- 1716 strings out of 478864
- 27033 string characters out of 2848661
- 345681 words of memory out of 3000000
- 19672 multiletter control sequences out of 15000+600000
- 405882 words of font info for 35 fonts, out of 8000000 for 9000
+ 2013 strings out of 478864
+ 30636 string characters out of 2848661
+ 353582 words of memory out of 3000000
+ 19951 multiletter control sequences out of 15000+600000
+ 408627 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,77p,531b,142s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,77p,743b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\dino9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Studio di fattibilita.pdf" (2 pages, 34411 bytes).
+Output written on "Studio di fattibilita.pdf" (3 pages, 40709 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

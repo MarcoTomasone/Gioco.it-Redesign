@@ -1,28 +1,61 @@
 \documentclass[../Report.tex]{subfiles}
 \usepackage[italian]{babel}
 
+
 \begin{document}
     \chapter{Studio di fattibilità}
     \section{Contesto di utilizzo}
-        Ora definiamo chi sono gli utenti previsti e quali sono i compiti, quali sono i vincoli tecnici e quelli ambientali.\\
+    Questa sezione mira ad identificare gli utenti della piattaforma e i loro compiti, in particolare enfatizzando la relazione tra i loro obiettivi (user goal) e le mansioni svolte (task). Inoltre, vengono individuati vincoli ambientali e tecnici rilevanti per le successive fasi di design.
         
         \subsection{Utenti previsti}
-        Ci aspettiamo che gli utenti destinatari, che andranno ad utilizzare il sito Gioco.it, sono dei bambini che vogliono giocare ai vari mini giochi contenuti sul sito ma in modo controllato, attraverso un parental control, rispettando il concetto di "different twins". Quindi in questo caso il responsabile (i genitori/tutori) è diverso dall'utente (bambino). Da completare...
+        Ci aspettiamo che gli utenti destinatari, che andranno ad utilizzare il sito Gioco.it, sono bambini che vogliono giocare ai vari mini giochi contenuti sul sito ma in modo controllato rispettando il concetto di "different twins". Quindi, in questo caso il responsabile (i genitori/tutori) è diverso dall'utente (bambino).\\
+        Abbiamo individuato due segmenti target di riferimento, in sintesi:
+        \begin{itemize}
+            \item Bambini di età compresa fra i 3 e i 18 anni che abbiano un minimo di dimestichezza con il dispositivo e con la navigazione internet. Interessati a giocare ai vari mini giochi presenti sul sito.
+            \item Uomini/donne di età compresa fra i 30 e i 50 anni, il cui reddito è medio-basso (tutti ormai abbiamo almeno un dispositivo con navigazione internet) e che abbiano una buona dimestichezza con il dispositivo e con la navigazione internet. Interessati a far giocare il bambino a giochi prevalentemente educativi e bloccando quelli che ritengono inopportuni per l'età del bambino.
+        \end{itemize} 
 
         \subsection{Compiti previsti}
-        Durante le interviste sono emerse una serie di “idee per compiti” ricorrenti. Elaboriamo su questi idee per produrre un elenco dei compiti più plausibili che il nostro sistema supporterà:
+        Durante le interviste sono emerse una serie di “idee per compiti” ricorrenti. Elaboriamo queste idee per produrre un elenco dei compiti più plausibili che il nostro sistema supporterà:
         \begin{itemize}
             \item Creazione di un profilo
             \item Login e logout dal sistema
             \item Visualizzare i giochi in tendenza
             \item Visualizzare i giochi in base a varie categorie
+            \item Giocare ai vari mini giochi
+            \item Utilizzo di un parental control
+            \item ecc...
         \end{itemize}
 
         \subsection{Vincoli ambientali e tecnici}
-        Il nostro target è costituito da persone che posso permettersi un cazzo di computer di merda, quindi supponiamo che tutti i nostri utenti possiedano almeno un personal computer (desktop o laptop) o smartphone con una connessione ad Internet.
-        Assumiamo infine che la maggior parte, se non la totalità, dei nostri utenti target utilizzerà il nostro sistema nel tempo libero, a casa o in un ambiente altrettanto confortevole e accogliente, senza alcun vincolo di tempo.\\
-        Ci aspettiamo anche che la maggior parte degli utenti utilizzi il sistema a proprio piacimento, in modo rilassato, esplorativo e possibilmente senza obiettivi.
+        \begin{itemize}
+            \item \textbf{Vincoli tecnici:} trattandosi di una piattaforma web, è necessario che l'utente disponga di una connessione internet. Quindi supponiamo che tutti i nostri utenti possiedano almeno un personal computer (desktop o laptop) o smartphone con una connessione ad internet.
+            \item \textbf{Vincoli culturali:} il sito è solo in lingua italiana e non si può proprio accedere da un altro paese.
+            \item \textbf{Vincoli ambientali:} la piattaforma è pensata per essere utilizzata nel tempo libero, pertanto l'ambiente di utilizzo più comune sarà la propria abitazione o un ambiente altrettanto confortevole e accogliente, senza alcun vincolo di tempo.
+        \end{itemize}
+        Ci aspettiamo quindi, che la maggior parte degli utenti utilizzi il sistema a proprio piacimento, in modo rilassato, esplorativo e possibilmente senza obiettivi.
+
+    \section{Personas}
+    Partendo dai nostri target segments, presentiamo quattro personas plausibili, due per ciascun target segments.\\
+    \begin{table}[H]
+        \begin{tabular}{|c|l|p{7cm}|}
+            \hline
+            & \textbf{Nome:} & Mirko Rossi\\
+            \hline
+            & \textbf{Età:} & 10 \\
+            \hline
+            & \textbf{Stato civile:} & Nubile \\
+            \hline
+            & \textbf{Occupazione:} & \makecell{Studente \\ Mantenimento da parte dei genitori} \\
+            \hline
+            & \textbf{Abilità tecinche:} & Usa il laptop del padre per fare ricerche scolastiche o per giocare. Gioca spesso con gli amici ed è imbattibile nei giochi d'azione, principalmente gli sparatutto. \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \subsubsection{Descrizione}
+    Mirko è un ragazzino di 10 anni che frequenta la quinta elementare nella scuola del suo paese. Ha una sorella di 15 anni ed è appassionata di moda. La madre, Susanna, lavora come maestra nella scuola elementare del loro piccolo borgo cittadino. Il padre, Antonio, esercita la professione di elettricista e spesso è fuori casa. Dopo aver fatto i compiti, Mirko, utilizza il laptop della madre per giocare a diversi videogiochi. La madre, essendo molto apprensiva nei confronti del figlio, tiene molto alla sua educazione, pertanto vorrebbe una maggiore sicurezza sugli usi del suo laptot.
+
 
     \section{Scenari}
-    \section{Personas}
 \end{document}
