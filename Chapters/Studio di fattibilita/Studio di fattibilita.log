@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  13 AUG 2022 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  22 AUG 2022 19:54
 entering extended mode
 **"c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex"
 (c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex
@@ -63,24 +63,67 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box50
 \@float@everytoks=\toks19
 \@floatcapt=\box51
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count198
+\@cmidlb=\count199
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count266
+\@lastruleclass=\count267
+\@thisrulewidth=\dimen154
 ) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
  (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen140
+\col@sep=\dimen155
 \ar@mcellbox=\box52
-\extrarowheight=\dimen141
-\NC@list=\toks20
+\extrarowheight=\dimen156
+\NC@list=\toks21
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box53
 )
-\rotheadsize=\dimen142
-\c@nlinenum=\count198
-\TeXr@lab=\toks21
+\rotheadsize=\dimen157
+\c@nlinenum=\count268
+\TeXr@lab=\toks22
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count269
+\multirow@dima=\skip52
+\bigstrutjot=\dimen158
 ))) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count199
+\l__color_backend_stack_int=\count270
 \l__pdf_internal_box=\box54
 ) (Studio di fattibilita.aux)
 \openout1 = `"Studio di fattibilita.aux"'.
@@ -110,35 +153,98 @@ italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
 italian.ldf    on input line 5.
 
+(C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen159
+\scratchbox=\box55
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen160
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks24
+) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 Capitolo 1.
 [1
 
 
 {C:/Users/dino9/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 41.
+(Font)              <12> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
+(Font)              <6> on input line 44.
+<../../Images//Mirko.jpg, id=8, 903.375pt x 762.85pt>
+File: ../../Images//Mirko.jpg Graphic file (type jpg)
+<use ../../Images//Mirko.jpg>
+Package pdftex.def Info: ../../Images//Mirko.jpg  used on input line 46.
+(pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--54
+Overfull \vbox (74.10425pt too high) detected at line 46
+ []
+
+
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 44--54
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--54
 
  []
 
-[2] [3] (Studio di fattibilita.aux) ) 
+[2]
+<../../Images//Gaetano.jpg, id=12, 903.375pt x 762.85pt>
+File: ../../Images//Gaetano.jpg Graphic file (type jpg)
+<use ../../Images//Gaetano.jpg>
+Package pdftex.def Info: ../../Images//Gaetano.jpg  used on input line 64.
+(pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
+
+Overfull \vbox (74.10425pt too high) detected at line 64
+ []
+
+
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 62--72
+[][] 
+ []
+
+[3 <../../Images//Mirko.jpg (PNG copy)> <../../Images//Gaetano.jpg (PNG copy)>]
+<../../Images//Claudio.jpg, id=16, 316.18124pt x 189.70876pt>
+File: ../../Images//Claudio.jpg Graphic file (type jpg)
+<use ../../Images//Claudio.jpg>
+Package pdftex.def Info: ../../Images//Claudio.jpg  used on input line 84.
+(pdftex.def)             Requested size: 142.26576pt x 142.26672pt.
+
+Overfull \vbox (74.11684pt too high) detected at line 84
+ []
+
+
+Overfull \hbox (85.98642pt too wide) in paragraph at lines 82--92
+[][] 
+ []
+
+[4 <../../Images//Claudio.jpg>] [5] (Studio di fattibilita.aux) ) 
 Here is how much of TeX's memory you used:
- 2013 strings out of 478864
- 30636 string characters out of 2848661
- 353582 words of memory out of 3000000
- 19951 multiletter control sequences out of 15000+600000
+ 2950 strings out of 478864
+ 44632 string characters out of 2848661
+ 371469 words of memory out of 3000000
+ 20842 multiletter control sequences out of 15000+600000
  408627 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,77p,743b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,18n,83p,754b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\dino9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Studio di fattibilita.pdf" (3 pages, 40709 bytes).
+Output written on "Studio di fattibilita.pdf" (5 pages, 1597969 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
