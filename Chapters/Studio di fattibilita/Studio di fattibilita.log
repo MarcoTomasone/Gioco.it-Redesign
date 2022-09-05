@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  22 AUG 2022 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  5 SEP 2022 19:06
 entering extended mode
 **"c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex"
 (c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Chapters/Studio di fattibilita/Studio di fattibilita.tex
@@ -177,74 +177,88 @@ Capitolo 1.
 
 
 {C:/Users/dino9/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
-<../../Images//Mirko.jpg, id=8, 903.375pt x 762.85pt>
-File: ../../Images//Mirko.jpg Graphic file (type jpg)
-<use ../../Images//Mirko.jpg>
-Package pdftex.def Info: ../../Images//Mirko.jpg  used on input line 46.
-(pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
-
-Overfull \vbox (74.10425pt too high) detected at line 46
- []
-
-
-Overfull \hbox (85.9754pt too wide) in paragraph at lines 44--54
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--54
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 [2]
-<../../Images//Gaetano.jpg, id=12, 903.375pt x 762.85pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
+<../../Images//Gaetano.jpg, id=11, 903.375pt x 762.85pt>
 File: ../../Images//Gaetano.jpg Graphic file (type jpg)
 <use ../../Images//Gaetano.jpg>
-Package pdftex.def Info: ../../Images//Gaetano.jpg  used on input line 64.
+Package pdftex.def Info: ../../Images//Gaetano.jpg  used on input line 48.
 (pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
 
-Overfull \vbox (74.10425pt too high) detected at line 64
+Overfull \vbox (74.10425pt too high) detected at line 48
  []
 
 
-Overfull \hbox (85.9754pt too wide) in paragraph at lines 62--72
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 46--56
 [][] 
  []
 
-[3 <../../Images//Mirko.jpg (PNG copy)> <../../Images//Gaetano.jpg (PNG copy)>]
-<../../Images//Claudio.jpg, id=16, 316.18124pt x 189.70876pt>
+<../../Images//Claudio.jpg, id=12, 316.18124pt x 189.70876pt>
 File: ../../Images//Claudio.jpg Graphic file (type jpg)
 <use ../../Images//Claudio.jpg>
-Package pdftex.def Info: ../../Images//Claudio.jpg  used on input line 84.
+Package pdftex.def Info: ../../Images//Claudio.jpg  used on input line 68.
 (pdftex.def)             Requested size: 142.26576pt x 142.26672pt.
 
-Overfull \vbox (74.11684pt too high) detected at line 84
+Overfull \vbox (74.11684pt too high) detected at line 68
  []
 
 
-Overfull \hbox (85.98642pt too wide) in paragraph at lines 82--92
+Overfull \hbox (85.98642pt too wide) in paragraph at lines 66--76
 [][] 
  []
 
-[4 <../../Images//Claudio.jpg>] [5] (Studio di fattibilita.aux) ) 
+[3 <../../Images//Gaetano.jpg (PNG copy)>]
+<../../Images//Mirko.jpg, id=16, 903.375pt x 762.85pt>
+File: ../../Images//Mirko.jpg Graphic file (type jpg)
+<use ../../Images//Mirko.jpg>
+Package pdftex.def Info: ../../Images//Mirko.jpg  used on input line 87.
+(pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
+
+Overfull \vbox (74.10425pt too high) detected at line 87
+ []
+
+
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 85--95
+[][] 
+ []
+
+[4 <../../Images//Claudio.jpg> <../../Images//Mirko.jpg (PNG copy)>]
+<../../Images//Simona.jpg, id=20, 308.05087pt x 205.36725pt>
+File: ../../Images//Simona.jpg Graphic file (type jpg)
+<use ../../Images//Simona.jpg>
+Package pdftex.def Info: ../../Images//Simona.jpg  used on input line 105.
+(pdftex.def)             Requested size: 142.26447pt x 142.26761pt.
+
+Overfull \vbox (74.11772pt too high) detected at line 105
+ []
+
+
+Overfull \hbox (85.98512pt too wide) in paragraph at lines 103--113
+[][] 
+ []
+
+[5 <../../Images//Simona.jpg>] [6] [7] (Studio di fattibilita.aux) ) 
 Here is how much of TeX's memory you used:
- 2950 strings out of 478864
- 44632 string characters out of 2848661
- 371469 words of memory out of 3000000
- 20842 multiletter control sequences out of 15000+600000
+ 2960 strings out of 478864
+ 44860 string characters out of 2848661
+ 372469 words of memory out of 3000000
+ 20851 multiletter control sequences out of 15000+600000
  408627 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,18n,83p,754b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,17n,83p,950b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\dino9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "Studio di fattibilita.pdf" (5 pages, 1597969 bytes).
+Output written on "Studio di fattibilita.pdf" (7 pages, 1679802 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
