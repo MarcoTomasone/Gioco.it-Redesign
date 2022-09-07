@@ -1,84 +1,84 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.5)  22 AUG 2022 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.5)  7 SEP 2022 18:18
 entering extended mode
-**c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Report.tex
-(c:/Users/dino9/Desktop/UNI/MAGISTRALE/UUX/Progetto/Gioco.it-Redesign/Report.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/simon/Desktop/Gioco.it-Redesign/Report.tex
+(c:/Users/simon/Desktop/Gioco.it-Redesign/Report.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@chapter=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
-)) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/06/02 3.60 The Babel package
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/06/02 3.60 Babel common definitions
-\babel@savecnt=\count191
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/12/30 3.69 The Babel package
+\babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-)
-\bbl@dirlevel=\count192
+\bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.ldf
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count193
-\it@doublequoteactive=\count194
-\it@ISOcompliance=\count195
-)) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+\it@lettering=\count196
+\it@doublequoteactive=\count197
+\it@ISOcompliance=\count198
+)) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\etb@tempcnta=\count199
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count197
+\c@float@type=\count266
 \float@exts=\toks18
 \float@box=\box50
 \@float@everytoks=\toks19
 \@floatcapt=\box51
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen142
 \lightrulewidth=\dimen143
@@ -90,17 +90,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen149
 \cmidrulekern=\dimen150
 \defaultaddspace=\dimen151
-\@cmidla=\count198
-\@cmidlb=\count199
+\@cmidla=\count267
+\@cmidlb=\count268
 \@aboverulesep=\dimen152
 \@belowrulesep=\dimen153
-\@thisruleclass=\count266
-\@lastruleclass=\count267
+\@thisruleclass=\count269
+\@lastruleclass=\count270
 \@thisrulewidth=\dimen154
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen155
 \ar@mcellbox=\box52
 \extrarowheight=\dimen156
@@ -110,18 +110,40 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \ar@cellbox=\box53
 )
 \rotheadsize=\dimen157
-\c@nlinenum=\count268
+\c@nlinenum=\count271
 \TeXr@lab=\toks22
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip51
-\multirow@cntb=\count269
+\multirow@cntb=\count272
 \multirow@dima=\skip52
 \bigstrutjot=\dimen158
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count270
-\l__pdf_internal_box=\box54
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count273
+\lst@gtempboxa=\box54
+\lst@token=\toks23
+\lst@length=\count274
+\lst@currlwidth=\dimen159
+\lst@column=\count275
+\lst@pos=\count276
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
+\lst@newlines=\count277
+\lst@lineno=\count278
+\lst@maxwidth=\dimen162
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count279
+\lst@skipnumbers=\count280
+\lst@framebox=\box55
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box56
 ) (Report.aux)
 \openout1 = `Report.aux'.
 
@@ -150,38 +172,39 @@ italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
 italian.ldf    on input line 21.
 
-(C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen159
-\scratchbox=\box55
-\nofMPsegments=\count272
-\nofMParguments=\count273
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen160
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
-\everyMPtoPDFconversion=\toks24
-) (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count282
+\scratchdimen=\dimen163
+\scratchbox=\box57
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen164
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks25
+) (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\dino9\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\simon\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+\c@lstlisting=\count288
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 22.
  [1
 
-{C:/Users/dino9/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (Report.toc
+{C:/Users/simon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
+(Font)              <6> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `Report.toc'.
@@ -192,49 +215,184 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Capitolo 1.
-) (Chapters/Valutazione delle risorse esistenti/Valutazione delle risorse esistenti.tex [3
+[3
 
 ]
+<./Images//EstimatedTime.png, id=18, 434.058pt x 253.383pt>
+File: ./Images//EstimatedTime.png Graphic file (type png)
+<use ./Images//EstimatedTime.png>
+Package pdftex.def Info: ./Images//EstimatedTime.png  used on input line 25.
+(pdftex.def)             Requested size: 434.05693pt x 253.38237pt.
+
+Overfull \hbox (44.05693pt too wide) in paragraph at lines 25--27
+ [][] 
+ []
+
+[4 <./Images//EstimatedTime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
+
+ []
+
+[10] [11]) (Chapters/Valutazione delle risorse esistenti/Valutazione delle risorse esistenti.tex [12]
 Capitolo 2.
-) (Chapters/Studio di fattibilita/Studio di fattibilita.tex [4
+) (Chapters/Studio di fattibilita/Studio di fattibilita.tex [13
 
 ]
 Capitolo 3.
-[5
+[14
 
 ]
-<./Images//Mirko.jpg, id=24, 903.375pt x 762.85pt>
-File: ./Images//Mirko.jpg Graphic file (type jpg)
-<use ./Images//Mirko.jpg>
-Package pdftex.def Info: ./Images//Mirko.jpg  used on input line 43.
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+[15]
+<./Images//Gaetano.jpg, id=59, 903.375pt x 762.85pt>
+File: ./Images//Gaetano.jpg Graphic file (type jpg)
+<use ./Images//Gaetano.jpg>
+Package pdftex.def Info: ./Images//Gaetano.jpg  used on input line 48.
 (pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
 
-Overfull \vbox (74.10425pt too high) detected at line 43
+Overfull \vbox (74.10425pt too high) detected at line 48
  []
 
 
-Overfull \hbox (85.9754pt too wide) in paragraph at lines 41--51
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 46--56
 [][] 
  []
 
+<./Images//Claudio.jpg, id=60, 316.18124pt x 189.70876pt>
+File: ./Images//Claudio.jpg Graphic file (type jpg)
+<use ./Images//Claudio.jpg>
+Package pdftex.def Info: ./Images//Claudio.jpg  used on input line 68.
+(pdftex.def)             Requested size: 142.26576pt x 142.26672pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--51
-
+Overfull \vbox (74.11684pt too high) detected at line 68
  []
 
-[6]) [7 <./Images//Mirko.jpg (PNG copy)>] (Report.aux) ) 
+
+Overfull \hbox (85.98642pt too wide) in paragraph at lines 66--76
+[][] 
+ []
+
+[16 <./Images//Gaetano.jpg (PNG copy)>]
+<./Images//Mirko.jpg, id=64, 903.375pt x 762.85pt>
+File: ./Images//Mirko.jpg Graphic file (type jpg)
+<use ./Images//Mirko.jpg>
+Package pdftex.def Info: ./Images//Mirko.jpg  used on input line 87.
+(pdftex.def)             Requested size: 142.25475pt x 142.25414pt.
+
+Overfull \vbox (74.10425pt too high) detected at line 87
+ []
+
+
+Overfull \hbox (85.9754pt too wide) in paragraph at lines 85--95
+[][] 
+ []
+
+[17 <./Images//Claudio.jpg> <./Images//Mirko.jpg (PNG copy)>]
+<./Images//Simona.jpg, id=68, 308.05087pt x 205.36725pt>
+File: ./Images//Simona.jpg Graphic file (type jpg)
+<use ./Images//Simona.jpg>
+Package pdftex.def Info: ./Images//Simona.jpg  used on input line 105.
+(pdftex.def)             Requested size: 142.26447pt x 142.26761pt.
+
+Overfull \vbox (74.11772pt too high) detected at line 105
+ []
+
+
+Overfull \hbox (85.98512pt too wide) in paragraph at lines 103--113
+[][] 
+ []
+
+[18 <./Images//Simona.jpg>] [19]) [20] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 2959 strings out of 478864
- 45588 string characters out of 2848661
- 369276 words of memory out of 3000000
- 20832 multiletter control sequences out of 15000+600000
- 409541 words of font info for 47 fonts, out of 8000000 for 9000
+ 4675 strings out of 478593
+ 76460 string characters out of 2844605
+ 390218 words of memory out of 3000000
+ 22784 multiletter control sequences out of 15000+600000
+ 475717 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,18n,66p,763b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\dino9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dino9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report.pdf (8 pages, 587444 bytes).
+ 55i,17n,62p,942b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\simon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Report.pdf (21 pages, 1764557 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
