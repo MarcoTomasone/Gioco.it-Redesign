@@ -3,185 +3,43 @@
 
 \begin{document}
     \chapter{Proposta di design}
-    \section{Inspezione}
-    In questa sezione analizzeremo dettagliatamente il sito Gioco.it al fine di individuare le criticità che prevengono un utilizzo proficuo e soddisfacente da parte del target di riferimento. Il primo passo consiste nella scelta delle linee guida di design che fungeranno da punto di riferimento per l’intero team di sviluppo durante la valutazione interna. Una volta individuate le eventuali violazione delle linee guida da parte del team, il sito sarà sottoposto all’utilizzo di utenti reali durante l’espletamento delle loro mansioni. Lo scopo è quello di analizzare il comportamento dei reali utilizzatori della piattaforma, comprendere le dinamiche di interazione ed evidenziare ulteriori criticità non individuate dal solo team di sviluppo. Infine, verr`a presentata una sintesi degli errori riscontrati, insieme alla loro frequenza e al loro impatto sull’esperienza utente. Questa diventerà la base per la riprogettazione del portale nelle successive fasi. 
-
-    \subsection{Scelta delle linee guida}
-    Le linee guida sono state scelte a partire da:
+    Ora procediamo con la fase di design del sito Gioco.it.
+    \subsubsection{Analisi degli utenti}
+    \textbf{Che target di utenti è atteso?} Come è descritto durante la ricerca etnografica \ref{} ci aspettiamo principalmente due macro target di utenti:
     \begin{itemize}
-        \item Le 10 euristiche di nielsen 
-        \item le 20 euristiche di weinshersk
-        \item le linee guida di userfocus.co.uk che offre 247 linee guida divise in 7 sezioni
+        \item Bambini e ragazzi come utilizzatori del sito (giocatori)
+        \item Adulti come supervisori degli utilizzatori 
     \end{itemize}
 
-    Da queste 247 linee guida sono state estrapolate quelle più utili alla causa. Ottenendo questa lista:
+    Il sito dovrà quindi prendere in carico le differenti richieste di entrambi i soggetti: la voglia di divertirsi dei giocatori e la propensione all'educazione e alla sicurezza da parte dei supervisori.\\
+    \\
+    \textbf{Perché gli utenti dovrebbero utilizzare il nostro servizio?} Perché il sito offre la più grande varietà e collezione di giochi presenti sul web e poiché sarà l'unico che offrirà un'attenzione particolare ai bisogni dei supervisori dei giocatori che giocano al sito.
 
-    \subsubsection{Home Page}
+    \subsubsection{Navigazione}
+    \textbf{Come migliorare la navigazione tra le categorie?} Nella vecchia versione di Gioco.it alcune macro categorie non erano visibili nel menù principale e allo stesso modo c'era una grande discordanza tra le sottocategorie mostrate nella home page e quelle mostrate nel menù delle categorie e nelle categorie consigliate, sarà quindi necessario un grande lavoro di coerenza e uniformazione dei contenuti per far sì che gli utenti possano navigare correttamente nel sito.
+
+    \subsubsection{Etica del sito}
+    \textbf{I supervisori devono ancora essere preoccupati?} Al momento il sito Gioco.it non fornisce nessun tipo di informazioni ai supervisori dei giocatori, inoltre non è possibile impostare un parental control e/o dei limiti di utilizzo del sito (es: tempo di utilizzo). Con la nuova versione del sito i supervisori possono essere molto più tranquilli nel lasciare i giocatori liberi di giocare sapendo che il sito Gioco.it è un luogo sicuro.
+
+    \section{Architettura dell'informazione}
+    Valutando quello che è l'attuale architetture dell'informazione del sito Gioco.it, abbiamo deciso di utilizzare un approccio Top-Down mantenendo quindi quello che è il workflow di navigazione del sito. Elencheremo di seguito l'architettura del sito progettata a partire da quella originale che terrà conto, ovviamente, dei problemi riscontrati nelle fasi Ispezione e Testing \ref{}:
     \begin{enumerate}
-        \item Gli elementi della home page sono chiaramente focalizzati sui compiti chiave degli utenti (è stata evitata la "featurite")
-        \item E’ presente una barra di ricerca 
-        \item Le categorie dei prodotti sono presenti e chiaramente visibili nella home page
-        \item La home page offre dei buoni esempi dei contenuti reali del sito 
-        \item C’è una lista di elementi recentemente utilizzati con dei link all’archivio
-        \item La home page contiene grafiche significative, non contiene clip art o immagini di modelli.
-        \item Le scelte di navigazione sono ordinate nel modo più logico o orientato alle attività (con le informazioni aziendali meno importanti in fondo)
-        \item Il titolo della home page offre buona SEO 
-        \item Tutte le informazioni sulla compagnia sono racchiuse in una sezione about us
-        \item Utenti capiscono la proposta di valore
+        \item \textbf{Home page:} la home page deve essere capace di offrire un'overview generale del sito, mostrando tutte quelle che sono le funzionalità a disposizione degli utenti. Deve soprattutto offrire una buona rappresentazione dei giochi a disposizione per i nuovi utenti mentre deve semplificare l'utilizzo, fornendo scorciatoie per i giochi più frequenti, agli utenti che tornano sul sito. Inoltre, la grafica deve essere semplificata mantenendo un design più minimalista e meno ricco.
+        \item \textbf{Barra di ricerca:} barra che permette di ricercare dei giochi per nome. Dovrebbe però permettere anche una minima tolleranza agli errori.
+        \item \textbf{Schermata del gioco:} essa deve offrire all'utente la possibilità di mettere il gioco nei preferiti, commentare il gioco, leggerne la descrizione, ricevere un aiuto per giocare e giocare. È importante ricordare che deve proporre dei giochi simili nel caso in cui il giocatore voglia provare nuove esperienze.
+        \item \textbf{Menù delle categorie:} il nuovo menù delle categorie dovrà avere coerenza e mostrare tutte le categorie di giochi presenti sul sito senza nascondere alcune categorie (come accade con il design attuale). Riteniamo necessario anche una semplificazione delle categorie e sottocategorie attualmente presenti.
+        \item \textbf{Card del gioco:} attualmente in ogni parte del sito, le card di ogni gioco contengono solo due elementi: immagine e nome del gioco. Come emerso dalle interviste \ref{}, i supervisori preferiscono avere delle informazioni aggiuntive che supportino la scelta del gioco. È necessario quindi aggiungere informazioni relative al tipo di gioco, ad eventuali limitazione di età proprie del gioco.
+        \item \textbf{Lista di giochi per categoria:} è la sezione in cui gli utenti visualizzano tutte le card dei giochi appartenenti a quella categoria selezionata e dovrà contenere la possibilità di filtrare e ordinare i giochi in base a determinate caratteristiche.
+        \item \textbf{Account:} sarà composto da varie sotto sezioni
+        \begin{itemize}
+            \item \textbf{Schermata di login e registrazione:} offre la possibilità di eseguire l'accesso al proprio account o di registrarsi (anche tramite google o facebook).
+            \item \textbf{Giochi preferiti:} permette di visualizzare i giochi salvati nel proprio account ed eliminarli dalla lista dei giochi preferiti.
+            \item \textbf{Amici:} permette di visualizzare la lista di amici e le richieste di amicizia inviate e ricevute.
+            \item \textbf{Immagine del profilo:} permette di visualizzare e modificare l'immagine del proprio profilo visibile agli altri utenti, con la possibilità di caricare un'immagine a proprio piacimento.
+            \item \textbf{Impostazioni:} permette di modificare le impostazioni del proprio account come aggiornare la password e modificare le informazioni personali.
+            \item \textbf{Parental control:} offre la possibilità, al supervisore, di impostare dei filtri (es: categorie) e delle limitazioni (es: tempo ed età) al giocatore. Inoltre, l'accesso a questa sezione è limitato ai supervisori.
+        \end{itemize}
+        \item \textbf{Assistenza:} offre servizi di aiuto e assistenza tramite le FAQ.
     \end{enumerate}
-
-    \subsubsection{Task Orientation}
-    \begin{enumerate}
-        \item Il sito è libero da informazioni irrilevanti e che possono generare confusione
-        \item Le informazioni vengono presentate in un ordine intuitivo e logico
-        \item Il sito richiede uno scrolling ed un clicking minimale 
-        \item Gli utenti possono fare task comuni velocemente
-        \item Gli elementi possono essere comparati velocemente quando questo è necessario per il task 
-        \item Il path per ogni specifico task è lungo 2-5 click massimo 
-        \item Quando ritornano sul sito gli utenti ricordano come fare i loro task 
-        \item Un utente che visita il sito per la prima volta capisce come fare i task senza assistenza
-        \item Le azioni importanti sono altamente visibili 
-        \item Quando una pagina presenta tante informazioni l’utente può filtrarle  
-        \item Il sito permette agli utenti di customizzare dei parametri di tempo operazionali (tempo di logoff, tempo d’uso ecc)
-    \end{enumerate}
-
-    \subsubsection{Navigation and IA}
-    \begin{enumerate}
-        \item Esiste un metodo facile e comprensibile per muoversi tra pagine collegate e tornare alla home page 
-        \item Le scelte di navigazione sono ordinate nella maniera più logica e task oriented
-        \item Il sistema di navigazione è broad and shallow piuttosto che deep, quindi ci sono più oggetti su un menù piuttosto che piu livelli annidati 
-        \item Le pagine di un prodotto contengono link a prodotti simili e complementari 
-        \item Utenti possono ordinare e filtrare le pagine di categoria
-        \item C’è un cambio visibile quando il mouse punta a qualcosa di cliccabile
-        \item Le pagine di sola navigazione possono essere viste senza scrollare il mouse 
-        \item Cliccare il bottone indietro porta l’utente effettivamente alla pagine precedente che stava visitando
-        \item Il sito non disabilita i bottoni back del browser
-        \item Menu, istruzioni, prompt e messaggi appaiono nella stessa parte dello schermo ogni volta 
-    \end{enumerate}
-
-    \subsubsection{Page Layout \& Visual Design}
-    \begin{enumerate}
-        \item La densità dello schermo è appropriata per il target degli utenti e per i loro task 
-        \item Il sito può essere usato senza scrollare orizzontalmente
-        \item Gli oggetti che sembrano cliccabili lo sono realmente
-        \item Gli oggetti che non sono cliccabili non hanno caratteristiche che fanno supporre che lo siano 
-        \item Le immagini cliccabili hanno dei testi esplicativi
-        \item Gli ipertesti sono facilmente riconoscibili senza necessità della sottolineature
-        \item I font sono consistenti 
-        \item La relazione tra i controlli e la sua azione è ovvio 
-        \item C’è un chiaro punto di inizio visuale in ogni schermata 
-        \item I pulsanti ed i bottoni mostrano che sono stati cliccati 
-        \item C’è un buon bilanciamento tra contenuto informativo e spazi vuoti 
-        \item Il sito è piacevole alla vista
-        \item Le pagine sono libere da scroll stoppers (headings o parti dello schermo che fanno credere all’utente che abbiano finito di scrollare quando non è così)
-        \item Le grafiche non vengono confuse con delle pubblicità
-        \item Il grassetto è usato per riconoscere categorie importanti
-        \item Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte
-        \item Le pagine sono state progettate con una griglia sottostante, con gli oggetti allineati orizzontalmente e verticalmente
-        \item I colori funzionano bene tra loro e sono evitati degli sfondi che creano complicazioni
-        \item Etichette significative, colori di sfondo efficaci e uso appropriato di bordi e spazi bianchi aiutano gli utenti a identificare un insieme di elementi come un blocco funzionale discreto
-        \item Le singole pagine sono prive di informazioni irrilevanti e ingombranti 
-        \item Gli elementi standard come privacy policy, loghi titoli ecc sono facili da trovare 
-        \item Il logo è presente in ogni pagina e funziona da ipertesto per la home page 
-        \item Animazioni ecc sono usate raramente e solo quando necessarie o utili 
-        \item Le icone che sono visivamente distinte sono comunque armoniose 
-        \item Informazioni simili e relative fra loro sono raggruppate assieme 
-    \end{enumerate}
-
-    \subsubsection{Ricerca}
-    \begin{enumerate}
-        \item La ricerca di default è semplice da utilizzare 
-        \item I risultati della ricerca mostrano all’utente cosa ha cercato ed è facile modificare i parametri di ricerca e farla ripartire 
-        \item I risultati della ricerca sono chiari, utili e ordinati per rilevanza
-        \item La ricerca dei risultati rende chiaro quanti risultati sono stati trovati ed il numero di risultati per pagine può essere modificato da parte degli utenti 
-        \item Se non vengono trovati risultati il sistema offre possibili miglioramenti alla query per ritrovare informazioni 
-        \item Il sistema gestisce le query vuote
-        \item Le query piu comuni ritornano informazioni utili 
-        \item Il motore di ricerca contiene template esempi o aiuti per utilizzarlo al meglio 
-        \item Il sistema di ricerca é in grado di raffinare le query
-        \item Il sistema di risultati non mostra risultati duplicati 
-        \item La barra di ricerca è lunga abbastanza per contenere delle ricerche comuni
-        \item Le ricerche coprono l’intero sito non solo una parte di esso 
-        \item Se il sito permette all’utente di effettuare una ricerca complessa questa deve essere salvata per utilizzi futuri 
-        \item La barra di ricerca si trova dove l’utente si aspetta che questa si trovi 
-        \item Il sito deve supportare le persone che vogliono cercare e quelle che vogliono navigare 
-        i risultati della ricerca offrono delle meta informazioni
-        \item La ricerca offre un check automatico oltre ad un controllo per plurali e sinonimi 
-        \item La ricerca offre un’opzione per risultati di similarità
-        
-    \end{enumerate}
-
-    \subsubsection{Help, Feedback And Error Tolerance}
-    \begin{enumerate}
-        \item E’ facile ricevere aiuto nel modo giusto e al tempo giusto 
-        \item Le richieste sono facili e non ambigue
-        \item Le FAQ o l’aiuto online contengono gli step per aiutare gli utenti a fare le task piu importanti 
-        \item L’utente non necessita di usare manuali per utilizzare il sito 
-        \item Il sito possiede una pagina 404 personalizzata con dei consigli per l’utente 
-        \item Il sito offre buon feedback quando necessario 
-        \item Agli utenti viene dato aiuto nella scelta dei prodotti 
-        \item La conferma dell’utente è richiesta quando si stanno effettuando delle azioni potenzialmente pericolose come la cancellazione di qualcosa 
-        \item Le pagine di conferma sono chiare 
-        \item Le pagine di errore contengono istruzioni su cosa fare dopo 
-        \item Quando l’utente deve scegliere tra piu opzioni queste sono ovvie 
-        \item Il sito avvisa l’utente di eventuali ritardi nel caricamento 
-        \item I messaggi di errore sono scritti in un tono non derisorio e non prendono in giro l’utente 
-        \item Le pagine si caricano velocemente (5sec o meno)
-        \item Il sito offre dei feedback immediati 
-        \item L’utente viene avvisato di caricamenti lunghi con messaggi (please wait)
-        \item Quando danno le istruzioni, il sito deve dire all’utente cosa fare piuttosto che cosa non fare 
-        \item Il sito offre delle dimostrazioni delle sue funzionalità, spiegando all’utente come fare certe cose 
-        \item Il sito offre feedback che spiegano all’utente coem usare il sito 
-        \item Il sito offre consigli dipendenti dal contesto 
-        \item L’aiuto è chiaro e diretto e scritto in lingua senza gergo o parolacce
-        \item Il sito offre un feedback chiaro quando viene completato un task
-        \item Viene rispettata la legge di Fitt
-        \item Le informazioni importanti rimangono sullo schermo e non ci sono time out frettolosi che impongono all’utente di scrivere e segnarsi queste informazioni 
-        \item C’è abbastanza spazio tra i target per prevenire che gli utenti clicchino qualcos’altro per sbaglio 
-        \item C’è una linea di almeno due pixel tra gli oggetti cliccabili 
-        \item Il sito rende ovvio come e quando un errore si è verificato 
-        \item Il sito assicura che il lavoro non viene perso 
-        \item I messaggi di errore sono scritti facilmente e comprensibilmente
-        
-    \end{enumerate}
-
-    \subsection{Le euristiche di Nielsen }
-    \begin{enumerate}
-        \item Visibilità dello stato del sistema 
-        \item Corrispondenza tra sistema e mondo reale
-        \item Controllo e libertà dell’utente 
-        \item Consistenza e standard
-        \item Prevenzione degli errori 
-        \item Riconoscimento piuttosto che richiamo 
-        \item Flessibilità ed efficenza d’uso 
-        \item Estetica e design minimalista
-        \item Aiuta gli utenti a riconoscere e diagnosticare gli errori 
-        \item Aiuto e documentazione
-        
-    \end{enumerate}
-    
-
-    \subsection{Le euristiche di ambito}
-    Sono delle euristiche selezionate da noi che valgono nel contesto preciso di un sito di giochi per bambini e ragazzi.
-    \begin{enumerate}
-        \item Il sito deve correttamente vietare di giocare ad utenti che non rispettano il vincolo di età
-        \item Analizzeremo adesso ogni schermata della pagin gioco.it per andare a valutare se rispettano o meno queste euristiche.
-    \end{enumerate}
-
-    Partiamo dalla Home Page:
-
-
-    Un errore visibile è che il pulsante “Nuovo” nel banner superiore della Home Page è l’unico che a differenza degli altri pur puntandolo col mouse non apre un dialog con dei giochi consigliati in quella categoria. Inoltre, cliccando le categorie su quel banner con una frequenza abbastanza alta viene aperta la pagina della lista delle categorie su una categoria diversa da quella cliccata.
-
-    \subsubsection{Home Page}
-    
-        1. \textbf{ Gli elementi della home page sono chiaramente focalizzati sui compiti chiave degli utenti (è stata evitata la "featurite")}.\\
-        C’è un sovraccarico di giochi che vengono proposti all’utente, che aumentano il carico cognitivo che deve sopportare per cercare. Inoltre l’attuale divisione dello schermo rende più complicato l’orientamento da parte dell’utente poichè non è suddiviso in blocchi omogenei.\\
-
-        3.\textbf{Le categorie dei prodotti sono presenti e chiaramente visibili nella home page}\\
-        Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.
-\\ Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.    
-    
-
 
 \end{document}
