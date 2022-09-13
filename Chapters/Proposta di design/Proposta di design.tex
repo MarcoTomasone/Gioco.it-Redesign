@@ -1,5 +1,6 @@
 \documentclass[../Report.tex]{subfiles}
 \usepackage[italian]{babel}
+\graphicspath{ {../../Images/} }
 
 \begin{document}
     \chapter{Proposta di design}
@@ -41,5 +42,55 @@
         \end{itemize}
         \item \textbf{Assistenza:} offre servizi di aiuto e assistenza tramite le FAQ.
     \end{enumerate}
-
+    \section{Modello CAO = S}
+    Dato che non esiste nel nostro gruppo un esperto di usabilità, disponiamo di pochi utenti per effettuare test reali e disponiamo di poche risorse poichè si tratta di un progetto universitario, abbiamo scelto di utilizzare il modello CAO = S.
+    \subsection{Concetti}
+ \begin{itemize}
+    \item    \textbf{Account}:account dell'utente sul sito Gioco.it
+    \item    \textbf{Giochi}: software che, per mezzo di una grafica, simula situazioni di carattere ludico (competizioni sportive, combattimenti o sfide di vario genere ambientate nei luoghi più diversi), permettendo a uno o più giocatori di giocare sia tra loro sia contro il computer
+    \item    \textbf{Commento}: descrizione di un utente riferita ad un gioco preciso. 
+    \item    \textbf{Categoria}: caratteristica o insieme di caratteristica che accomuna più giochi.
+    \item    \textbf{Menu}: a lista, solitamente visualizzata su monitor, delle possibili opzioni offerte da un programma, che rappresentano altrettante funzioni tra le quali l’operatore può scegliere.
+    \item    \textbf{Filtro}: opzione per visualizzare solo alcuni giochi in base a determinate caratteristiche.
+    \item    \textbf{Amici}: gruppo di account con cui si rapporta l'utente sul sito.
+    \item    \textbf{Descrizione}: testo descrittivo di un gioco.
+    \item    \textbf{Preferiti}: gruppo di giochi selezionati dall'utente ai quali si gioca più spesso o si è più legato.
+    \item \textbf{FAQ:} insieme di domande frequenti poste per aiutare l'utente.
+    \item \textbf{Parental Control:} insieme di filtri che un supervisore può applicare per limitare le possibilità d'uso della piattaforma del giocatore. Es. filtro età, limitazione tempo d'uso. 
+ \end{itemize}
+    \subsection{Attori}
+    Un attore è qualsiasi entità che interagisce con i concetti del sistema. Gli attori possono essere diretti (cioè entità che interagiscono e utilizzano l'interfaccia del sistema) o indiretti (cioè entità che influenzano il sistema, senza interagire direttamente con esso). Nel nostro caso, abbiamo due attori diretti: il giocatore ed il supervisore. D'altra parte, possiamo identificare più attori indiretti:
+    \begin{itemize}
+        \item progettisti del sito;
+        \item gli sviluppatori dei giochi presenti sul sito;
+        \item la potenza di calcolo del computer utilizzato per giocare.
+    \end{itemize}
+    Gli attori diretti sono influenzati da sei misure qualitative che ci indicano la capacità dell'attore di interagire con il sistema. Ogni misura viene valutata su una scala da uno a cinque, con uno come valore massimo rappresentante la massima competenza, abilità o attitudine e 5 rappresentante una compentenza, abilità o un'attitudine assente o quasi assente. 
+    Le competenze sulle quali valuteremo i nostri attori diretti sono sei:
+    \begin{itemize}
+        \item Competenza di linguaggio 
+        \item Competenze tecniche 
+        \item Competenza di dominio
+        \item Abilità fisiche 
+        \item Motivazione 
+        \item Concentrazione
+    \end{itemize}
+    Poiché il nostro unico attore diretto è l'utente finale, utilizziamo i nostri personaggi per eseguire questa caratterizzazione.
+    \begin{figure}[H]
+        \includegraphics[height=8cm]{MirkoCAOS.png}
+        \centering
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[height=8cm]{GaetanoCAOS.png}
+        \centering
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[height=8cm]{ClaudioCAOS.png}
+        \centering
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[height=8cm]{SimonaCAOS.png}
+        \centering
+    \end{figure}
+    
 \end{document}
