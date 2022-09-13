@@ -169,7 +169,8 @@
     \end{enumerate}
 
     Partiamo dalla Home Page:
-
+%IMMAGINE 1%
+%IMMAGINE 2%
 
     Un errore visibile è che il pulsante “Nuovo” nel banner superiore della Home Page è l’unico che a differenza degli altri pur puntandolo col mouse non apre un dialog con dei giochi consigliati in quella categoria. Inoltre, cliccando le categorie su quel banner con una frequenza abbastanza alta viene aperta la pagina della lista delle categorie su una categoria diversa da quella cliccata.
 
@@ -180,6 +181,266 @@
         3. \textbf{Le categorie dei prodotti sono presenti e chiaramente visibili nella home page}\\
         Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.
 \\ Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.    
+    \subsubsection{Navigation \& AI }
+    3. Il sistema di navigazione è broad and shallow piuttosto che deep, quindi ci sono più oggetti su un menù piuttosto che piu livelli annidati  
+ 	Ci sono dei sottomenù evitabili 
+
+    \subsubsection{Page Layout e Visual Design}
+    6. \textbf{Gli ipertesti sono facilmente riconoscibili senza necessità della sottolineature. }\\
+    Si rende necessaria la sottolineatura degli ipertesti come nel caso di “Prova ora!” poichè hanno lo stesso font, colore e dimensione dei titoli di categoria nella prima riga che non sono però ipertesti. \\
+
+    9. \textbf{C’è un chiaro punto di inizio visuale in ogni schermata.}\\
+    Data la mancanza di coerenza nella griglia della home page risulta complesso riuscirsi correttamente ad orientare nelle varie sezioni dello schermo. Un errore comune è pensare che ad esempio la colonna 3,4,5 dei giochi della sezione “Prova ora!” siano appartenenti ad un’altra categoria, poichè la sezione “Prova ora!” è l’unica sezione lunga 6 colonne.\\
+
+    19. \textbf{Etichette significative, colori di sfondo efficaci e uso appropriato di bordi e spazi bianchi aiutano gli utenti a identificare un insieme di elementi come un blocco funzionale discreto.}\\
+	Come si può notare dalle immagini solo per separare “Prova ora!” da “Novità” viene utilizzata una leggera barra verticale grigia, non presente nella separazione di tutte le altre categorie.
+
+    \subsubsection{Ricerca}
+    Analizzeremo ora la barra di ricerca ed il suo funzionamento valutando il rispetto delle 18 euristiche di ricerca trovate. Alleghiamo uno screenshot di tre ricerche, una andata a buon fine, una che non produce risultati ed una che ritorna tanti risultati.
+
+    %IMMAGINE 3%
+
+    %IMMAGINE 4%
+
+    %IMMAGINE 5%
+
+    4. \textbf{La ricerca dei risultati rende chiaro quanti risultati sono stati trovati ed il numero di risultati per pagine può essere modificato da parte degli utenti} \\
+    Non è possibile modificare il numero di risultati per pagina\\
+
+    5.\textbf{ Se non vengono trovati risultati il sistema offre possibili miglioramenti alla query per ritrovare informazioni }\\
+    Non viene dato nessun tipo di suggerimento all’utente per migliorare la query e ottenere risultati \\
+
+    9. \textbf{Il sistema ha un sistema di ricerca più potente che permette di raffinare le query.}\\
+    Il sistema non possiede nessun tipo di motore di ricerca più potente che permette di  raffinare le query.\\
     
+    16.\textbf{ I risultati della ricerca offrono delle meta informazioni.}\\
+    I risultati della ricerca riportano solo nome e immagine del gioco.\\
+
+    17. \textbf{La ricerca offre un check automatico oltre ad un controllo per plurali e sinonimi }\\
+    La ricerca non offre nessun check automatico e nessun controllo per plurali e sinonimi.\\
+
+    18.\textbf{La ricerca offre un’opzione per risultati di similarità.}\\
+	La ricerca non offre opzioni per risultati di similarità.\\
+
+
+
+    Mostriamo ora un errore 404 del sito. Come è possibile vedere il sito offre un messaggio di errore personalizzato oltre che dei consigli di giochi alternativi. 
+    
+    %IMMAGINE 6 %
+
+
+
+    %IMMAGINE 7%
+
+    
+
+    %IMMAGINE 8%
+
+    La schermata presenta inanzitutto la lista di tutti i giochi, non filtrabile nè ordinabile ed un testo descrittivo in basso, per il quale è necessario scrollare lo schermo. A destra inoltre vengono consigliate delle “Categorie correlate” che sono in realtà delle sottocategorie della macro-categoria di riferimento (“Azione” nel caso dello screen). Le euristiche violate in questo caso sono:
+
+    \subsubsection{Task Orientation}
+    2.\textbf{Le informazioni vengono presentate in un ordine facile e logico e naturale}\\
+        Non è presente nessun tipo di ordinamento ai giochi proposti, basti notare l’ordinamento dei giochi e confrontarlo con la lista dei migliori giochi di azione elencata in basso.\\
+
+    10.\textbf{Quando una pagina presenta tante informazioni l’utente può filtrarle} \\
+        L’utente non può in nessun caso filtrare i giochi offerti da una categoria.\\
+    
+    \subsubsection{Navigation and IA}
+    5.\textbf{Utenti possono ordinare e filtrare le pagine di categoria}\\
+    Gli utenti come detto non possono filtrare in nessun modo le categorie.\\
+
+    \subsubsection{Page Layout \& Visual Design}
+    13.\textbf{Le pagine sono libere da scroll stoppers (headings o parti dello schermo che fanno credere all’utente che abbiano finito di scrollare quando non è così)}\\
+    Il contenuto testuale descrittivo di ogni categoria è posto sotto la griglia dei giochi e richiede scrolling verticale. Se un utente scrolla fino all’ultima riga di giochi visualizzata e la relativa barra di spostamento tra le varie pagine (in foto in basso) potrebbe credere che non ci siano più informazioni e fermare il suo scroll.
+
+    %IMMAGINE 9%
+
+    16.\textbf{ Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte}\\
+    La parte descrittiva di una categoria è spesso troppo lunga e ripetiva. Il testo potrebbe essere fortemente riassunto e si potrebbe evitare di elencare i giochi. \\
+
+    Inoltre, per ogni categoria il sito offre una lista di sottocategorie. Non sempre però queste sotto categorie corrispondono fra loro nelle varie parti in cui è possibile accederci. Riportiamo l’esempio dei giochi di sport. 
+    Il primo caso in cui si può accedere ad una lista (o un estratto della lista) dei giochi di sport è dalla home page posizionando il mouse sulla categoria sport in alto. Come si può vedere anche il nome è “Categorie Top” che non rimanda al fatto che queste siano delle sottocategorie della macro-categoria “Sport”. 
+    
+    %IMMAGINE 10%
+
+    Cliccando sul pulsante grigio “TUTTI I GIOCHI di Giochi di Sport” possiamo accedere al menù con la lista di tutte le sotto-categorie di ogni macro-categoria. 
+
+    %IMMAGINE 11%
+    
+    Accedendo invece alla lista di tutti i giochi di Sport tramite la home page o tramite il titolo del menù con tutte le categorie e sottocategorie accediamo alla lista dei giochi di Sport vengono mostrate altre sotto-categorie, sempre mostrate con il nome “Categorie Collegate”. Come si può facilmente notare c’è una mancanza di coerenza tra le sottocategorie mostrate. Inoltre spesso, come nell’immagine qui di fianco per nomi di sottocategorie molto lunghi il nome non entra completamente nella card corrispondente lasciando incompleta la scritta.
+
+    %IMMAGINE 12 -- Multicol se si vuole mettere su due colonne%
+
+    \subsubsection{Schermata di login e registrazione}
+
+    La schermata di log in e registrazione si presenta come una schermata classica che permette l’accesso  e la registrazione tramite facebook, google o la classica tramite email e informazioni personali.
+    Non abbiamo riscontrato violazioni o problemi. 
+
+    \subsubsection{Profilo}
+    La schermata profilo è formata da ulteriori sottomenù.
+
+    %IMMAGINE 13%
+
+    %IMMAGINE 14%
+
+    Questa sezione del menù comprende l’immagine del profilo, un bottone che permette di visualizzare come il nostro profilo appare ad altri utenti poi un menù formato da cinque tab che permettono di spostarsi all’interno di tutte le aree del profilo. Infine la sezione profilo contiene una sezione nella quale dovrebbe essere possibile postare dei commenti, i quali non è chiaro dove finiscano. Questa sezione viene 4/5 volte sostituita da un messaggio di errore. Poi c’è un link ai giochi preferiti dell’utente, accessibili anche tramite il tasto sui tab. \\
+    Le violazioni commesse in questo caso sono: \\
+
+    \subsubsection{Task Orientation}
+    1.\textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
+        Non è chiaro in quale posto vengano postati i commenti. Se i giochi preferiti sono accessibili dal tab la sezione profilo rimane totalmente inutile.\\
+    
+    8.\textbf{ Un utente che visita il sito per la prima volta capisce come fare i task senza assistenza}\\
+    Non è assolutamente chiaro dove vengano postati i commenti scritti in questa parte del sito. Per capirlo un utente necessita assistenza.\\
+
+    %IMMAGINE 15%
+
+    La sezione dei preferiti contiene invece solo la lista dei giochi preferiti. E’ possibile accedervi ed eliminarli dalla lista. Non abbiamo riscontrato delle violazioni in questa parte.
+
+    %IMMAGINE 16%
+
+    La sezione amici si divide in tre sotto tabs, nelle quali è possibile vedere la lista di amici, le richieste di amicizia inviate e quelle ricevute. Inoltre permette con un semplice bottone di inviare delle richieste di amicizia. Anche in questo caso non abbiamo trovato delle violazioni. 
+
+    %IMMAGINE 17%
+
+    La schermata avatar invece permette di modificare l’avatar dell’account con degli avatar preimpostati del sito. Anche in questo caso non abbiamo trovato delle importanti violazioni. Non è però possibile rimuovere l’immagine del profilo dopo averne messo una (tornando quindi ad un account senza avatar) e non è possibile caricare un’immagine del profilo a proprio piacimento. 
+
+    %IMMAGINE 18%
+
+    Per quanto riguarda la sezione impostazioni possiamo trovare delle violazioni.
+    Innanzitutto la sezione “Aggiorna Informazioni” si riferisce solo all’aggiornamento della password, il titolo può essere quindi motivo di confusione negli utenti. La scritta inoltre “La password” è totalmente inutile poichè non c’è nessun modo di visionare la password.
+    Le violazioni sono:
+
+    \subsubsection{Task Orientation}
+    1.\textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
+	Pensiamo alla scritta “La password” che potrebbe confondere gli utenti o alla scritta “Aggiorna informazioni”.\\
+    
+    11.\textbf{  Il sito permette agli utenti di customizzare dei parametri di tempo operazionali (tempo di logoff, tempo d’uso ecc)}\\
+    Il sito non permette di modificare nessun tipo di parametro operazionale. \\
+
+    \subsubsection{Altri Problemi Riscontrati dall’Ispezione}
+    Nel banner superiore non sono presenti tutte le categorie e/o un bottone/menù per accedere alla lista delle categorie. Per accedere alla lista di tutte le categorie è necessario accedere alla lista di sotto-categorie di una categoria. 
+    Un’altro errore riscontrato è la violazione dell’euristica di coerenza, nell’immmagine rappresentante i giochi preferiti, per i quali una volta viene utilizzata una stella nella schermata di un gioco mentre nel menù viene utilizzato un cuore.
+
+    %IMMAGINE 19%
+
+    \section{Reverse Analysis: Linee guida vs Sistema}
+    \subsubsection{Home Page}
+    1.\textbf{Gli elementi della home page sono chiaramente focalizzati sui compiti chiave degli utenti (è stata evitata la "featurite") }\\
+    La home page è troppo carica consiglia all’utente un numero esagerato di giochi a cui giocare. Inoltre alcune categorie sono nascoste e non accessibili a primo impatto dagli utenti. 
+
+    \subsubsection{Task Orientation}
+    \begin{enumerate}
+        \item \textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
+            Il sito è troppo denso di informazioni, spesso inutili e ripetive. Molti giochi sono doppioni di altri che potrebbero essere accorpati in uno. La sezione profilo è totalmente inutle e non aggiunge nessuna informazione rilevante.  
+        \item \textbf{Le informazioni vengono presentate in un ordine facile e logico e naturale}\\
+        I risultati della ricerca non vengono riportati nè in ordine di rilevanza e popolarità del gioco, nè in ordine alfabetico e non c’è nessun pulsante di ordinamento. Lo stesso vale per la lista di categorie dei giochi. 
+        \item \textbf{Il sito richiede uno scrolling ed un clicking minimale }\\
+        La home page non è visibile senza scrolling verticale. 
+        \item \textbf{Quando una pagina presenta tante informazioni l’utente può filtrarle.}\\
+        L’utente non può filtrare in nessun modo, se non per categorie, i giochi. Anche i risultati della ricerca non sono filtrabili (e neanche ordinabili) in nessun modo.
+        \item \textbf{Il sito permette agli utenti di customizzare dei parametri di tempo operazionali (tempo di logoff, tempo d’uso ecc)}\\
+        Il sito non offre questa possibilità.
+    \end{enumerate}
+
+    \subsubsection{Navigation \& IA}
+    \begin{enumerate}
+        \item \textbf{Utenti possono ordinare e filtrare le pagine di categoria}\\In nessun caso gli utenti possono filtrare e ordinare i giochi.
+    \end{enumerate}
+
+    \subsubsection{Page Layout \& Visual Design}
+    \begin{enumerate}
+        \item La densità dello schermo è appropriata per il target degli utenti e per i loro task 
+        \item I font sono consistenti 
+        \item La relazione tra i controlli e la sua azione è ovvio 
+        \item C’è un chiaro punto di inizio visuale in ogni schermata 
+        \item I pulsanti ed i bottoni mostrano che sono stati cliccati 
+        \item C’è un buon bilanciamento tra contenuto informativo e spazi vuoti \\
+        Nella home page, nelle pagine di ricerca e in quelle di categoria vengono mostrati troppi giochi, che rendono confusionario e difficile orientarsi. 
+        \item Il sito è piacevole alla vista\\
+        Nella home page, nelle pagine di ricerca e in quelle di categoria vengono mostrati troppi giochi, che rendono confusionario e difficile orientarsi. 
+        \item Il grassetto è usato per riconoscere categorie importanti\\
+        Non sempre il grassetto è usato per le categorie 
+        \item Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte\\
+        A volte le descrizioni sono molto lunghe 
+        \item Le pagine sono state progettate con una griglia sottostante, con gli oggetti allineati orizzontalmente e verticalmente\\
+        La griglia della home page è asimmetrica.
+        \item Etichette significative, colori di sfondo efficaci e uso appropriato di bordi e spazi bianchi aiutano gli utenti a identificare un insieme di elementi come un blocco funzionale discreto.\\
+        \item Le singole pagine sono prive di informazioni irrilevanti e ingombranti \\
+        Spesso le descrizioni dei giochi contengono informazioni doppie.
+        
+    \end{enumerate}
+
+    \subsubsection{Ricerca}
+    \begin{enumerate}
+        \item \textbf{I risultati della ricerca sono chiari, utili e ordinati per rilevanza}\\
+        I risultati della ricerca non sono ordinati né per popolarità dei giochi, né per rilevanza alla ricerca né in ordine alfabetico e non c’è nessun modo per ordinarli. 
+
+        \item \textbf{La ricerca dei risultati rende chiaro quanti risultati sono stati trovati ed il numero di risultati per pagine può essere modificato da parte degli utenti} \\
+        Il numero di risultati per pagine non può essere modificato da parte degli utenti
+        \item \textbf{Se non vengono trovati risultati il sistema offre possibili miglioramenti alla query per ritrovare informazioni }\\
+        Il sistema non offre nessun tipo di miglioramento alle query
+        \item \textbf{Il sistema ha un sistema di ricerca più potente che permette di raffinare le query}\\
+        Il sistema non ha nessun motore di ricerca più potente.
+        \item \textbf{I risultati della ricerca offrono delle meta informazioni}\\
+        I risultati della ricerca riportano solo il nome e l’immagine del gioco. 
+        \item \textbf{La ricerca offre un check automatico oltre ad un controllo per plurali e sinonimi }\\
+        La ricerca non offre nessun check automatico.
+        \item \textbf{La ricerca offre un’opzione per risultati di similarità}\\
+        La ricerca non offre nessuna opzione per risultati di similarità.        
+    \end{enumerate}
+
+
+    \subsubsection{Help, Feedback And Error Tolerance}
+    \begin{enumerate}
+        \item E’ facile ricevere aiuto nel modo giusto e al tempo giusto 
+        \item Le richieste sono facili e non ambigue
+        \item Le FAQ o l’aiuto online contengono gli step per aiutare gli utenti a fare le task piu importanti 
+        \item L’utente non necessita di usare manuali per utilizzare il sito 
+        \item Il sito possiede una pagina 404 personalizzata con dei consigli per l’utente 
+        \item Il sito offre buon feedback quando necessario 
+        \item Agli utenti viene dato aiuto nella scelta dei prodotti 
+        \item La conferma dell’utente è richiesta quando si stanno effettuando delle azioni potenzialmente pericolose come la cancellazione di qualcosa 
+        \item Le pagine di conferma sono chiare 
+        \item Le pagine di errore contengono istruzioni su cosa fare dopo 
+        \item Quando l’utente deve scegliere tra piu opzioni queste sono ovvie 
+        \item Il sito avvisa l’utente di eventuali ritardi nel caricamento 
+        \item I messaggi di errore sono scritti in un tono non derisorio e non prendono in giro l’utente 
+        \item Le pagine si caricano velocemente (5sec o meno)
+        \item Il sito offre dei feedback immediati 
+        \item L’utente viene avvisato di caricamenti lunghi con messaggi (please wait)
+        \item Quando danno le istruzioni, il sito deve dire all’utente cosa fare piuttosto che cosa non fare 
+        \item Il sito offre delle dimostrazioni delle sue funzionalità, spiegando all’utente come fare certe cose 
+        \item Il sito offre feedback che spiegano all’utente coem usare il sito 
+        \item Il sito offre consigli dipendenti dal contesto 
+        \item L’aiuto è chiaro e diretto e scritto in lingua senza gergo o parolacce
+        \item Il sito offre un feedback chiaro quando viene completato un task
+        \item Viene rispettata la legge di Fitt
+        \item Le informazioni importanti rimangono sullo schermo e non ci sono time out frettolosi che impongono all’utente di scrivere e segnarsi queste informazioni 
+        \item C’è abbastanza spazio tra i target per prevenire che gli utenti clicchino qualcos’altro per sbaglio 
+        \item C’è una linea di almeno due pixel tra gli oggetti cliccabili 
+        \item Il sito rende ovvio come e quando un errore si è verificato 
+        \item Il sito assicura che il lavoro non viene perso 
+        \item I messaggi di errore sono scritti facilmente e comprensibilmente 
+    \end{enumerate}
+
+    \subsubsection{Le euristiche di Nielsen \& le Euristiche di ambito}
+    \begin{enumerate}
+        \item Visibilità dello stato del sistema 
+        \item Corrispondenza tra sistema e mondo reale
+        \item Controllo e libertà dell’utente 
+        \item Consistenza e standard
+        \item Prevenzione degli errori 
+        \item Riconoscimento piuttosto che richiamo 
+        \item Flessibilità ed efficenza d’uso 
+        \item \textbf{Estetica e design minimalista}\\
+        Il design del sito è veramente ricco di elementi che generano confusione e difficoltà di scelta nell’utente. 
+        \item Aiuta gli utenti a riconoscere e diagnosticare gli errori 
+        \item Aiuto e documentazione
+        \item \textbf{Il sito deve correttamente vietare di giocare a determinati giochi ad utenti  registrati che non rispettano il vincolo di età.}\\
+        Non rispettato poichè pur creando un account con un’età inferiore a 18 anni è comunque permesso giocare a giochi 18+ come i giochi d’azzardo.
+    \end{enumerate}
+
+    \section{Testing Utenti}
 
 \end{document}
