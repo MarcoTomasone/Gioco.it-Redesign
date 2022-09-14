@@ -442,5 +442,114 @@
     \end{enumerate}
 
     \section{Testing Utenti}
+    Abbiamo poi testato, per rilevare ulteriori problemi, l’applicativo gioco.it direttamente con gli utenti. Prima di tutto elenchiamo quello che è il protocollo del test:\\
 
+    Abbiamo scelto di applicare il metodo del “discount usability testing”  per le seguenti ragioni:
+    \begin{itemize}
+        \item Il budget del progetto è limitato, per cui è impossibile avere un team multidisciplinare di esperti per strutturare test professionali. 
+        \item Numero limitato di partecipanti. 
+        \item Tempo limitato per l’analisi dei dati.
+    \end{itemize}
+
+    La lista dei task che abbiamo chiesto di eseguire agli utenti sono le stesse, per una motivazione molto semplice: in caso di figli troppo piccoli i genitori dovranno riuscire ad utilizzare il sito, svolgendo le varie azioni lasciando al bambino solo il compito di giocare, divertirsi ed imparare. 
+
+    I task che dovranno eseguire saranno:
+    \begin{enumerate}
+        \item Accedere al proprio profilo tramite delle credenziali fornite da noi
+        \item  Ricercare il gioco “Subway Surf”
+        \item Metterlo nei preferiti 
+        \item Lasciare un commento al gioco e poi eliminarlo 
+        \item Modifica la tua foto profilo
+        \item Inviare una richiesta di amicizia ad un profilo chiamato “Marco”
+        \item Annullare la richiesta di amicizia fatta
+        \item Vedere la lista di amici
+        \item Aprire la sezione dei giochi preferiti 
+        \item Eliminare un gioco dai preferiti 
+        \item Cercare il gioco “Fruit Ninja” senza utilizzare la barra di ricerca
+        
+    \end{enumerate}
+
+    Per quanto riguarda la tipologia di test, abbiamo adottato quella sommativa, in quanto gioco.it è un applicazione web già completa: conseguentemente, il fine del test è la ricerca di eventuali problemi che non sono stati scoperti e risolti dagli sviluppatori, nonchè la verifica del soddisfacimento delle necessità raccolte all’inizio della progettazione, nel nostro caso trattandosi di un redesign la valutazione del soddisfacimento delle euristiche. 
+    Sarà quindi informale, poichè noi membri del team saremo presenti al momento dell’esecuzione del test da parte degli utenti e parleremo con loro. Sarà poi sequenziale, poichè gli utenti non eseguiranno il test parallelamente ma lo faranno uno dopo l’altro ed economico poichè non faremo ricorso a degli specialisti come degli psicologi o degli statistici durante l’esecuzione del test ma noi saremo i supervisori del test in qualità di membri del team. 
+    Chiederemo inoltre agli utenti di parlare ad alta voce per farci ascoltare i ragionamenti che seguono nell’utilizzo dell’applicativo. Raccoglieremo poi infine tramite delle brevi domande dei pareri sull’applicativo e sulla loro esperienza di utilizzo.
+
+    \subsubsection{Dati Raccolti}
+    Raccoglieremo dati relativi a tre metriche in particolare:
+    \begin{itemize}
+        \item Efficienza (l’utente ha commesso errori o è tornato sui suoi passi)
+        \item Successo (l’utente ha completato o meno il task)
+        \item Learnability (capacità di acquisire familiarità con il sistema )
+        \item Soddisfazione (grado di piacere da parte dell’utente nell’effettuare le operazioni)
+    \end{itemize}
+
+    Prenderemo in considerazione soggetti presi da entrambi i segmenti di utenti trovati.
+    Ada, donna di 48 anni genitore di una ragazza di 13 anni ed un ragazzo di 22. Ada fa assistenza agli anziani e ha un reddito medio basso. Non è solita utilizzare dei laptop, ma ha una sufficiente conoscenza nell’utilizzo di un computer poichè prima dell largo avvento degli smartphone era solita utilizzare un PC. Usa giornalmente il suo smartphone principalmente per l’utilizzo di social network quali Facebook e Whatsapp per rimanere in contatto con i suoi familiari. E’ autonoma nell’uso degli strumenti che conosce, spesso restia a provare nuove funzionalità o nuove applicazioni.\\
+
+    Emili è una ragazza di 13 anni, iscritta all’ultimo anno della scuola media. Le piace passare il suo tempo libero giocando con le amiche quando è possibile altrimenti è ben felice di restare a casa ad utilizzare il suo laptop. Lo usa principalmente per guardare contenuti su YouTube o giocare. 
+
+    \subsubsection{SUS}
+    Per la valutazione della soddisfazione abbiamo utilizzato il calcolatore del System Usability Scale reso disponibile al link: https://stuart-cunningham.github.io/sus/ . Tuttavia avendo effettuato un numero esiguo di test è stato difficile estrarre delle informazioni statisticamente rilevanti
+
+    \textbf{Risultati per Ada}\\
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            Task & Successo & Efficacia & Apprendibilitá \\
+            \hline
+            1 & Si & Alta & Alta \\
+            \hline
+            2 & Si & Medio-Alta (ha cliccato sulla categoria di giochi e non sul gioco direttamente) & Alta \\
+            \hline
+            3 & Si & Alta & Alta \\
+            \hline
+            4 & Si & medio alto eliminazione(ha tentato di usare il tasto dx per poi vedere i 3 pallotti) & Alta \\
+            \hline
+            5 & Si ma con assistenza & Bassa (l’utente ha dapprima cliccato su impostazioni nella sezione aggiorna dati personali. E’ poi andato su profilo non trovando nulla e trovando sconforto nella visualizzazione di un messaggio di errore. E’ riuscita a completare il task dopo aver ricevuto l’indicazione di usare il tasto avatar.) & Bassa \\
+            \hline
+            6 & Si & Medio-alta (cercavi nella home una sezione ) & Alta \\
+            \hline
+            7 & Si & Alta & Alta \\
+            \hline
+            8 & Si & Alto & Alto \\
+            \hline
+            9 & Si & Alto & Alto \\
+            \hline
+            10 & Si & Alto & Alto \\
+            \hline
+            11 & fallimento & L’utente ha dovuto usare la barra di ricerca pur avendo correttamente cercato tra i giochi di abilità nella sottocategoria giochi con punteggio record. Situazione non ripetibile nel caso in cui non conosca il nome del gioco.  & \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \textbf{Risultati per Emili}\\
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            Task & Successo & Efficacia & Apprendibilitá \\
+            \hline
+            1 & Si & Alta & Alta \\
+            \hline
+            2 & Si(con barra di ricerca) & Medio - Alta (ha cliccato sulla categoria di giochi e non sul gioco direttamente) & Alta \\
+            \hline
+            3 & Si & Alta & Alta \\
+            \hline
+            4 & Si & Media (tentava di postare il commento schiacciando invio) & Alta \\
+            \hline
+            5 & Si ma con assistenza & Medio-Bassa
+            (non ha usato l’opzione avatar). Ha cercato invano di cliccare sul profilo senza foto per poi capire che non era un bottone cliccabile & Media(Un messaggio di errore sul profilo ha creato confusione)   \\
+            \hline
+            6 & Si & Alto & Alto \\
+            \hline
+            7 & Si & Alto & Alto \\
+            \hline
+            8 & Si & Alto & Alto \\
+            \hline
+            9 & Si & Alto & Alto \\
+            \hline
+            10 & Si & Media (Dopo aver correttamente aperto la sezione dei giochi preferiti nel tentativo di eliminare subway surf dai preriti ha erroneamente cliccato il pulsante impostazioni) & Alto \\
+            \hline 
+            11 & Fallimento & L’utente ha dovuto usare la barra di ricerca. Situazione non ripetibile nel caso in cui non conosca il nome del gioco. & \\
+            \hline
+        \end{tabular}
+    \end{table}
 \end{document}
