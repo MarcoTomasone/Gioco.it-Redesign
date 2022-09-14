@@ -77,23 +77,39 @@
         \item Motivazione 
         \item Concentrazione
     \end{itemize}
-    Poiché il nostro unico attore diretto è l'utente finale, utilizziamo i nostri personaggi per eseguire questa caratterizzazione.
-    \begin{figure}[H]
-        \includegraphics[height=8cm]{MirkoCAOS.png}
-        \centering
-    \end{figure}
-    \begin{figure}[H]
-        \includegraphics[height=8cm]{GaetanoCAOS.png}
-        \centering
-    \end{figure}
-    \begin{figure}[H]
-        \includegraphics[height=8cm]{ClaudioCAOS.png}
-        \centering
-    \end{figure}
-    \begin{figure}[H]
-        \includegraphics[height=8cm]{SimonaCAOS.png}
-        \centering
-    \end{figure}
+    Utilizziamo i nostri personaggi per eseguire questa caratterizzazione.
+    \begin{table}[H]
+        \begin{tabular}{|c|c|}
+            \hline
+            \includegraphics[height=5cm]{Mirko.jpg} & \includegraphics[height=5cm]{MirkoCAOS.png} \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \begin{table}[H]
+        \begin{tabular}{|c|c|}
+            \hline
+            \includegraphics[height=5cm]{Gaetano.jpg} & \includegraphics[height=5cm]{GaetanoCAOS.png} \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \begin{table}[H]
+        \begin{tabular}{|c|c|}
+            \hline
+            \includegraphics[height=5cm]{Claudio.jpg} & \includegraphics[height=5cm]{ClaudioCAOS.png} \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \begin{table}[H]
+        \begin{tabular}{|c|c|}
+            \hline
+            \includegraphics[height=5cm]{Simona.jpg} & \includegraphics[height=5cm]{SimonaCAOS.png} \\
+            \hline
+        \end{tabular}
+    \end{table}
+
 
     \subsection{Operazioni}
     Nel modello CAO=S le operazioni si basano su un modello CRUD, ovvero:
@@ -106,36 +122,54 @@
     Le singole operazioni compiute dai singoli attori sui singoli concetti vengono inserite in una tabella, che rappresenta, per ciascun attore, i tipi di operazione e i concetti. I nostri attori sono l'utente finale (il giocatore) e il supervisore, quindi dobbiamo fornire due tabelle. La prima è quella del giocatore:
 
     \begin{table}[H]
-        \begin{tabularx}{\textwidth}{|c|c|c|c|c|}
-        %\begin{tabular}{|c|c|c|c|c|}
+        \hspace{-2.5cm}
+        \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
             \hline
             \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
             \hline
-            \textbf{Account} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray}\\
+            \textbf{Account} & \cellcolor{gray} \textbf{Singola:} Funzionalità di ‘registrarsi come un nuovo utente’ già presente nel sito & \cellcolor{green} \textbf{Individuale completa:} permette di ‘Visualizzare le informazioni relative al proprio account’  & \cellcolor{green} \textbf{Specifico:} Possibilitá di aggiornare il profilo, inserendo l’immagine del profilo e altre informazioni dell’utente stesso & \cellcolor{gray} \textbf{Eliminazione:} Possibilitá di cancellare  l’account giá esistente \\
             \hline
-            \textbf{Giochi} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+            \textbf{Giochi} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Individuale Completa:} Possibilitá di accedere alla vista completa e giocare nella pagina stessa
+
+            \textbf{Lista Multipla:} In altre sezioni viene mostrata una lista da cui è possibile passare a un individuale completa
+             & \cellcolor{red} Aggiornamento effettuato dal sito stesso & \cellcolor{red} Cancellazione effettuata dal sito stesso \\
             \hline
-            \textbf{Commento} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} \\
+            \textbf{Commento} & \cellcolor{gray} \textbf{Manuale Molteplice:} poiché è possibile effettuare diversi commenti riferiti a uno stesso gioco & \cellcolor{gray} \textbf{Individuale Completa:} Tutte le caratteristiche dei commenti sono visibili & \cellcolor{gray} \textbf{Globale:} Possiede la stessa maschera di visualizzazione & \cellcolor{gray} \textbf{Cancellazione:} il commento viene definitivamente rimosso dalle strutture dati\\
             \hline
-            \textbf{Categoria} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+            \textbf{Categoria} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Individuale Completa:} Ci sará una pagina dedicata ai giochi di quella determinata categoria
+
+            \textbf{Lista multipla:} è presente una pagina dedicata a tutte le categorie con le relative sottocategorie
+            
+            \textbf{Individuale Ridotta:} Nel menu è presente una lista di categorie dalle quali è possibile passare a un individuale completa
+            
+             & \cellcolor{red} Aggiornamento effettuato dal sito stesso & \cellcolor{red} Cancellazione effettuata dal sito stesso \\
             \hline
-            \textbf{Menu} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+        \end{tabular}
+    \end{table}
+
+    \begin{table}[H]
+        \hspace{-2.5cm}
+        \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
             \hline
-            \textbf{Filtro} & \cellcolor{red} & \cellcolor{green} & \cellcolor{green} & \cellcolor{red} \\
+            \textbf{Menu} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Individuale Completa:} Il menu viene visualizzato completamente & \cellcolor{red} Aggiornamento effettuato dal sito stesso & \cellcolor{red} Cancellazione effettuata dal sito stesso \\
             \hline
-            \textbf{Amici} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{gray} \\
+            \textbf{Filtro} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Ricapitolato Multipla:} Vengono raggruppati tutti i fatti delle istanze dei filtri  & \cellcolor{green} \textbf{Globale:} La vista è la stessa per la selezione dei filtri & \cellcolor{red} \textbf{NO:} non è possibile la cancellazione \\
             \hline
-            \textbf{Descrizione} & \cellcolor{red} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{red} \\
+            \textbf{Amici} & \cellcolor{gray} \textbf{Manuale multipla:} Intendiamo l’invio di una (o piú) richiesta di amicizia & \cellcolor{gray} \textbf{Individuale Completa:} Puoi visualizzare il profilo di un amico
+
+            \textbf{Lista Multipla:} poiché puoi visualizzare la lista degli amici
+             & \cellcolor{red} \textbf{NO:} non è possibile l’aggiornamento  & \cellcolor{gray} \textbf{Cancellazione:} L’amico viene definitivamente rimosso anche dalle strutture dati\\
             \hline
-            \textbf{Preferiti} & \cellcolor{red} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{red} \\
+            \textbf{Descrizione} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{gray} \textbf{Individuale Completa:} All’intero della pagina del gioco è possibile visionare la descrizione completa & \cellcolor{red} Aggiornamento effettuato dal sito stesso & \cellcolor{red} Cancellazione effettuata dal sito stesso \\
             \hline
-            \textbf{FAQ} & \cellcolor{gray} & \cellcolor{green} & \cellcolor{red} & \cellcolor{gray} \\
+            \textbf{Preferiti} & \cellcolor{gray} \textbf{Manuale Multipla:} è possibile mettere nei preferiti uno o piú giochi & \cellcolor{gray} \textbf{Lista Multipla:} poiché puoi visualizzare la lista degli amici preferiti & \cellcolor{red} \textbf{NO:} non è possibile l’aggiornamento & \cellcolor{gray} \textbf{Cancellazione:} La rimozione di un gioco dai preferiti viene definitivamente rimosso anche dalle strutture dati\\
             \hline
-            \textbf{Parental Control} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} \\
+            \textbf{FAQ} & \cellcolor{gray} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Individuale completa:} Possibilita di leggere l'intera pagina delle FAQ & \cellcolor{red} Aggiornamento effettuato dal sito stesso & \cellcolor{gray} Cancellazione effettuata dal sito stesso \\
             \hline
-        %\end{tabular}
-        \end{tabularx}
-        \caption{\label{tab:giocatore}Tabella del giocatore.}
+            \textbf{Parental Control} & \cellcolor{red} \textbf{NO:} non è possibile creare & \cellcolor{red} \textbf{NO:} Non è possibile visualizzare, è possibile visualizzare solo dall’utente supervisore & \cellcolor{red} \textbf{NO:} non è possibile l’aggiornamento & \cellcolor{red} \textbf{NO:} non è possibile la cancellazione \\
+            \hline
+        \end{tabular}
+        \caption{\label{tab:giocatore}Tabella del giocatore}
     \end{table}
 
 
@@ -143,13 +177,14 @@
     Di seguito mostriamo la tabella del supervisore, fondamentalmente identica alla precedente con la sola differenza nel concetto del Parental Control:
 
     \begin{table}[H]
-        \begin{tabular}{|c|c|c|c|c|}
+        \hspace{-2.5cm}
+        \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
             \hline
             \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
             \hline
             ... & ... & ... & ... & ... \\
             \hline
-            \textbf{Parental Control} & \cellcolor{green} & \cellcolor{green} & \cellcolor{green} & \cellcolor{green} \\
+            \textbf{Parental Control} & \cellcolor{green} \textbf{Manuale Singola:} è possibile creare uno e un solo parental control & \cellcolor{green} \textbf{Individuale Completa:} Possibilitá di vedere tutte le caratteristiche del parental control & \cellcolor{green} \textbf{Globale:} Possiede la stessa maschera della creazione & \cellcolor{green} \textbf{Cancellazione:} Rimozione del parental control anche dalle strutture dati \\
             \hline
         \end{tabular}
         \caption{\label{tab:supervisore}Tabella del supervisore}
