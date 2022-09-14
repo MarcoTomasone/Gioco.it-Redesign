@@ -173,6 +173,27 @@
     \subsection{Gioco}
     La schermata del gioco dovrà contenere gli stessi elementi che contiene attualmente. Sarà necessario quindi un riquadro per la visualizzazione del gioco e la sua descrizione. Saranno presenti i comandi che permettono di andare direttamente a mettere nei preferiti un gioco e a spostarsi nella sezione commenti. Poichè come detto nella sezione di Inspezione \ref{} è presente dell'inutile spazio vuoto alla destra dei giochi il nostro redesign andrà ad occupare lo spazio lasciato vuoto, riempiendolo per quanto possibile con la schermata di gioco. Sarà anche importante mantenere la sezione legata al supporto e alla spiegazione del gioco (precedentemente erroneamente chiamata "Soluzione").
 
+    \subsection{Account}
+    \subsubsection{Login \& Registrazione}
+    Come detto in precedenza la schermata di login \& registrazione non ha particolari problemi, il suo design resterà pressoché invariato. 
+    %TODO: Mettere password supervisore
+    \subsubsection{Conversazioni}
+    La sezione conversazioni andrà profondamente rivista rispetto al suo attuale funzionamento, cioè quello di una chat pubblica sul profilo di un utente. Abbimo deciso di riordinare questa sezione e di renderla un mini-forum in cui un utente può creare delle discussioni con un titolo a cui tutti gli utenti (o anche solo gli utenti amici) possono rispondere. Pensiamo a questa sezione come un modo per gli utente di discutere, scambiarsi idee e risultati a proposito dei giochi che loro giocano, separata dalla sezione commenti dei giochi proprio per la possibilità di far parlare tra di loro utenti amici. 
+    \subsubsection{Giochi preferiti}
+    La sezione dei giochi preferiti conterrà la lista di giochi che l'utente ha selezionato come preferiti. Come attualmente è già presente sul sito, puntando un gioco con il mouse ci saranno due possibilità: giocare al gioco o eliminarlo dalla lista dei preferiti. Non prevediamo quindi grandi cambiamenti a questa sezione.
+    \subsubsection{Amici}
+    Anche per la sezione amici non prevediamo grandi stravolgimenti. Sarà quindi possibile inviare richieste di amicizia, vedere la lista di amici, eliminare un amico e vedere quelle che sono le richieste di amicizia in arrivo. 
+    \subsubsection{Impostazioni}
+    In questa sezione il nostro principale lavoro sarà quello di andare a permettere la modifica del nome utente, delle mail e della password (l'unica cosa modificabile attualmente). Inoltre, oltre alle funzionalità già presenti ci sarà un rimando alla funzione "Parental Control".
+    \subsubsection{Parental control}
+    Questa sezione del sito sarà una nuova aggiunta e permetterà ai soli utenti supervisori di applicare limiti all'utilizzo del sito. Sarà quindi necessaria una password per l'accesso. In particolare sarà possibile in questa sezione del sito applicare un limite di tempo d'uso per il sito, oltre che applicare una serie di filtri. Sarà possibile infatti:
+    \begin{itemize}
+        \item applicare una limitazione di tempo d'uso 
+        \item nascondere i giochi che superano una determinata età
+        \item nascondere i giochi che presentano determinate caratteristiche (es. presenza di armi, violenza, mostri)
+        \item selezionare sono alcune caratteristiche di giochi (es. giochi logici o matematici)
+    \end{itemize}
     \section{Blueprints}
+    
 
 \end{document}
