@@ -6,7 +6,7 @@
     \chapter{Proposta di design}
     Ora procediamo con la fase di design del sito Gioco.it.
     \subsubsection{Analisi degli utenti}
-    \textbf{Che target di utenti è atteso?} Come è descritto durante la ricerca etnografica \ref{} ci aspettiamo principalmente due macro target di utenti:
+    \textbf{Che target di utenti è atteso?} Come è descritto durante la ricerca etnografica capitolo \ref{chapter:ricerca etnografica} ci aspettiamo principalmente due macro target di utenti:
     \begin{itemize}
         \item Bambini e ragazzi come utilizzatori del sito (giocatori)
         \item Adulti come supervisori degli utilizzatori 
@@ -23,6 +23,7 @@
     \textbf{I supervisori devono ancora essere preoccupati?} Al momento il sito Gioco.it non fornisce nessun tipo di informazioni ai supervisori dei giocatori, inoltre non è possibile impostare un parental control e/o dei limiti di utilizzo del sito (es: tempo di utilizzo). Con la nuova versione del sito i supervisori possono essere molto più tranquilli nel lasciare i giocatori liberi di giocare sapendo che il sito Gioco.it è un luogo sicuro.
 
     \section{Architettura dell'informazione}
+    \label{section:architettura dell'informazione}
     Valutando quello che è l'attuale architetture dell'informazione del sito Gioco.it, abbiamo deciso di utilizzare un approccio Top-Down mantenendo quindi quello che è il workflow di navigazione del sito. Elencheremo di seguito l'architettura del sito progettata a partire da quella originale che terrà conto, ovviamente, dei problemi riscontrati nelle fasi Ispezione e Testing \ref{}:
     \begin{enumerate}
         \item \textbf{Home page:} la home page deve essere capace di offrire un'overview generale del sito, mostrando tutte quelle che sono le funzionalità a disposizione degli utenti. Deve soprattutto offrire una buona rappresentazione dei giochi a disposizione per i nuovi utenti mentre deve semplificare l'utilizzo, fornendo scorciatoie per i giochi più frequenti, agli utenti che tornano sul sito. Inoltre, la grafica deve essere semplificata mantenendo un design più minimalista e meno ricco.
@@ -105,7 +106,8 @@
     Le singole operazioni compiute dai singoli attori sui singoli concetti vengono inserite in una tabella, che rappresenta, per ciascun attore, i tipi di operazione e i concetti. I nostri attori sono l'utente finale (il giocatore) e il supervisore, quindi dobbiamo fornire due tabelle. La prima è quella del giocatore:
 
     \begin{table}[H]
-        \begin{tabular}{|c|c|c|c|c|}
+        \begin{tabularx}{\textwidth}{|c|c|c|c|c|}
+        %\begin{tabular}{|c|c|c|c|c|}
             \hline
             \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
             \hline
@@ -131,7 +133,8 @@
             \hline
             \textbf{Parental Control} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} \\
             \hline
-        \end{tabular}
+        %\end{tabular}
+        \end{tabularx}
         \caption{\label{tab:giocatore}Tabella del giocatore.}
     \end{table}
 
@@ -156,7 +159,7 @@
     In questa prospettiva, creare significa che l’utente, attraverso il sito, crea un qualcosa di nuovo (come un account o un commento), lo stesso vale per l’aggiornamento e l’eliminazione. La voce “Read” sta ad indicare tutto ciò che l’utente può osservare di quel determinato concetto e il tipo di vista che l'utente ha su quel concetto. In rosso vengono messe tutte quelle operazioni che vengono eseguite da Gioco.it e l’utente non può intervenire in alcun modo. In grigio tutte le operazioni già presenti nel sito, che non hanno subito modifiche dopo la nostra progettazione. In verde le nostre modifiche apportate al sito.
 
     \section{Progettazione dell'interazione}
-    In questa sezione definiremo l'architettura dell'informazione che abbiamo definito nella sezione \ref{} e nelle viste CAO=S (sezione \ref{section:CAOS}), prima proponendo dei Blueprints, uno schema in cui viene spiegato il modello concettuale del sito, e successivamente proporremo i Wireframes, delle rappresentazioni delle schermate principali del sito.
+    In questa sezione definiremo l'architettura dell'informazione che abbiamo definito nella sezione \ref{section:architettura dell'informazione} e nelle viste CAO=S (sezione \ref{section:CAOS}), prima proponendo dei Blueprints, uno schema in cui viene spiegato il modello concettuale del sito, e successivamente proporremo i Wireframes, delle rappresentazioni delle schermate principali del sito.
 
     \subsection{Homepage}
     La homepage dovrà essere più coerente e ordinata rispetto all'attuale design, più orientato alla minimizzazione del carico cognitivo dell'utente. Il nuovo design dovrà permettere sia di trovare giochi nuovi e sia di presentare giochi utilizzati di frequente. Inoltre, essa dovrà mostrare tutte le funzionalità messe a disposizione del sito (es: categorie, account, ecc).
