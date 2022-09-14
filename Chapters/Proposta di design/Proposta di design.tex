@@ -43,6 +43,7 @@
         \item \textbf{Assistenza:} offre servizi di aiuto e assistenza tramite le FAQ.
     \end{enumerate}
     \section{Modello CAO = S}
+    \label{section:CAOS}
     Dato che non esiste nel nostro gruppo un esperto di usabilità, disponiamo di pochi utenti per effettuare test reali e disponiamo di poche risorse poichè si tratta di un progetto universitario, abbiamo scelto di utilizzare il modello CAO = S.
     \subsection{Concetti}
  \begin{itemize}
@@ -92,5 +93,84 @@
         \includegraphics[height=8cm]{SimonaCAOS.png}
         \centering
     \end{figure}
+
+    \subsection{Operazioni}
+    Nel modello CAO=S le operazioni si basano su un modello CRUD, ovvero:
+    \begin{itemize}
+        \item Create
+        \item Read
+        \item Update
+        \item Delete
+    \end{itemize}
+    Le singole operazioni compiute dai singoli attori sui singoli concetti vengono inserite in una tabella, che rappresenta, per ciascun attore, i tipi di operazione e i concetti. I nostri attori sono l'utente finale (il giocatore) e il supervisore, quindi dobbiamo fornire due tabelle. La prima è quella del giocatore:
+
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
+            \hline
+            \textbf{Account} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray}\\
+            \hline
+            \textbf{Giochi} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+            \textbf{Commento} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{gray} \\
+            \hline
+            \textbf{Categoria} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+            \textbf{Menu} & \cellcolor{red} & \cellcolor{green} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+            \textbf{Filtro} & \cellcolor{red} & \cellcolor{green} & \cellcolor{green} & \cellcolor{red} \\
+            \hline
+            \textbf{Amici} & \cellcolor{gray} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{gray} \\
+            \hline
+            \textbf{Descrizione} & \cellcolor{red} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+            \textbf{Preferiti} & \cellcolor{red} & \cellcolor{gray} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+            \textbf{FAQ} & \cellcolor{gray} & \cellcolor{green} & \cellcolor{red} & \cellcolor{gray} \\
+            \hline
+            \textbf{Parental Control} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} & \cellcolor{red} \\
+            \hline
+        \end{tabular}
+        \caption{\label{tab:giocatore}Tabella del giocatore.}
+    \end{table}
+
+
+
+    Di seguito mostriamo la tabella del supervisore, fondamentalmente identica alla precedente con la sola differenza nel concetto del Parental Control:
+
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
+            \hline
+            ... & ... & ... & ... & ... \\
+            \hline
+            \textbf{Parental Control} & \cellcolor{green} & \cellcolor{green} & \cellcolor{green} & \cellcolor{green} \\
+            \hline
+        \end{tabular}
+        \caption{\label{tab:supervisore}Tabella del supervisore}
+    \end{table}
     
+    \subsubsection{Note}
+    In questa prospettiva, creare significa che l’utente, attraverso il sito, crea un qualcosa di nuovo (come un account o un commento), lo stesso vale per l’aggiornamento e l’eliminazione. La voce “Read” sta ad indicare tutto ciò che l’utente può osservare di quel determinato concetto e il tipo di vista che l'utente ha su quel concetto. In rosso vengono messe tutte quelle operazioni che vengono eseguite da Gioco.it e l’utente non può intervenire in alcun modo. In grigio tutte le operazioni già presenti nel sito, che non hanno subito modifiche dopo la nostra progettazione. In verde le nostre modifiche apportate al sito.
+
+    \section{Progettazione dell'interazione}
+    In questa sezione definiremo l'architettura dell'informazione che abbiamo definito nella sezione \ref{} e nelle viste CAO=S (sezione \ref{section:CAOS}), prima proponendo dei Blueprints, uno schema in cui viene spiegato il modello concettuale del sito, e successivamente proporremo i Wireframes, delle rappresentazioni delle schermate principali del sito.
+
+    \subsection{Homepage}
+    La homepage dovrà essere più coerente e ordinata rispetto all'attuale design, più orientato alla minimizzazione del carico cognitivo dell'utente. Il nuovo design dovrà permettere sia di trovare giochi nuovi e sia di presentare giochi utilizzati di frequente. Inoltre, essa dovrà mostrare tutte le funzionalità messe a disposizione del sito (es: categorie, account, ecc).
+
+    \subsubsection{Header}
+    Essa permetterà di ricercare i giochi per nome, visualizzare le categorie, visualizzare il proprio account e avrà il logo per tornare alla homepage. A differenza del vecchio design permetterà di visualizzare tutte le categorie e non soltanto alcune. 
+
+    \subsubsection{Footer}
+    Esso conterrà le informazioni dell'azienda, assistenza clienti (FAQ) e la possibilità di cambiare la lingua. Il design rimarrà pressoché lo stesso.
+    
+    \subsection{Card del gioco}
+    Nella versione attuale le card dei giochi non contengono informazione rilevanti per i supervisori, infatti nel nuovo design saranno presenti dei simboli che descrivono i contenuti del gioco (es: limiti di età, violenza, presenza di armi, ecc).
+
+
+    \section{Blueprints}
+
 \end{document}
