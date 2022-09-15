@@ -231,7 +231,101 @@
         \item nascondere i giochi che presentano determinate caratteristiche (es. presenza di armi, violenza, mostri)
         \item selezionare sono alcune caratteristiche di giochi (es. giochi logici o matematici)
     \end{itemize}
-    \section{Blueprints}
     
+    \section{Blueprints}
+    All'interno dei Blueprint distinguiamo come mostrato nella legenda sottostante le pagine, i componenti e le parti che andremo a definire in un blueprint in una fase successiva.
+    \begin{figure}[H]
+        \includegraphics[height=5cm]{Legenda.png}
+        \centering
+    \end{figure}
 
+    Partendo da ció, partiamo dalla Home Page distinguendo se é l'utente ha eseguito il login o meno.
+    Illustriamo cosi, tutte le sue componenti ed espandiamo successivamente le pagine più importanti.
+
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_homepage non loggato.png}
+        \centering
+        \caption{Blueprint Homepage: Utente non loggato}
+    \end{figure}
+
+    L'\textbf{Header} invece avrá la struttura seguente:
+    
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_HeaderNOLOG.png}
+        \centering
+        \caption{Blueprint Header: Utente non loggato}
+    \end{figure}
+
+
+    Nel caso l'utente effettui il login terremo in considerazione il seguente Blueprint:
+
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_homepage loggato.png}
+        \centering
+        \caption{Blueprint Homepage: Utente loggato}
+    \end{figure}
+
+
+    Andremo ad espandere successivamente l'\textbf{Header} della pagina come segue:
+
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_HeaderLog.png}
+        \centering
+        \caption{Blueprint Header: Utente loggato}
+    \end{figure}
+
+    Nell'Header troviamo componenti quali: la ricerca, il pulsante che ti permette di accedere al profilo(poiché ricordiamo che l'utente ha eseguito l'accesso), il menu contenente tutte le categorie e che possono riferirsi direttamente a una pagina contenente il \textbf{Gioco}.\\
+
+    Per eseguire l'accesso é necessario passare attraverso un meccanismo di login/registrano illustrato come segue, che al termine in caso di successo verrá reindirizzato alla HomePage (loggato):
+
+    \begin{figure}[H]
+        \includegraphics[width=.6\linewidth]{BP_registrazione login.png}
+        \centering
+        \caption{Blueprint Login/Registrazione}
+    \end{figure}
+
+    Espandiamo ora il \textbf{Footer} che contiene la pagina relativa alle FAQ e alle informazioni della azienda; inoltre un componente che ti permette di cambiare la lingua del sito e ti reindirizza alla homepage con la lingua modificata.
+    \begin{figure}[H]
+        \includegraphics[width=.8\linewidth]{BP_footer.png}
+        \centering
+        \caption{Blueprint Footer}
+    \end{figure}
+
+    Nell'\textbf{Header} troviamo lo strumento per effettuare una ricerca che mostrerá come risultati una lista di giochi ai quali é possibile accedere.
+    \begin{figure}[H]
+        \includegraphics[width=.8\linewidth]{BP_RisultatiRicerca.png}
+        \centering
+        \caption{Blueprint Risultati Ricerca}
+    \end{figure}
+
+    Troviamo sempre nell'Header 
+    La pagina dei \textbf{Giochi} conterrá oltre la possibilitá di giocare anche una descrizione e una sezione commenti in cui tutti gli utenti possono discuterlo.
+    Il componente spiegazione é solitamente un video-tutorial del gioco.
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_Gioco.png}
+        \centering
+        \caption{Blueprint Gioco}
+    \end{figure}
+
+    L'\textbf{Area Riservata} riferito al profilo dell'utente contiene oltre all'Header e Footer, componenti quali la lista dei preferiti, degli amici e una sezione dedicata alle conversazioni. 
+    É possibile inoltre accedere alle pagine delle impostazione, del parental control e alla modifica dell'immagine del profilo. 
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{BP_profilo.png}
+        \centering
+        \caption{Blueprint Area Riservata}
+    \end{figure}
+
+
+    É Possibile accedere a una pagina relativa alle lista di categorie, che conterra sempre Header e Footer, dalla quale é possibile accedere ad un'ulteriore pagina relativa ad una determinata sottocategoria.
+    \begin{figure}[H]
+        \includegraphics[width=.7\linewidth]{BP_listaCategoria.png}
+        \centering
+        \caption{Blueprint Lista di Categoria}
+    \end{figure}
+    Queste sottocategorie conterranno una lista di giochi appartenenti a quella determinata classe.
+    \begin{figure}[H]
+        \includegraphics[width=.7\linewidth]{BP_ListaGiochiPerSottocategoria.png}
+        \centering
+        \caption{Blueprint Lista di giochi per sottocategoria}
+    \end{figure}
 \end{document}
