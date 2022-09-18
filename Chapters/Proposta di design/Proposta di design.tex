@@ -333,12 +333,13 @@
     Illustriamo qui di seguito i Wireframes delle schermate principali
 
     \subsection{Homepage}
-    \begin{wrapfigure}{l}{0.75\textwidth}
+    Dopo le nostre modifiche l'Homepage si presenterá cosi:
+
+    \begin{figure}[H]
+        \centering
         \includegraphics[width=\linewidth]{WHomepage.png}
         \caption{Wireframes per HomePage}
-    \end{wrapfigure}
-
-    Dopo le nostre modifiche l'Homepage si presenterá cosi:\\
+    \end{figure}
 
          L'\textbf{Header} é stato modificato rendendolo piú semplice e minimale. Il menú é stato totalmente rimpiazzato dalla Toast Icon, il pannello di ricerca verrá mostrato solo al click nell'apposita icona\\
          
@@ -362,6 +363,7 @@
     Durante la digitazione verranno mostrati i risultati piu pertinenti rispetto a quella ricerca, in caso non fossero sufficienti il bottone 'Mostra altri risultati' reindirizzerá alla pagina contenti tutti i risultati di quella ricerca(Vedi Wireframe Successivo)
 
     \begin{figure}[H]
+        \hspace{-1.5cm}
         \begin{minipage}[b]{8cm}
             \centering
             \includegraphics[width=8cm]{WEmpySearchResult.png}
@@ -374,5 +376,101 @@
     \end{figure}
     Qualora la ricerca non desse risultati verrá mostrata la pagina di sinistra dove in basso troviamo altri titoli che possono piacere.
     Se la ricerca invece ha dato un numero di risultati, questo lo troveremo in alto a destra insieme al numero di pagina. Troviamo inoltre 2 pulsanti per il filtro e l'ordinamento(nella vecchia versione del sito non erano presenti) e in basso troviamo due liste di giochi 'Suggeriti' qualora l'utente non sia soddisfatto dei risultati della ricerca.
+
+    \subsection{Menu}
+    Da modificare   
     
+    \subsection{Categoria}
+    Da aggiungere
+
+    \subsection{Gioco}
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WGioco_1.png}
+        \centering
+    \end{figure}
+    In primo piano abbiamo il riquadro di gioco, che è possibile ingrandire tramite il pulsante laterale di full screen in basso a destra. Abbiamo spostato la barra laterale dei pulsanti a sinistra e cambiato il pulsante dei preferiti (usando un cuore) rendendolo coerente con quello dei giochi preferiti all'interno della sezione profilo. Gli altri pulsanti rimandano a delle sotto sezioni della schermata di gioco cioè, seguendo l'ordine, quella della descrizione del gioco, dei commenti e del video tutorial del gioco.\\
+    \\
+    Rispetto al vecchio design, abbiamo tenuto soltanto la sezione orizzontale dei giochi correlati, eliminando anche quella laterale verticale, fatto per diminuire il carico cognitivo dell'utente.\\
+
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WGioco_2.png}
+        \centering
+    \end{figure}
+
+    La sotto sezione della descrizone del gioco e quella del video tutorial sono rimaste invariate, nella prima verrà descritto lo scopo del gioco e i comandi da utilizzare per giocarci. Anche la parte dei commenti rimane pressoché invariata, se non per qualche modifica dei pulsanti per renderla più intuitiva e, ovviamente, per utilizzarla bisogna eseguire l'accesso al profilo. Con essa è possibile scrivere commenti e rispondere ad essi )(creando delle conversazioni), mettere like o dislike a commenti di altre persone, condividerli o segnalarli (tramite il pulsante dei tre puntini).
+
+
+    \subsection{Profilo}
+    La sezione profilo è stata totalmente ridisegnata, in questo modo:
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WProfile.png}
+        \centering
+    \end{figure}
+    
+    Possiamo vederla come quattro sotto sezioni:
+    \begin{enumerate}
+        \item Immagine del profilo con i pulsanti impostazioni e parental control
+        \item Conversazioni attive
+        \item Lista di amici con i pulsanti di aggiunta amico e mostra tutti
+        \item Lista delle card dei giochi preferiti con il pulsante "mostra tutti".
+    \end{enumerate}
+
+    \subsubsection{Sotto sezione 1}
+    Qui è contenuta l'immagine del profilo, modificabile, infatti al click sulla matita verremo spostati nella seguente schermata di modifica dell'immagine:
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WImageProfile.png}
+        \centering
+    \end{figure}
+    Dove sarà possibile selezionare un avatar di quelli già presenti oppure caricare un'immagine localmente e salvare.\\
+    \\
+    Inoltre, in questa sotto sezione, ci sono anche i due pulsanti "impostazioni" e "parental control", dove il primo ci condurrà alla seguente schermata:
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WImpostazioni.png}
+        \centering
+    \end{figure}
+    Dove sarà possibile aggiornare i propri dati personali, come nome utente, e-mail e password (nella vecchia versione era possibile modificare solo la password), modificare le impostazioni di privacy (chi può visualizzare il profilo), scaricare i dati personali raccolti su Gioco.it ed eliminare l'account.\\
+    \\
+    Mentre il secondo pulsante (parental control) ci condurrà ad una nuova schermata di impostazioni per i supervisori che vedremo più avanti (sezione \ref{section: parental control}).
+
+
+    \subsubsection{Sotto sezione 2}
+    In questa sotto sezione abbiamo, in ordine cronologico, le ultime conversazioni attive a cui abbiamo partecipato.
+
+    \subsubsection{Sotto sezione 3}
+    In questa sotto sezione si possono vedere gli ultimi amici aggiunti e c'è la possibilità, con due pulsanti diversi, di aggiungerne altri o mostrarli tutti.
+    Nel caso si volessero vedere tutti gli amici si vedrà modificarsi la sezione corrente con una tab bar a tre tab:
+    
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WAmici1.png}
+        \centering
+    \end{figure}
+
+    Dove, in questa prima tab, vengono mostrati tutti gli amici con anche la possibilità di ricercarli per nome, cancellarli ed aggiungerne altri.
+
+    \begin{figure}[H]
+        \hspace{-1.5cm}
+        \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WAmici2.png}
+            \end{minipage}
+            \ \hspace{2mm} \hspace{3mm} \
+            \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WAmici3.png}
+        \end{minipage}
+    \end{figure}
+
+    Nella seconda tab è possibile visualizzare le richieste d'amicizia inviate e decidere se annullarle, mentre nella terza è possibile visualizzare quelle ricevute e decidere se accettarle.
+
+    \subsubsection{Sotto sezione 4}
+    In questa sotto sezione si possono visualizzare le card degli ultimi giochi inseriti tra i preferiti. Nel caso volessimo visualizzarli tutti basterà fare click sul pulsante "Mostra Tutti" ed esso ci condurrà ad una nuova schermata:
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WPreferiti.png}
+        \centering
+    \end{figure}
+    Qui sarà possibile scorrerli tutti, visualizzarne solo alcuni in base a dei filtri, giocarci e levarli dai preferiti.
+
+    \subsection{Parental Control}
+    \label{section: parental control}
+
 \end{document}
