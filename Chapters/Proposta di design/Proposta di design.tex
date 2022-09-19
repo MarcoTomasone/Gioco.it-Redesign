@@ -337,7 +337,7 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=\linewidth]{WHomepage.png}
+        \includegraphics[width=10cm]{WHomepage.png}
         \caption{Wireframes per HomePage}
     \end{figure}
 
@@ -374,14 +374,32 @@
             \includegraphics[width=8cm]{WSearchResult.png}
         \end{minipage}
     \end{figure}
-    Qualora la ricerca non desse risultati verrá mostrata la pagina di sinistra dove in basso troviamo altri titoli che possono piacere.
+    Qualora la ricerca non desse risultati verrà mostrata la pagina di sinistra dove in basso troviamo altri titoli che possono piacere.
     Se la ricerca invece ha dato un numero di risultati, questo lo troveremo in alto a destra insieme al numero di pagina. Troviamo inoltre 2 pulsanti per il filtro e l'ordinamento(nella vecchia versione del sito non erano presenti) e in basso troviamo due liste di giochi 'Suggeriti' qualora l'utente non sia soddisfatto dei risultati della ricerca.
 
     \subsection{Menu}
     Da modificare   
     
-    \subsection{Categoria}
-    Da aggiungere
+    \subsection{Categoria e sottocategorie}
+    La schermata che si presenta dopo aver selezionato una categoria dal menu è la Figura \ref{fig: categoria}
+    \begin{figure}[H]
+        \hspace{-1.5cm}
+        \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WCategorySection.png}
+            \caption{Schermata della categoria}
+            \label{fig: categoria}
+            \end{minipage}
+            \ \hspace{2mm} \hspace{3mm} \
+            \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WSubcategorySection.png}
+            \caption{Schermata delle sottocategorie}
+            \label{fig: sottocategorie}
+        \end{minipage}
+    \end{figure}
+    Come si può vedere, questa schermata ha un design abbastanza semplice ed intuitivo. Per ogni categoria ci sono delle varie sottocategorie e si possono visualizzare tutti i giochi per sottocategoria sia facendo click sulle freccette laterali e si facendo click sul nome della sottocategoria, in tal caso verremo spostati su di una nuova schermata (Figura \ref{fig: sottocategorie}). Nella schermata delle sottocategorie sarà possibile visualizzare tutti i vari giochi scorrendo le pagine di essi e visualizzarli in base a diversi filtri.
+
 
     \subsection{Gioco}
     \begin{figure}[H]
@@ -397,10 +415,11 @@
         \centering
     \end{figure}
 
-    La sotto sezione della descrizone del gioco e quella del video tutorial sono rimaste invariate, nella prima verrà descritto lo scopo del gioco e i comandi da utilizzare per giocarci. Anche la parte dei commenti rimane pressoché invariata, se non per qualche modifica dei pulsanti per renderla più intuitiva e, ovviamente, per utilizzarla bisogna eseguire l'accesso al profilo. Con essa è possibile scrivere commenti e rispondere ad essi )(creando delle conversazioni), mettere like o dislike a commenti di altre persone, condividerli o segnalarli (tramite il pulsante dei tre puntini).
+    La sotto sezione della descrizione del gioco e quella del video tutorial sono rimaste invariate, nella prima verrà descritto lo scopo del gioco e i comandi da utilizzare per giocarci. Anche la parte dei commenti rimane pressoché invariata, se non per qualche modifica dei pulsanti per renderla più intuitiva e, ovviamente, per utilizzarla bisogna eseguire l'accesso al profilo. Con essa è possibile scrivere commenti e rispondere ad essi )(creando delle conversazioni), mettere like o dislike a commenti di altre persone, condividerli o segnalarli (tramite il pulsante dei tre puntini).
 
 
     \subsection{Profilo}
+    \label{section: profilo}
     La sezione profilo è stata totalmente ridisegnata, in questo modo:
     \begin{figure}[H]
         \includegraphics[width=10cm]{WProfile.png}
@@ -472,5 +491,30 @@
 
     \subsection{Parental Control}
     \label{section: parental control}
+    Per accedere alla sezione "Parental Control", tramite la schermata Profilo \ref{section: profilo}, servirà la password di accesso del supervisore (impostata durante la fase di registrazione) come si può vedere nell'immagine seguente
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WParentalControlAcces.png}
+        \centering
+    \end{figure}
 
+    Dopo aver inserito la password con successo verrà presentata la schermata finale di questa sezione (Figura \ref{fig: parental control})
+    \begin{figure}[H]
+        \hspace{-1.5cm}
+        \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WParentalControl.png}
+            \caption{Parental control}
+            \label{fig: parental control}
+            \end{minipage}
+            \ \hspace{2mm} \hspace{3mm} \
+            \begin{minipage}[b]{8cm}
+            \centering
+            \includegraphics[width=8cm]{WParentalControlDialog.png}
+            \caption{Dialog categorie}
+            \label{fig: parental control dialog}
+        \end{minipage}
+    \end{figure}
+
+    Come si può vedere è possibile impostare dei limiti al giocatore come il tempo di utilizzo sul sito, l'età, vietare determinate categorie e limitare a mostrare giochi di alcune categorie.\\
+    Quando si cerca di aggiungere una nuova categoria da vietare o da mostrare, dopo il click sul pulsante "+", si aprirà una dialog (Figura \ref{fig: parental control dialog}) che permetterà di cercare e selezionare la nuova categoria da aggiungere semplicemente facendo click sul pulsante "+".
 \end{document}
