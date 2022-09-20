@@ -497,24 +497,34 @@
         \centering
     \end{figure}
 
-    Dopo aver inserito la password con successo verrà presentata la schermata finale di questa sezione (Figura \ref{fig: parental control})
-    \begin{figure}[H]
-        \hspace{-1.5cm}
-        \begin{minipage}[b]{8cm}
+    Nel caso la password per il parental control non sia impostata si accederá direttamente dall'icona del profilo, altrimenti dopo aver inserito la password con successo verrà presentata la schermata finale di questa sezione (Figura \ref{fig: parental control})
+        \begin{figure}[H]
             \centering
-            \includegraphics[width=8cm]{WParentalControl.png}
+            \includegraphics[width=\textwidth]{WParentalControl.png}
             \caption{Parental control}
             \label{fig: parental control}
-            \end{minipage}
-            \ \hspace{2mm} \hspace{3mm} \
-            \begin{minipage}[b]{8cm}
+        \end{figure}
+        Dove nella prima parte troviamo l'attivazione o meno del Parental Control stesso, in caso l'opzione sia sul 'No' tutti gli altri campi verrebbero oscurati.
+        In seguito troviamo la possibilitá di modificare e visualizzare la password ed infine una serie di limitazioni che possono venire incontro all'utente supervisore.
+        Come si può vedere è possibile impostare dei limiti al giocatore come il tempo di utilizzo sul sito, l'età, vietare determinate categorie e limitare a mostrare giochi di alcune categorie.\\
+        \begin{figure}[H]
             \centering
-            \includegraphics[width=8cm]{WParentalControlDialog.png}
+            \includegraphics[width=\textwidth]{WParentalControlDialog.png}
             \caption{Dialog categorie}
             \label{fig: parental control dialog}
-        \end{minipage}
-    \end{figure}
+        \end{figure}
 
-    Come si può vedere è possibile impostare dei limiti al giocatore come il tempo di utilizzo sul sito, l'età, vietare determinate categorie e limitare a mostrare giochi di alcune categorie.\\
-    Quando si cerca di aggiungere una nuova categoria da vietare o da mostrare, dopo il click sul pulsante "+", si aprirà una dialog (Figura \ref{fig: parental control dialog}) che permetterà di cercare e selezionare la nuova categoria da aggiungere semplicemente facendo click sul pulsante "+".
+    Quando si cerca di aggiungere una nuova categoria da vietare o da mostrare, dopo il click sul pulsante "+", si aprirà una dialog (Figura \ref{fig: parental control dialog}) che permetterà di cercare e selezionare la nuova categoria da aggiungere semplicemente facendo click sul pulsante "+".\\
+    
+    \newpage
+
+    \subsubsection{Login e Registrazione}
+
+    \begin{wrapfigure}{r}{0.3\textwidth}
+        \includegraphics[height=.8\textheight]{WRegisterLogin.png}
+    \end{wrapfigure}
+        
+    La login secondo la nostra proposta rimane invariata, viene pero cambiata la parte di Registrazione dovendo andare ad impostare anche i controlli per impostare o meno la password per il parental control.\\
+    Come vediamo nel 'Callout' 1, se l'utente inserisce una data di nascita in cui l'utente é minorenne l'opzione sará impostata di default a 'sí' altrimenti verrá impostato di default a 'no' perché se un adulto vuole creare un account per un bambino deve avere comunque la possibilitá di settare il parental control.
+
 \end{document}
