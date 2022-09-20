@@ -1,5 +1,6 @@
 \documentclass[../Report.tex]{subfiles}
 \usepackage[italian]{babel}
+\graphicspath{ {../../Images/} }
 
 \begin{document}
     \chapter{Valutazione delle risorse esistenti}
@@ -169,8 +170,14 @@
     \end{enumerate}
 
     Partiamo dalla Home Page:
-%IMMAGINE 1%
-%IMMAGINE 2%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment1.png}
+        \centering
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment2.png}
+        \centering
+    \end{figure}
 
     Un errore visibile è che il pulsante “Nuovo” nel banner superiore della Home Page è l’unico che a differenza degli altri pur puntandolo col mouse non apre un dialog con dei giochi consigliati in quella categoria. Inoltre, cliccando le categorie su quel banner con una frequenza abbastanza alta viene aperta la pagina della lista delle categorie su una categoria diversa da quella cliccata.
 
@@ -198,11 +205,19 @@
     \subsubsection{Ricerca}
     Analizzeremo ora la barra di ricerca ed il suo funzionamento valutando il rispetto delle 18 euristiche di ricerca trovate. Alleghiamo uno screenshot di tre ricerche, una andata a buon fine, una che non produce risultati ed una che ritorna tanti risultati.
 
-    %IMMAGINE 3%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment3.png}
+        \centering
+    \end{figure}
 
-    %IMMAGINE 4%
-
-    %IMMAGINE 5%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment4.png}
+        \centering
+    \end{figure}
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment5.png}
+        \centering
+    \end{figure}
 
     4. \textbf{La ricerca dei risultati rende chiaro quanti risultati sono stati trovati ed il numero di risultati per pagine può essere modificato da parte degli utenti} \\
     Non è possibile modificare il numero di risultati per pagina\\
@@ -226,16 +241,23 @@
 
     Mostriamo ora un errore 404 del sito. Come è possibile vedere il sito offre un messaggio di errore personalizzato oltre che dei consigli di giochi alternativi. 
     
-    %IMMAGINE 6 %
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment6.png}
+        \centering
+    \end{figure}
 
 
 
-    %IMMAGINE 7%
-
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment7.png}
+        \centering
+    \end{figure}
     
 
-    %IMMAGINE 8%
-
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment8.png}
+        \centering
+    \end{figure}
     La schermata presenta inanzitutto la lista di tutti i giochi, non filtrabile nè ordinabile ed un testo descrittivo in basso, per il quale è necessario scrollare lo schermo. A destra inoltre vengono consigliate delle “Categorie correlate” che sono in realtà delle sottocategorie della macro-categoria di riferimento (“Azione” nel caso dello screen). Le euristiche violate in questo caso sono:
 
     \subsubsection{Task Orientation}
@@ -253,7 +275,10 @@
     13.\textbf{Le pagine sono libere da scroll stoppers (headings o parti dello schermo che fanno credere all’utente che abbiano finito di scrollare quando non è così)}\\
     Il contenuto testuale descrittivo di ogni categoria è posto sotto la griglia dei giochi e richiede scrolling verticale. Se un utente scrolla fino all’ultima riga di giochi visualizzata e la relativa barra di spostamento tra le varie pagine (in foto in basso) potrebbe credere che non ci siano più informazioni e fermare il suo scroll.
 
-    %IMMAGINE 9%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment9.png}
+        \centering
+    \end{figure}
 
     16.\textbf{ Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte}\\
     La parte descrittiva di una categoria è spesso troppo lunga e ripetiva. Il testo potrebbe essere fortemente riassunto e si potrebbe evitare di elencare i giochi. \\
@@ -261,15 +286,24 @@
     Inoltre, per ogni categoria il sito offre una lista di sottocategorie. Non sempre però queste sotto categorie corrispondono fra loro nelle varie parti in cui è possibile accederci. Riportiamo l’esempio dei giochi di sport. 
     Il primo caso in cui si può accedere ad una lista (o un estratto della lista) dei giochi di sport è dalla home page posizionando il mouse sulla categoria sport in alto. Come si può vedere anche il nome è “Categorie Top” che non rimanda al fatto che queste siano delle sottocategorie della macro-categoria “Sport”. 
     
-    %IMMAGINE 10%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment10.png}
+        \centering
+    \end{figure}
 
     Cliccando sul pulsante grigio “TUTTI I GIOCHI di Giochi di Sport” possiamo accedere al menù con la lista di tutte le sotto-categorie di ogni macro-categoria. 
 
-    %IMMAGINE 11%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment11.png}
+        \centering
+    \end{figure}
     
     Accedendo invece alla lista di tutti i giochi di Sport tramite la home page o tramite il titolo del menù con tutte le categorie e sottocategorie accediamo alla lista dei giochi di Sport vengono mostrate altre sotto-categorie, sempre mostrate con il nome “Categorie Collegate”. Come si può facilmente notare c’è una mancanza di coerenza tra le sottocategorie mostrate. Inoltre spesso, come nell’immagine qui di fianco per nomi di sottocategorie molto lunghi il nome non entra completamente nella card corrispondente lasciando incompleta la scritta.
 
-    %IMMAGINE 12 -- Multicol se si vuole mettere su due colonne%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment12.png}
+        \centering
+    \end{figure}
 
     \subsubsection{Schermata di login e registrazione}
 
@@ -279,10 +313,15 @@
     \subsubsection{Profilo}
     La schermata profilo è formata da ulteriori sottomenù.
 
-    %IMMAGINE 13%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment13.png}
+        \centering
+    \end{figure}
 
-    %IMMAGINE 14%
-
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment14.png}
+        \centering
+    \end{figure}
     Questa sezione del menù comprende l’immagine del profilo, un bottone che permette di visualizzare come il nostro profilo appare ad altri utenti poi un menù formato da cinque tab che permettono di spostarsi all’interno di tutte le aree del profilo. Infine la sezione profilo contiene una sezione nella quale dovrebbe essere possibile postare dei commenti, i quali non è chiaro dove finiscano. Questa sezione viene 4/5 volte sostituita da un messaggio di errore. Poi c’è un link ai giochi preferiti dell’utente, accessibili anche tramite il tasto sui tab. \\
     Le violazioni commesse in questo caso sono: \\
 
@@ -293,19 +332,31 @@
     8.\textbf{ Un utente che visita il sito per la prima volta capisce come fare i task senza assistenza}\\
     Non è assolutamente chiaro dove vengano postati i commenti scritti in questa parte del sito. Per capirlo un utente necessita assistenza.\\
 
-    %IMMAGINE 15%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment14.png}
+        \centering
+    \end{figure}
 
     La sezione dei preferiti contiene invece solo la lista dei giochi preferiti. E’ possibile accedervi ed eliminarli dalla lista. Non abbiamo riscontrato delle violazioni in questa parte.
 
-    %IMMAGINE 16%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment15.png}
+        \centering
+    \end{figure}
 
     La sezione amici si divide in tre sotto tabs, nelle quali è possibile vedere la lista di amici, le richieste di amicizia inviate e quelle ricevute. Inoltre permette con un semplice bottone di inviare delle richieste di amicizia. Anche in questo caso non abbiamo trovato delle violazioni. 
 
-    %IMMAGINE 17%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment16.png}
+        \centering
+    \end{figure}
 
     La schermata avatar invece permette di modificare l’avatar dell’account con degli avatar preimpostati del sito. Anche in questo caso non abbiamo trovato delle importanti violazioni. Non è però possibile rimuovere l’immagine del profilo dopo averne messo una (tornando quindi ad un account senza avatar) e non è possibile caricare un’immagine del profilo a proprio piacimento. 
 
-    %IMMAGINE 18%
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment17.png}
+        \centering
+    \end{figure}
 
     Per quanto riguarda la sezione impostazioni possiamo trovare delle violazioni.
     Innanzitutto la sezione “Aggiorna Informazioni” si riferisce solo all’aggiornamento della password, il titolo può essere quindi motivo di confusione negli utenti. La scritta inoltre “La password” è totalmente inutile poichè non c’è nessun modo di visionare la password.
@@ -322,8 +373,10 @@
     Nel banner superiore non sono presenti tutte le categorie e/o un bottone/menù per accedere alla lista delle categorie. Per accedere alla lista di tutte le categorie è necessario accedere alla lista di sotto-categorie di una categoria. 
     Un’altro errore riscontrato è la violazione dell’euristica di coerenza, nell’immmagine rappresentante i giochi preferiti, per i quali una volta viene utilizzata una stella nella schermata di un gioco mentre nel menù viene utilizzato un cuore.
 
-    %IMMAGINE 19%
-
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{Assestment18.png}
+        \centering
+    \end{figure}
     \section{Reverse Analysis: Linee guida vs Sistema}
     \subsubsection{Home Page}
     1.\textbf{Gli elementi della home page sono chiaramente focalizzati sui compiti chiave degli utenti (è stata evitata la "featurite") }\\
@@ -566,7 +619,17 @@
     
     Si è quindi riscontrato una certa difficoltà da parte degli utenti nell’utilizzo dei menù per la modifica e la gestione del profilo e delle informazioni ad esso relative. 
     Gli utenti hanno, inoltre,dichiarato un certo senso di difficoltà nella home page del sito poichè troppo ricca di contenuti.
-    
+    \subsection{Lista errori}
+    Elenchiamo di seguito quindi tutti gli errori riscontrati, con la loro frequenza e la loro criticità:
+    \begin{table}[H]
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Errore} & \textbf{Frequenza} & \textbf{Classificazione} \\
+            \hline
+            
+            \hline
+        \end{tabular}
+    \end{table}
     \subsubsection{Urgency curves}
     Utilizzando i risultati del test dell'utente, possiamo definire le seguenti curve di urgenza dell'impatto, in cui è quantificato l’impatto in relazione alla frequenza o la persistenza degli errori, individuati dall'utente nella fase di test. La linea rossa, nel grafico, costituisce una soglia fissa: gli errori al di sopra della soglia devono essere corretti il prima possibile.     
 
