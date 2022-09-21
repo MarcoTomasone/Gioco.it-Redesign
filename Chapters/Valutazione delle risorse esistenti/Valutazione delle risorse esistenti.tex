@@ -5,15 +5,10 @@
 \begin{document}
     \chapter{Valutazione delle risorse esistenti}
     \section{Inspezione}
-    In questa sezione analizzeremo dettagliatamente il sito Gioco.it al fine di individuare le criticità che prevengono un utilizzo proficuo e soddisfacente da parte del target di riferimento. Il primo passo consiste nella scelta delle linee guida di design che fungeranno da punto di riferimento per l’intero team di sviluppo durante la valutazione interna. Una volta individuate le eventuali violazione delle linee guida da parte del team, il sito sarà sottoposto all’utilizzo di utenti reali durante l’espletamento delle loro mansioni. Lo scopo è quello di analizzare il comportamento dei reali utilizzatori della piattaforma, comprendere le dinamiche di interazione ed evidenziare ulteriori criticità non individuate dal solo team di sviluppo. Infine, verr`a presentata una sintesi degli errori riscontrati, insieme alla loro frequenza e al loro impatto sull’esperienza utente. Questa diventerà la base per la riprogettazione del portale nelle successive fasi. 
+    In questa sezione analizzeremo dettagliatamente il sito Gioco.it al fine di individuare le criticità che prevengono un utilizzo proficuo e soddisfacente da parte del target di riferimento. Il primo passo consiste nella scelta delle linee guida di design che fungeranno da punto di riferimento per l’intero team di sviluppo durante la valutazione interna. Una volta individuate le eventuali violazione delle linee guida da parte del team, il sito sarà sottoposto all’utilizzo di utenti reali durante l’espletamento delle loro mansioni. Lo scopo è quello di analizzare il comportamento dei reali utilizzatori della piattaforma, comprendere le dinamiche di interazione ed evidenziare ulteriori criticità non individuate dal solo team di sviluppo. Infine, verrà presentata una sintesi degli errori riscontrati, insieme alla loro frequenza e al loro impatto sull’esperienza utente. Questa diventerà la base per la riprogettazione del portale nelle successive fasi. 
 
     \subsection{Scelta delle linee guida}
-    Le linee guida sono state scelte a partire da:
-    \begin{itemize}
-        \item Le 10 euristiche di nielsen 
-        \item le 20 euristiche di weinshersk
-        \item le linee guida di userfocus.co.uk che offre 247 linee guida divise in 7 sezioni
-    \end{itemize}
+    Le linee guida sono state scelte a partire dalle linee guida di userfocus.co.uk che offre 247 linee guida divise in 7 sezioni.
 
     Da queste 247 linee guida sono state estrapolate quelle più utili alla causa. Ottenendo questa lista:
 
@@ -146,7 +141,7 @@
         
     \end{enumerate}
 
-    \subsection{Le euristiche di Nielsen }
+    \subsubsection{Le euristiche di Nielsen }
     \begin{enumerate}
         \item Visibilità dello stato del sistema 
         \item Corrispondenza tra sistema e mondo reale
@@ -157,17 +152,15 @@
         \item Flessibilità ed efficenza d’uso 
         \item Estetica e design minimalista
         \item Aiuta gli utenti a riconoscere e diagnosticare gli errori 
-        \item Aiuto e documentazione
-        
+        \item Aiuto e documentazione    
     \end{enumerate}
-    
-
-    \subsection{Le euristiche di ambito}
+    \subsubsection{Le euristiche di ambito}
     Sono delle euristiche selezionate da noi che valgono nel contesto preciso di un sito di giochi per bambini e ragazzi.
     \begin{enumerate}
         \item Il sito deve correttamente vietare di giocare ad utenti che non rispettano il vincolo di età
-        \item Analizzeremo adesso ogni schermata della pagin gioco.it per andare a valutare se rispettano o meno queste euristiche.
     \end{enumerate}
+    \subsection{Analisi Diretta: Sistema contro linee guida}
+    Analizzeremo adesso ogni schermata del sito Gioco.it per andare a valutare se rispettano o meno queste euristiche.
 
     Partiamo dalla Home Page:
     \begin{figure}[H]
@@ -179,7 +172,7 @@
         \centering
     \end{figure}
 
-    Un errore visibile è che il pulsante “Nuovo” nel banner superiore della Home Page è l’unico che a differenza degli altri pur puntandolo col mouse non apre un dialog con dei giochi consigliati in quella categoria. Inoltre, cliccando le categorie su quel banner con una frequenza abbastanza alta viene aperta la pagina della lista delle categorie su una categoria diversa da quella cliccata.
+    Un errore visibile è che il pulsante “Nuovo” nel banner superiore della Home Page è l’unico che a differenza degli altri pur puntandolo col mouse non apre un dialog con dei giochi consigliati in quella categoria. Inoltre, cliccando le categorie su quel banner con una frequenza abbastanza alta viene aperta la pagina della lista delle categorie su una categoria diversa da quella cliccata. Le euristiche violate sono:
 
     \subsubsection{Home Page}
         1. \textbf{ Gli elementi della home page sono chiaramente focalizzati sui compiti chiave degli utenti (è stata evitata la "featurite")}.\\
@@ -189,8 +182,8 @@
         Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.
 \\ Non tutte le categorie sono visibile nella home page e non c’è un pulsante per accedere alla lista delle categorie.    
     \subsubsection{Navigation \& AI }
-    3. Il sistema di navigazione è broad and shallow piuttosto che deep, quindi ci sono più oggetti su un menù piuttosto che piu livelli annidati  
- 	Ci sono dei sottomenù evitabili 
+    3. \textbf{Il sistema di navigazione è broad and shallow piuttosto che deep, quindi ci sono più oggetti su un menù piuttosto che piu livelli annidati\\} 
+ 	Ci sono dei sottomenù evitabili. 
 
     \subsubsection{Page Layout e Visual Design}
     6. \textbf{Gli ipertesti sono facilmente riconoscibili senza necessità della sottolineature. }\\
@@ -246,7 +239,7 @@
         \centering
     \end{figure}
 
-
+    \textbf{Pagina di categoria di giochi}
 
     \begin{figure}[H]
         \includegraphics[width=\linewidth]{Assestment7.png}
@@ -258,7 +251,7 @@
         \includegraphics[width=\linewidth]{Assestment8.png}
         \centering
     \end{figure}
-    La schermata presenta inanzitutto la lista di tutti i giochi, non filtrabile nè ordinabile ed un testo descrittivo in basso, per il quale è necessario scrollare lo schermo. A destra inoltre vengono consigliate delle “Categorie correlate” che sono in realtà delle sottocategorie della macro-categoria di riferimento (“Azione” nel caso dello screen). Le euristiche violate in questo caso sono:
+    La schermata presenta innanzitutto la lista di tutti i giochi, non filtrabile nè ordinabile e un testo descrittivo in basso, per il quale è necessario scrollare lo schermo. A destra inoltre vengono consigliate delle “Categorie correlate” che sono in realtà delle sottocategorie della macro-categoria di riferimento (“Azione” nel caso dello screen). Le euristiche violate in questo caso sono:
 
     \subsubsection{Task Orientation}
     2.\textbf{Le informazioni vengono presentate in un ordine facile e logico e naturale}\\
@@ -297,17 +290,16 @@
         \includegraphics[width=\linewidth]{Assestment11.png}
         \centering
     \end{figure}
-    
-    Accedendo invece alla lista di tutti i giochi di Sport tramite la home page o tramite il titolo del menù con tutte le categorie e sottocategorie accediamo alla lista dei giochi di Sport vengono mostrate altre sotto-categorie, sempre mostrate con il nome “Categorie Collegate”. Come si può facilmente notare c’è una mancanza di coerenza tra le sottocategorie mostrate. Inoltre spesso, come nell’immagine qui di fianco per nomi di sottocategorie molto lunghi il nome non entra completamente nella card corrispondente lasciando incompleta la scritta.
-
-    \begin{figure}[H]
+    \begin{wrapfigure}{r}{0.45\linewidth}
         \includegraphics[width=\linewidth]{Assestment12.png}
         \centering
-    \end{figure}
+    \end{wrapfigure}
+    Accedendo invece alla lista di tutti i giochi di Sport tramite la home page o tramite il titolo del menù con tutte le categorie e sottocategorie accediamo alla lista dei giochi di Sport vengono mostrate altre sotto-categorie, sempre mostrate con il nome “Categorie Collegate”. Come si può facilmente notare c’è una mancanza di coerenza tra le sottocategorie mostrate. Inoltre spesso, come nell’immagine qui di fianco per nomi di sottocategorie molto lunghi il nome non entra completamente nella card corrispondente lasciando incompleta la scritta.
+
+    \newpage
 
     \subsubsection{Schermata di login e registrazione}
-
-    La schermata di log in e registrazione si presenta come una schermata classica che permette l’accesso  e la registrazione tramite facebook, google o la classica tramite email e informazioni personali.
+    La schermata di log in e registrazione si presenta come una schermata classica che permette l’accesso  e la registrazione tramite Facebook, Google o la classica tramite email e informazioni personali.
     Non abbiamo riscontrato violazioni o problemi. 
 
     \subsubsection{Profilo}
@@ -322,15 +314,12 @@
         \includegraphics[width=\linewidth]{Assestment14.png}
         \centering
     \end{figure}
-    Questa sezione del menù comprende l’immagine del profilo, un bottone che permette di visualizzare come il nostro profilo appare ad altri utenti poi un menù formato da cinque tab che permettono di spostarsi all’interno di tutte le aree del profilo. Infine la sezione profilo contiene una sezione nella quale dovrebbe essere possibile postare dei commenti, i quali non è chiaro dove finiscano. Questa sezione viene 4/5 volte sostituita da un messaggio di errore. Poi c’è un link ai giochi preferiti dell’utente, accessibili anche tramite il tasto sui tab. \\
+    Questa sezione del menù comprende l’immagine del profilo, un bottone che permette di visualizzare come il nostro profilo appare ad altri utenti poi un menù formato da cinque tab che permettono di spostarsi all’interno di tutte le aree del profilo. Infine la sezione profilo contiene una sezione nella quale è possibile ricevere e rispondere a commenti con degli amici. Questa sezione viene spesso sostituita da un messaggio di errore. Poi c’è un link ai giochi preferiti dell’utente, accessibili anche tramite il tasto sui tab. \\
     Le violazioni commesse in questo caso sono: \\
 
     \subsubsection{Task Orientation}
     1.\textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
-        Non è chiaro in quale posto vengano postati i commenti. Se i giochi preferiti sono accessibili dal tab la sezione profilo rimane totalmente inutile.\\
-    
-    8.\textbf{ Un utente che visita il sito per la prima volta capisce come fare i task senza assistenza}\\
-    Non è assolutamente chiaro dove vengano postati i commenti scritti in questa parte del sito. Per capirlo un utente necessita assistenza.\\
+        C'è una ripetizione dei giochi preferiti, presenti e accessibili sia da questa sezione che dal tab preferiti. Inoltre la sezione commenti potrebbe essere confusionaria e irrilevante siccome non è presente un'organizzazione dei commenti.\\
 
     \begin{figure}[H]
         \includegraphics[width=\linewidth]{Assestment14.png}
@@ -370,7 +359,7 @@
     Il sito non permette di modificare nessun tipo di parametro operazionale. \\
 
     \subsubsection{Altri Problemi Riscontrati dall’Ispezione}
-    Nel banner superiore non sono presenti tutte le categorie e/o un bottone/menù per accedere alla lista delle categorie. Per accedere alla lista di tutte le categorie è necessario accedere alla lista di sotto-categorie di una categoria. 
+    Nel banner superiore non sono presenti tutte le categorie e/o un bottone o menù per accedere alla lista delle categorie. Per accedere alla lista di tutte le categorie è necessario accedere alla lista di sotto-categorie di una categoria. 
     Un’altro errore riscontrato è la violazione dell’euristica di coerenza, nell’immmagine rappresentante i giochi preferiti, per i quali una volta viene utilizzata una stella nella schermata di un gioco mentre nel menù viene utilizzato un cuore.
 
     \begin{figure}[H]
@@ -383,66 +372,42 @@
     La home page è troppo carica consiglia all’utente un numero esagerato di giochi a cui giocare. Inoltre alcune categorie sono nascoste e non accessibili a primo impatto dagli utenti. 
 
     \subsubsection{Task Orientation}
-    \begin{enumerate}
-        \item \textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
-            Il sito è troppo denso di informazioni, spesso inutili e ripetive. Molti giochi sono doppioni di altri che potrebbero essere accorpati in uno. La sezione profilo è totalmente inutle e non aggiunge nessuna informazione rilevante.  
-        \item \textbf{Le informazioni vengono presentate in un ordine facile e logico e naturale}\\
-        I risultati della ricerca non vengono riportati nè in ordine di rilevanza e popolarità del gioco, nè in ordine alfabetico e non c’è nessun pulsante di ordinamento. Lo stesso vale per la lista di categorie dei giochi. 
-        \item \textbf{Il sito richiede uno scrolling ed un clicking minimale }\\
-        La home page non è visibile senza scrolling verticale. 
-        \item \textbf{Quando una pagina presenta tante informazioni l’utente può filtrarle.}\\
-        L’utente non può filtrare in nessun modo, se non per categorie, i giochi. Anche i risultati della ricerca non sono filtrabili (e neanche ordinabili) in nessun modo.
-        \item \textbf{Il sito permette agli utenti di customizzare dei parametri di tempo operazionali (tempo di logoff, tempo d’uso ecc)}\\
+        1. \textbf{Il sito è libero da informazioni irrilevanti e che possono generare confusione}\\
+            Il sito è troppo denso di informazioni, spesso inutili e ripetive. Molti giochi sono doppioni di altri che potrebbero essere accorpati in uno. La sezione profilo è totalmente inutle e non aggiunge nessuna informazione rilevante.  \\
+        2. \textbf{Le informazioni vengono presentate in un ordine facile e logico e naturale}\\
+        I risultati della ricerca non vengono riportati nè in ordine di rilevanza e popolarità del gioco, nè in ordine alfabetico e non c’è nessun pulsante di ordinamento. Lo stesso vale per la lista di categorie dei giochi. \\
+        3. \textbf{Il sito richiede uno scrolling ed un clicking minimale }\\
+        La home page non è visibile senza scrolling verticale.\\ 
+        10. \textbf{Quando una pagina presenta tante informazioni l’utente può filtrarle.}\\
+        L’utente non può filtrare in nessun modo, se non per categorie, i giochi. Anche i risultati della ricerca non sono filtrabili (e neanche ordinabili) in nessun modo.\\
+        11. \textbf{Il sito permette agli utenti di customizzare dei parametri di tempo operazionali (tempo di logoff, tempo d’uso ecc)}\\
         Il sito non offre questa possibilità.
-    \end{enumerate}
-
+    
     \subsubsection{Navigation \& IA}
-    \begin{enumerate}
-        \item \textbf{Utenti possono ordinare e filtrare le pagine di categoria}\\In nessun caso gli utenti possono filtrare e ordinare i giochi.
-    \end{enumerate}
+        5. \textbf{Utenti possono ordinare e filtrare le pagine di categoria}\\In nessun caso gli utenti possono filtrare e ordinare i giochi.
+
 
     \subsubsection{Page Layout \& Visual Design}
-    \begin{enumerate}
-        \item La densità dello schermo è appropriata per il target degli utenti e per i loro task 
-        \item I font sono consistenti 
-        \item La relazione tra i controlli e la sua azione è ovvio 
-        \item C’è un chiaro punto di inizio visuale in ogni schermata 
-        \item I pulsanti ed i bottoni mostrano che sono stati cliccati 
-        \item C’è un buon bilanciamento tra contenuto informativo e spazi vuoti \\
+        9. \textbf{C’è un chiaro punto di inizio visuale in ogni schermata.}\\
+        Nella home page data la mancanza di uniformità della griglia gli utenti potrebbero incappare in errori di visualizzazione. Ad esempio pensando che i tre giochi centrali siano una categoria a parte, quando questo non è vero per la sezione gioca ora. \\
+        10. \textbf{I pulsanti ed i bottoni mostrano che sono stati cliccati.}\\
+        Il pulsante nuovo nella home page mostra di essere stato cliccato ma a differenza degli altri non apre nessuna dialog.\\
+        11.\textbf{C’è un buon bilanciamento tra contenuto informativo e spazi vuoti} \\
+        Nella home page, nelle pagine di ricerca e in quelle di categoria vengono mostrati troppi giochi, che rendono confusionario e difficile orientarsi.\\ 
+        12. \textbf{Il sito è piacevole alla vista.}\\
         Nella home page, nelle pagine di ricerca e in quelle di categoria vengono mostrati troppi giochi, che rendono confusionario e difficile orientarsi. 
-        \item Il sito è piacevole alla vista\\
-        Nella home page, nelle pagine di ricerca e in quelle di categoria vengono mostrati troppi giochi, che rendono confusionario e difficile orientarsi. 
-        \item Il grassetto è usato per riconoscere categorie importanti\\
-        Non sempre il grassetto è usato per le categorie 
-        \item Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte\\
-        A volte le descrizioni sono molto lunghe 
-        \item Le pagine sono state progettate con una griglia sottostante, con gli oggetti allineati orizzontalmente e verticalmente\\
-        La griglia della home page è asimmetrica.
-        \item Etichette significative, colori di sfondo efficaci e uso appropriato di bordi e spazi bianchi aiutano gli utenti a identificare un insieme di elementi come un blocco funzionale discreto.\\
-        \item Le singole pagine sono prive di informazioni irrilevanti e ingombranti \\
-        Spesso le descrizioni dei giochi contengono informazioni doppie.
+        15. \textbf{Il grassetto è usato per riconoscere categorie importanti}\\
+        Non sempre il grassetto è usato per le categorie. \\
+        16. \textbf{Nelle pagine di contenuto le linee di testo non sono nè troppo lunghe ne troppo corte\\}
+        A volte le descrizioni sono molto lunghe e fatte di contenuti inutili.\\
+        17. \textbf{Le pagine sono state progettate con una griglia sottostante, con gli oggetti allineati orizzontalmente e verticalmente}\\
+        La griglia della home page è asimmetrica.\\
+        20. \textbf{Le singole pagine sono prive di informazioni irrilevanti e ingombranti }\\
+        Spesso le descrizioni dei giochi contengono informazioni doppie o inutili.
         
-    \end{enumerate}
 
     \subsubsection{Ricerca}
-    \begin{enumerate}
-        \item \textbf{I risultati della ricerca sono chiari, utili e ordinati per rilevanza}\\
-        I risultati della ricerca non sono ordinati né per popolarità dei giochi, né per rilevanza alla ricerca né in ordine alfabetico e non c’è nessun modo per ordinarli. 
-
-        \item \textbf{La ricerca dei risultati rende chiaro quanti risultati sono stati trovati ed il numero di risultati per pagine può essere modificato da parte degli utenti} \\
-        Il numero di risultati per pagine non può essere modificato da parte degli utenti
-        \item \textbf{Se non vengono trovati risultati il sistema offre possibili miglioramenti alla query per ritrovare informazioni }\\
-        Il sistema non offre nessun tipo di miglioramento alle query
-        \item \textbf{Il sistema ha un sistema di ricerca più potente che permette di raffinare le query}\\
-        Il sistema non ha nessun motore di ricerca più potente.
-        \item \textbf{I risultati della ricerca offrono delle meta informazioni}\\
-        I risultati della ricerca riportano solo il nome e l’immagine del gioco. 
-        \item \textbf{La ricerca offre un check automatico oltre ad un controllo per plurali e sinonimi }\\
-        La ricerca non offre nessun check automatico.
-        \item \textbf{La ricerca offre un’opzione per risultati di similarità}\\
-        La ricerca non offre nessuna opzione per risultati di similarità.        
-    \end{enumerate}
-
+    Non sono stati riscontrati nuovi problemi.
 
     \subsubsection{Help, Feedback And Error Tolerance}
     \begin{enumerate}
@@ -478,26 +443,16 @@
     \end{enumerate}
 
     \subsubsection{Le euristiche di Nielsen \& le Euristiche di ambito}
-    \begin{enumerate}
-        \item Visibilità dello stato del sistema 
-        \item Corrispondenza tra sistema e mondo reale
-        \item Controllo e libertà dell’utente 
-        \item Consistenza e standard
-        \item Prevenzione degli errori 
-        \item Riconoscimento piuttosto che richiamo 
-        \item Flessibilità ed efficenza d’uso 
-        \item \textbf{Estetica e design minimalista}\\
-        Il design del sito è veramente ricco di elementi che generano confusione e difficoltà di scelta nell’utente. 
-        \item Aiuta gli utenti a riconoscere e diagnosticare gli errori 
-        \item Aiuto e documentazione
-        \item \textbf{Il sito deve correttamente vietare di giocare a determinati giochi ad utenti  registrati che non rispettano il vincolo di età.}\\
+        \textbf{Estetica e design minimalista}\\
+        Il design del sito è veramente ricco di elementi che generano confusione e difficoltà di scelta nell’utente.\\ 
+        \textbf{Il sito deve correttamente vietare di giocare a determinati giochi ad utenti  registrati che non rispettano il vincolo di età.}\\
         Non rispettato poichè pur creando un account con un’età inferiore a 18 anni è comunque permesso giocare a giochi 18+ come i giochi d’azzardo.
-    \end{enumerate}
 
     \section{Testing Utenti}
-    Abbiamo poi testato, per rilevare ulteriori problemi, l’applicativo gioco.it direttamente con gli utenti. Prima di tutto elenchiamo quello che è il protocollo del test:\\
-
-    Abbiamo scelto di applicare il metodo del “discount usability testing”  per le seguenti ragioni:
+    Abbiamo poi testato, per rilevare ulteriori problemi, l’applicativo Gioco.it direttamente con gli utenti. 
+    \subsection{Protocollo di testing }
+    Prima di tutto elenchiamo quello che è il protocollo del test:\\
+    Abbiamo scelto di applicare il metodo del “discount usability testing” per le seguenti ragioni:
     \begin{itemize}
         \item Il budget del progetto è limitato, per cui è impossibile avere un team multidisciplinare di esperti per strutturare test professionali. 
         \item Numero limitato di partecipanti. 
@@ -534,16 +489,15 @@
         \item Learnability (capacità di acquisire familiarità con il sistema )
         \item Soddisfazione (grado di piacere da parte dell’utente nell’effettuare le operazioni)
     \end{itemize}
-
-    Prenderemo in considerazione soggetti presi da entrambi i segmenti di utenti trovati.
+    \subsubsection{Utenti testati}
+    Prenderemo in considerazione soggetti presi da entrambi i segmenti di utenti trovati.\\
     Ada, donna di 48 anni genitore di una ragazza di 13 anni ed un ragazzo di 22. Ada fa assistenza agli anziani e ha un reddito medio basso. Non è solita utilizzare dei laptop, ma ha una sufficiente conoscenza nell’utilizzo di un computer poichè prima dell largo avvento degli smartphone era solita utilizzare un PC. Usa giornalmente il suo smartphone principalmente per l’utilizzo di social network quali Facebook e Whatsapp per rimanere in contatto con i suoi familiari. E’ autonoma nell’uso degli strumenti che conosce, spesso restia a provare nuove funzionalità o nuove applicazioni.\\
-
     Emili è una ragazza di 13 anni, iscritta all’ultimo anno della scuola media. Le piace passare il suo tempo libero giocando con le amiche quando è possibile altrimenti è ben felice di restare a casa ad utilizzare il suo laptop. Lo usa principalmente per guardare contenuti su YouTube o giocare. 
 
-    \subsubsection{SUS}
-    Per la valutazione della soddisfazione abbiamo utilizzato il calcolatore del System Usability Scale reso disponibile al link: https://stuart-cunningham.github.io/sus/ . Tuttavia avendo effettuato un numero esiguo di test è stato difficile estrarre delle informazioni statisticamente rilevanti
+    \subsubsection{SUS, System Usability Scale}
+    Per la valutazione della soddisfazione abbiamo utilizzato il calcolatore del System Usability Scale reso disponibile al link: https://stuart-cunningham.github.io/sus/. Tuttavia avendo effettuato un numero esiguo di test è stato difficile estrarre delle informazioni statisticamente rilevanti.
 
-    \textbf{Risultati per Ada}\\
+    \subsection{Risultati per Ada}
     \begin{table}[H]
         \begin{tabular}{|c|c|p{5cm}|c|}
             \hline
@@ -555,7 +509,7 @@
             \hline
             3 & Si & Alta & Alta \\
             \hline
-            4 & Si & medio alto eliminazione(ha tentato di usare il tasto dx per poi vedere i 3 pallotti) & Alta \\
+            4 & Si & Medio-Alta (durante l'eliminazione ha tentato di usare il tasto dx per poi vedere e usare il menù di opzioni) & Alta \\
             \hline
             5 & Si ma con assistenza & Bassa (l’utente ha dapprima cliccato su impostazioni nella sezione aggiorna dati personali. E’ poi andato su profilo non trovando nulla e trovando sconforto nella visualizzazione di un messaggio di errore. E’ riuscita a completare il task dopo aver ricevuto l’indicazione di usare il tasto avatar.) & Bassa \\
             \hline
@@ -574,9 +528,9 @@
         \end{tabular}
     \end{table}
 
-    \textbf{Risultati per Emili}\\
+    \subsection{Risultati per Emili}
     \begin{table}[H]
-        \begin{tabular}{|c|c|p{5cm}|c|}
+        \begin{tabular}{|c|c|p{5cm}|p{4cm}|}
             \hline
             Task & Successo & Efficacia & Apprendibilitá \\
             \hline
@@ -614,7 +568,7 @@
         %IMMAGINE 20%
         Inoltre gli utenti cercavano invano di modificare l’immagine tramite le impostazioni (E3) o cliccando sull’anteprima dell’avatar (E4). Emili è riuscita dopo un po di esitazioni a trovare il menu avatar, Ada si stava arrendendo e noi membri del team abbiamo indicato il menu avatar per permetterle di concludere il task. Ada ha dichiarato di cercare una pagina o un’impostazione nominata “immagine del profilo”, come su Facebook
         \item Per il task 10 l’errore è stato commesso solo da Emili che però è subito tornata sui suoi passi passando dalla sezione impostazioni (E5) a quella preferiti.
-        \item Il task numero 11 è quello che ha causato più problemi. Tutti gli utenti hanno denunciato la mancanza di un opportuno sistema di filtraggio e ordinamento all’interno del sito oltre che una mancanza di chiara  classificazione e divisione nelle categorie. Un’altro problema riscontrato da Ada è legato al fatto che nonostante avesse cliccato sulla categoria Abilità (quella corretta per il gioco fruit ninja) il menu delle sottocategorie si è aperto nella sezione sbagliata. Inoltre nessuno dei due utenti è riuscito a completare il task, poichè le ricerche per categoria riportano troppi giochi.       
+        \item Il task numero 11 è quello che ha causato più problemi. Tutti gli utenti hanno denunciato la mancanza di un opportuno sistema di filtraggio e ordinamento (E6) all’interno del sito oltre che una mancanza di chiara  classificazione e divisione nelle categorie(E7). Un’altro problema riscontrato da Ada è legato al fatto che nonostante avesse cliccato sulla categoria Abilità (quella corretta per il gioco fruit ninja) il menu delle sottocategorie si è aperto nella sezione sbagliata (E8). Inoltre nessuno dei due utenti è riuscito a completare il task, poichè le ricerche per categoria riportano troppi giochi.       
     \end{itemize}
     
     Si è quindi riscontrato una certa difficoltà da parte degli utenti nell’utilizzo dei menù per la modifica e la gestione del profilo e delle informazioni ad esso relative. 
@@ -622,15 +576,32 @@
     \subsection{Lista errori}
     Elenchiamo di seguito quindi tutti gli errori riscontrati, con la loro frequenza e la loro criticità:
     \begin{table}[H]
-        \begin{tabular}{|c|c|c|}
+        \begin{tabular}{|p{8cm}|c|c|}
             \hline
             \textbf{Errore} & \textbf{Frequenza} & \textbf{Classificazione} \\
             \hline
-            
+            E1. Il sito attuale propone prima nei risultati le categorie di giochi che il gioco stesso. Gli utenti sono attirati dal cliccare il primo risultato allungando di un passo il path per il task. & 80\% & Cosmetico \\
             \hline
+            E2. Non è possibile postare un commento premendo invio invece che il tasto "Posta". & 50\% & Cosmetico \\
+            \hline
+            E3. Gli utenti cercavano di accedere alla modifica dell'avatar tramite le impostazioni. & 60\% & Cosmetico \\
+            \hline
+            E4. Gli utenti cercavano di accedere alla modifica dell'avatar cliccando sull'anteprima. & 80\% & Serio \\
+            \hline
+            E5. Gli utenti accedevano alla sezione impostazioni per eliminare un gioco dai preferiti. & 30\% & Cosmetico \\
+            \hline 
+            E6. Non è presente un sistema di filtraggio e ordinamento dei contenuti. & 90\% & Catastrofico \\
+            \hline 
+            E7. Mancanza di coerenza tra categorie e sottocategorie, oltre che nella classificazione dei giochi. & 50\% & Serio. \\
+            \hline
+            E8. Quando si clicca per accedere a un sottomenù di una categoria quest'ultimo si apre indirizzato ad una categoria sbagliata. & 70\% & Cosmetico. \\
+            \hline 
         \end{tabular}
     \end{table}
     \subsubsection{Urgency curves}
     Utilizzando i risultati del test dell'utente, possiamo definire le seguenti curve di urgenza dell'impatto, in cui è quantificato l’impatto in relazione alla frequenza o la persistenza degli errori, individuati dall'utente nella fase di test. La linea rossa, nel grafico, costituisce una soglia fissa: gli errori al di sopra della soglia devono essere corretti il prima possibile.     
-
+    \begin{figure}[H]
+        \includegraphics[width=\linewidth]{UrgencyCurve.png}
+        \centering
+    \end{figure}
 \end{document}
