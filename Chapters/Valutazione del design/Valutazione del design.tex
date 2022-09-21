@@ -96,6 +96,7 @@
 
     \subsubsection{Happy path}
     \begin{enumerate}
+        \item Eseguire l'accesso qualora non sia stato fatto 
         \item Cliccare sul pulsante con l’omino in alto a destra sulla HomePage
         \item Dal menu che si apre scegliere Parental Control
         \item Inserire la password per accedere al Parental Control (000000)
@@ -107,7 +108,7 @@
     \subsubsection{Walkthrough:}
     Claudio è sulla HomePage del sito Giochi.it e comincia ad esplorarlo. Individua in alto a destra il pulsante del profilo e ci clicca sopra e a dal menu che viene fuori clicca sulla sezione Parental Control. Successivamente, all'apertura della nuova pagina, individua l'input text da inserire e inserisce inizialmente una password errata, poi si corregge e inserisce 000000, quella giusta. Dopo essersi aperta la schermata del Parental Control, Claudio, individua il box di limite dei giochi, clicca sul pulsante "+" e nella finestra modale che compare individua subito la categoria Violenza e la seleziona con il pulsante "+".  
     \subsubsection{Valutazione:}
-
+    Storia realistica e segue perfettamente l’happy path, nonostante Claudio ha sbagliato inizialmente la password è riuscito a completare il task. 
 
     \subsubsection{Miglioramenti:}
     Inserire un messaggio di errore quando la password inserita è sbagliata.
@@ -118,10 +119,11 @@
 
     \subsubsection{Happy path}
     \begin{enumerate}
+        \item Eseguire l'accesso qualora non sia stato fatto 
         \item Cliccare sul pulsante con l’omino in alto a destra sulla HomePage
         \item Dal menu che si apre cliccare sul nome del profilo
         \item Dalla nuova schermata che si apre cliccare sul pulsante con lo scudo, di fianco l'immagine del profilo
-        \item Inserire la password per accedere al Parental Control (000000)
+        \item Inserire la password per accedere al Parental Control (123456)
         \item Nella nuova schermata che si presenta, cliccare sul bottone radio "No", alla domanda "Vuoi attivare il parental control?"
     \end{enumerate}
 
@@ -132,6 +134,29 @@
 
     \subsubsection{Miglioramenti:}
 
+    \subsubsection{Cognitive walkthrough 9:}
+    \textbf{Task:} Creare un nuovo account.\\
+    \textbf{User:} Un uomo dai 40 ai 50 anni come Claudio (vedere \ref{section: personas}).\\
+
+    \subsubsection{Happy path}
+    \begin{enumerate}
+        \item Se è già stato eseguito l'accesso disconnettersi dal profilo
+        \item Cliccare sul pulsante con l’omino in alto a destra sulla HomePage
+        \item Nella nuova schermata andate nella sezione "Registrati" 
+        \item Compila il form co tutti i tuoi dati
+        \item Imposta il Parental Control con password "101010"
+        \item Conferma di non essere un robot
+        \item Premi sul pulsante "Registrati"
+    \end{enumerate}
+
+    \subsubsection{Walkthrough:}
+    Una volta fatto il logout, Claudio, preme sul pulsante dell'omino nella HomePage.
+    Alla schermata che appare si sposta nella sezione "Registrati" e comincia a compilare il form. Dopo aver inserito tutti i dati imposta il Parental Control con la password designata, cerca di dimostrare di non essere un robot e dopo vari tentavi ci riesce (non è molto bravo a distinguere le bici dalle moto). Infine clicca sul pulsante "Registrati" e riesce a completare il task.
+    \subsubsection{Valutazione:}
+
+    \subsubsection{Miglioramenti:}
+
+    
     \subsection{Valutazione Euristiche (opzionale)}
     \section{User Testing}
     \subsection{Protocollo di testing}
