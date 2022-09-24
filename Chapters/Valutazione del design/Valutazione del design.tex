@@ -6,12 +6,12 @@
     \chapter{Valutazione del Design}
     In questo capitolo andremo a valutare quello che è il design ottenuto dalle fasi precedenti. La valutazione sarà formata da due step:
     \begin{itemize}
-        \item \textbf{L'inspezione:} nella quale andremo a valutare noi stessi in qualità di membri del team il design ottenuto. Useremo la tecnica del \emph{cognitive walkthrougth}, una tecnica che sfrutta l'approccio drammaturgico narrativo.
+        \item \textbf{L'ispezione:} nella quale andremo a valutare noi stessi in qualità di membri del team il design ottenuto. Useremo la tecnica del \emph{cognitive walkthrougth}, una tecnica che sfrutta l'approccio drammaturgico narrativo.
         \item  \textbf{Il testing:} nella quale verra chiesto ad alcuni utenti di utilizzare i nostri wireframe per valutare l'usabilità del sito. 
     \end{itemize}
 
-    \section{Inspezione}
-    Per quanto riguarda l'inspezione stileremo dapprima una lista di task che vogliamo analizzare.
+    \section{Ispezione}
+    Per quanto riguarda l'ispezione stileremo dapprima una lista di task che vogliamo analizzare.
     \begin{enumerate}
         % SIMONE I PRIMI TRE - LUCA GLI ULTIMI 3
         \item Accedere al profilo
@@ -218,7 +218,7 @@
     Nessun miglioramento. Al massimo ingrandire il riquadro del reCAPTCHA.
     
     \subsection{Valutazione Euristiche}
-    Dopo aver valutato i percorsi cognitivi, per completare l'inspezione siamo andati a valutare il rispetto di tutte le euristiche selezionate nella sezione di valutazione delle risorse esistenti. Elenchiamo quindi di seguito i codici di tutte le euristiche e valuteremo il loro rispetto o meno.
+    Dopo aver valutato i percorsi cognitivi, per completare l'ispezione siamo andati a valutare il rispetto di tutte le euristiche selezionate nella sezione di valutazione delle risorse esistenti. Elenchiamo quindi di seguito i codici di tutte le euristiche e valuteremo il loro rispetto o meno.
     \subsubsection{Home Page}
     \begin{enumerate}
         \item Rispettata.
@@ -351,10 +351,15 @@
     
     \section{User Testing}
     \subsection{Protocollo di testing}
-    Per testare il desing ottenuto assieme agli utenti abbiamo utilizzato lo stesso protocollo di testing usato dei test della sezione 2.3. Abbiamo quindi effettuato un \emph{discount usability testing} (rimandiamo alla sezione 2.3 per le motivazioni) ed abbiamo adottato una metodologia \emph{thinking aloud}. La lista di task testata con gli utenti è la stessa testata nell'inspezione nella sezione precedente, in modo tale da confermare o meno i risultati dei nostri percorsi cognitivi. Siccome in questo momento non abbiamo una versione funzionante del sito web, il test utenti è stato eseguito porgendo loro i wireframes ottenuti nelle fasi precedenti, spostando l'attenzione da un wireframe all'altro seguendo le scelte compiute dagli utenti. Anche in questo caso, 
+    Per testare il desing ottenuto assieme agli utenti abbiamo utilizzato lo stesso protocollo di testing usato dei test della sezione \ref*{section: initial_testing}. Abbiamo quindi effettuato un \emph{discount usability testing} (rimandiamo alla sezione \ref{section: initial_testing} per le motivazioni) ed abbiamo adottato una metodologia \emph{thinking aloud}. La lista di task testata con gli utenti è la stessa testata nell'ispezione nella sezione precedente, in modo tale da confermare o meno i risultati dei nostri percorsi cognitivi. Siccome in questo momento non abbiamo una versione funzionante del sito web, il test utenti è stato eseguito porgendo loro i wireframes ottenuti nelle fasi precedenti, spostando l'attenzione da un wireframe all'altro seguendo le scelte compiute dagli utenti. Anche in questo caso, 
     le metriche raccolte saranno le stesse che abbiamo raccolto nella prima sezione.
     \subsection{Soggetti testati}
-    Aldo ha 26 anni, studente di medicina. Ha una sorella minore di 12 anni chiamata Lucia a cui si trova spesso a fare da babysitter. 
+    Per questo test sono stati utilizzati quattro soggetti:
+    \begin{itemize}
+        \item Aldo ha 26 anni, studente di medicina. Ha una sorella minore di 12 anni chiamata Lucia a cui si trova spesso a fare da babysitter.
+        \item Monica ha 42 anni, professoressa presso la facoltà di lingue e letterature straniere all'Università di Bologna. Ha un figlio di 8 anni e non vuole che stia troppo tempo davanti al pc. 
+    \end{itemize}
+ 
     \subsection{Testing}
     \subsubsection{Risultati di Aldo}
     \begin{table}[H]
@@ -386,7 +391,7 @@
             \hline
             1. Credo che utilizzerei il sistema frequentemente & 3\\
             \hline
-            2. Ho trovato il sistema inultimente complesso & 2 \\
+            2. Ho trovato il sistema inutilmente complesso & 2 \\
             \hline
             3. Credo che il sistema sia facile da usare & 5 \\
             \hline
@@ -405,6 +410,64 @@
             10. Ho dovuto imparare tante cose prima di riuscire ad usare il sistema. & 1 \\ 
             \hline
             Punteggio SUS & 85, grado B \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \subsubsection{Risultati di Monica}
+    \begin{table}[H]
+        \begin{tabular}{|c|c|p{5cm}|c|}
+            \hline
+            Task & Successo & Efficacia & Apprendibilitá \\
+            \hline
+            1 & Si &  &  \\
+            \hline
+            2 & Si &  &  \\
+            \hline
+            3 & Si &  &  \\
+            \hline
+            4 & Si &  &  \\
+            \hline
+            5 & Si  &  &  \\
+            \hline
+            6 & Si &  &  \\
+            \hline
+            7 & Si &  &  \\
+            \hline
+            8 & Si &  &  \\
+            \hline
+            9 & Si &  &  \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    Per quanto riguarda il SUS di Monica:
+    \begin{table}[H]
+        \begin{tabular}{|p{10cm}|c|}
+            \hline
+            \textbf{Domanda} & \textbf{Voto}\\
+            \hline
+            1. Credo che utilizzerei il sistema frequentemente & \\
+            \hline
+            2. Ho trovato il sistema inutilmente complesso &  \\
+            \hline
+            3. Credo che il sistema sia facile da usare &  \\
+            \hline
+            4. Penso che sia necessario il supporto di una persona tecnica per riuscire ad utilizzare il sistema &  \\
+            \hline
+            5. Ho trovato le varie funzioni del sistema ben integrare &  \\
+            \hline
+            6. Credo ci sia troppa inconsistenza nel sistema. & \\
+            \hline
+            7. Immagino che la maggior parte delle persone impari ad usare il sistema molto velocemente &  \\
+            \hline
+            8. Ho trovato il sistema molto difficile da usare. &  \\
+            \hline
+            9. Mi sono sentito molto a mio agio ad usare il sistema. & \\
+            \hline
+            10. Ho dovuto imparare tante cose prima di riuscire ad usare il sistema. &  \\ 
+            \hline
+            Punteggio SUS &   \\
             \hline
         \end{tabular}
     \end{table}
