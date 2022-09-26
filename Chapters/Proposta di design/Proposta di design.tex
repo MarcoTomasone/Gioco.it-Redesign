@@ -17,20 +17,20 @@
     \textbf{Perché gli utenti dovrebbero utilizzare il nostro servizio?} Perché il sito offre la più grande varietà e collezione di giochi presenti sul web e poiché sarà l'unico che offrirà un'attenzione particolare ai bisogni dei supervisori dei giocatori che giocano al sito.
 
     \subsubsection{Navigazione}
-    \textbf{Come migliorare la navigazione tra le categorie?} Nella vecchia versione di Gioco.it alcune macro categorie non erano visibili nel menù principale e allo stesso modo c'era una grande discordanza tra le sottocategorie mostrate nella home page e quelle mostrate nel menù delle categorie e nelle categorie consigliate, sarà quindi necessario un grande lavoro di coerenza e uniformazione dei contenuti per far sì che gli utenti possano navigare correttamente nel sito.
+    \textbf{Come migliorare la navigazione tra le categorie?} Nella vecchia versione di Gioco.it alcune macro categorie non erano visibili nel menù principale e allo stesso modo c'era una grande discordanza tra le sottocategorie mostrate nella homepage e quelle mostrate nel menù delle categorie e nelle categorie consigliate, sarà quindi necessario un grande lavoro di coerenza e uniformazione dei contenuti per far sì che gli utenti possano navigare correttamente nel sito.
 
     \subsubsection{Etica del sito}
-    \textbf{I supervisori devono ancora essere preoccupati?} Al momento il sito Gioco.it non fornisce nessun tipo di informazioni ai supervisori dei giocatori, inoltre non è possibile impostare un parental control e/o dei limiti di utilizzo del sito (es: tempo di utilizzo). Con la nuova versione del sito i supervisori possono essere molto più tranquilli nel lasciare i giocatori liberi di giocare sapendo che il sito Gioco.it è un luogo sicuro.
+    \textbf{I supervisori devono ancora essere preoccupati?} Al momento il sito Gioco.it non fornisce nessun tipo di informazioni ai supervisori dei giocatori, inoltre non è possibile impostare un parental control e/o dei limiti di utilizzo del sito (es: tempo di utilizzo). Con la nuova versione del sito i supervisori possono essere molto più tranquilli nel lasciare i giocatori liberi di giocare sapendo che il sito Gioco.it è un luogo sicuro. Inoltre il sito offrirà informazioni preliminari sui contenuti di un gioco.
 
     \section{Architettura dell'informazione}
     \label{section:architettura dell'informazione}
-    Valutando quello che è l'attuale architetture dell'informazione del sito Gioco.it, abbiamo deciso di utilizzare un approccio Top-Down mantenendo quindi quello che è il workflow di navigazione del sito. Elencheremo di seguito l'architettura del sito progettata a partire da quella originale che terrà conto, ovviamente, dei problemi riscontrati nelle fasi Ispezione e Testing \ref{}:
+    Valutando quello che è l'attuale architetture dell'informazione del sito Gioco.it, abbiamo deciso di utilizzare un approccio Top-Down mantenendo quindi quello che è il workflow di navigazione del sito. Elencheremo di seguito l'architettura del sito progettata a partire da quella originale che terrà conto, ovviamente, dei problemi riscontrati nelle fasi Ispezione e Testing \ref{section: initial_testing}:
     \begin{enumerate}
-        \item \textbf{Home page:} la home page deve essere capace di offrire un'overview generale del sito, mostrando tutte quelle che sono le funzionalità a disposizione degli utenti. Deve soprattutto offrire una buona rappresentazione dei giochi a disposizione per i nuovi utenti mentre deve semplificare l'utilizzo, fornendo scorciatoie per i giochi più frequenti, agli utenti che tornano sul sito. Inoltre, la grafica deve essere semplificata mantenendo un design più minimalista e meno ricco.
+        \item \textbf{Homepage:} la homepage deve essere capace di offrire un'overview generale del sito, mostrando tutte quelle che sono le funzionalità a disposizione degli utenti. Deve soprattutto offrire una buona rappresentazione dei giochi a disposizione per i nuovi utenti mentre deve semplificare l'utilizzo, fornendo scorciatoie per i giochi più frequenti, agli utenti che tornano sul sito. Inoltre, la grafica deve essere semplificata mantenendo un design più minimalista e meno ricco.
         \item \textbf{Barra di ricerca:} barra che permette di ricercare dei giochi per nome. Dovrebbe però permettere anche una minima tolleranza agli errori.
         \item \textbf{Schermata del gioco:} essa deve offrire all'utente la possibilità di mettere il gioco nei preferiti, commentare il gioco, leggerne la descrizione, ricevere un aiuto per giocare e giocare. È importante ricordare che deve proporre dei giochi simili nel caso in cui il giocatore voglia provare nuove esperienze.
         \item \textbf{Menù delle categorie:} il nuovo menù delle categorie dovrà avere coerenza e mostrare tutte le categorie di giochi presenti sul sito senza nascondere alcune categorie (come accade con il design attuale). Riteniamo necessario anche una semplificazione delle categorie e sottocategorie attualmente presenti.
-        \item \textbf{Card del gioco:} attualmente in ogni parte del sito, le card di ogni gioco contengono solo due elementi: immagine e nome del gioco. Come emerso dalle interviste \ref{}, i supervisori preferiscono avere delle informazioni aggiuntive che supportino la scelta del gioco. È necessario quindi aggiungere informazioni relative al tipo di gioco, ad eventuali limitazione di età proprie del gioco.
+        \item \textbf{Card del gioco:} attualmente in ogni parte del sito, le card di ogni gioco contengono solo due elementi: immagine e nome del gioco. Come emerso dalle interviste \ref{section:interviste}, i supervisori preferiscono avere delle informazioni aggiuntive che supportino la scelta del gioco. È necessario quindi aggiungere informazioni relative al tipo di gioco, ad eventuali limitazione di età proprie del gioco.
         \item \textbf{Lista di giochi per categoria:} è la sezione in cui gli utenti visualizzano tutte le card dei giochi appartenenti a quella categoria selezionata e dovrà contenere la possibilità di filtrare e ordinare i giochi in base a determinate caratteristiche.
         \item \textbf{Account:} sarà composto da varie sotto sezioni
         \begin{itemize}
@@ -48,7 +48,7 @@
     Dato che non esiste nel nostro gruppo un esperto di usabilità, disponiamo di pochi utenti per effettuare test reali e disponiamo di poche risorse poichè si tratta di un progetto universitario, abbiamo scelto di utilizzare il modello CAO = S.
     \subsection{Concetti}
  \begin{itemize}
-    \item    \textbf{Account}:account dell'utente sul sito Gioco.it
+    \item    \textbf{Account}: account dell'utente sul sito Gioco.it
     \item    \textbf{Giochi}: software che, per mezzo di una grafica, simula situazioni di carattere ludico (competizioni sportive, combattimenti o sfide di vario genere ambientate nei luoghi più diversi), permettendo a uno o più giocatori di giocare sia tra loro sia contro il computer
     \item    \textbf{Commento}: descrizione di un utente riferita ad un gioco preciso. 
     \item    \textbf{Categoria}: caratteristica o insieme di caratteristica che accomuna più giochi.
@@ -127,7 +127,7 @@
             \hline
             \textbf{CONCEPT} & \textbf{CREATE} & \textbf{READ} & \textbf{UPDATE} & \textbf{DELETE} \\
             \hline
-            \textbf{Account} & \cellcolor{gray} \textbf{Singola:} Funzionalità di ‘registrarsi come un nuovo utente’ già presente nel sito & \cellcolor{green} \textbf{Individuale completa:} permette di ‘Visualizzare le informazioni relative al proprio account’  & \cellcolor{green} \textbf{Specifico:} Possibilità di aggiornare il profilo, inserendo l’immagine del profilo e altre informazioni dell’utente stesso & \cellcolor{gray} \textbf{Eliminazione:} Possibilità di cancellare  l’account già esistente \\
+            \textbf{Account} & \cellcolor{gray} \textbf{Singola:} Funzionalità di ‘registrarsi come un nuovo utente’ già presente nel sito & \cellcolor{green} \textbf{Individuale completa:} permette di ‘Visualizzare le informazioni relative al proprio account’  & \cellcolor{green} \textbf{Specifico:} Possibilità di aggiornare il profilo, inserendo l’immagine del profilo e altre informazioni dell’utente stesso & \cellcolor{gray} \textbf{Cancellazione:} Possibilità di cancellare  l’account già esistente \\
             \hline
             \textbf{Giochi} & \cellcolor{red} Creazione effettuata dal sito stesso & \cellcolor{green} \textbf{Individuale Completa:} Possibilità di accedere alla vista completa e giocare nella pagina stessa
 
