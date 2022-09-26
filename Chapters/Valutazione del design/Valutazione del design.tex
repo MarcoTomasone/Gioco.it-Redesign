@@ -6,7 +6,7 @@
     \chapter{Valutazione del Design}
     In questo capitolo andremo a valutare quello che è il design ottenuto dalle fasi precedenti. La valutazione sarà formata da due step:
     \begin{itemize}
-        \item \textbf{L'ispezione:} nella quale andremo a valutare noi stessi in qualità di membri del team il design ottenuto. Useremo la tecnica del \emph{cognitive walkthrougth}, una tecnica che sfrutta l'approccio drammaturgico narrativo.
+        \item \textbf{L'ispezione:} nella quale andremo a valutare noi stessi in qualità di membri del team il design ottenuto. Useremo la tecnica del \emph{cognitive walkthrougth}, una tecnica che sfrutta l'approccio drammaturgico narrativo, e l'\emph{analisi euristica} con le euristiche definite precedentemente.
         \item  \textbf{Il testing:} nella quale verra chiesto ad alcuni utenti di utilizzare i nostri wireframe per valutare l'usabilità del sito. 
     \end{itemize}
 
@@ -167,12 +167,12 @@
     \end{enumerate}
 
     \subsubsection{Walkthrough:}
-    Claudio è sulla HomePage del sito Giochi.it e comincia ad esplorarlo. Individua in alto a destra il pulsante del profilo e ci clicca sopra e a dal menu che viene fuori clicca sulla sezione Parental Control, non ha però eseguito l'accesso, dopo averlo fatto riesce a procedere con il task. Successivamente, all'apertura della nuova pagina, individua l'input text da inserire e inserisce inizialmente una password errata, poi si corregge e inserisce quella giusta. Dopo essersi aperta la schermata del Parental Control, Claudio, individua il box di limite dei giochi, clicca sul pulsante "+" e nella finestra modale che compare individua subito la categoria Violenza e la seleziona con il pulsante "+" e infine salva.  
+    Claudio è sulla HomePage del sito Giochi.it e comincia ad esplorarlo. Individua in alto a destra il pulsante del profilo e ci clicca sopra e a dal menu che viene fuori clicca sulla sezione Parental Control. Al momento dell'accesso a questa sezione gli viene chiesta la password, scritta su un foglietto ormai perduto. Clicca allora sul pulsante "Ho dimenticato la password", la cambia e può procedere con il suo task. Dopo essersi aperta la schermata del Parental Control, Claudio, individua il box di limite dei giochi, clicca sul pulsante "+" e nella finestra modale che compare individua subito la categoria Violenza e la seleziona con il pulsante "+" e infine salva.  
     \subsubsection{Valutazione:}
-    Storia realistica e segue perfettamente l’happy path, nonostante Claudio abbia sbagliato inizialmente la password è riuscito a completare il task. 
+    Storia realistica. Nel nostro design però l'utente non avrebbe potuto modificare la password perduta poichè non è presente il pulsante e avrebbe quindi fallito il task. 
 
     \subsubsection{Miglioramenti:}
-    Inserire un messaggio di errore quando la password inserita è sbagliata.
+    Inserire un pulsante per cambiare la password.
 
     \subsubsection{Cognitive walkthrough 8:}
     \textbf{Task:} Disabilitare il Parental Control.\\
@@ -425,11 +425,11 @@
             \hline
             Task & Successo & Efficacia & Apprendibilità \\
             \hline
-            1 & Si & Media (aprendo il menu dall'omino in alto a destra non capiva che cliccando sul suo "Nome utente" avrebbe aperto la sezione profilo) & Alta \\
+            1 & Si & Alta & Alta \\
             \hline
             2 & Si & Alta & Alta  \\
             \hline
-            3 & Si & Bassa (ha cliccato il menu sbagliato andando in quello delle categorie)  & Buona  \\
+            3 & Si & Bassa (ha cliccato il menu sbagliato andando in quello delle categorie e poi, sbagliando, è finita nelle impostazioni)  & Buona  \\
             \hline
             4 & Si & Alta & Alta  \\
             \hline
@@ -474,20 +474,10 @@
             \hline
             10. \cellcolor{red} Ho dovuto imparare tante cose prima di riuscire ad usare il sistema. & 1 \\ 
             \hline
-            Punteggio SUS & 80, grado A \\
+            Punteggio SUS & 80, grado C \\
             \hline
         \end{tabular}
-    \end{table}
-
-    \subsubsection{Analisi dei risultati di Monica}
-    La performance è stata complessivamente ottima per un utente non troppo esperto dell'età di Monica. Seguono alcune considerazioni:
-    \begin{itemize}
-        \item Nel task 1 c'è stato un po' di backtracking. Aprendo il menu dall'omino in alto a destra, non capiva che cliccando sul suo "Nome utente" avrebbe aperto la sezione profilo (\textbf{E1}). È stata poi aiutata perché è finita nella sezione "Impostazioni" (\textbf{E2}). 
-        \item Nel task 3 Ha cliccato il menu sbagliato andando in quello delle categorie (\textbf{E3}), ha capito poi di dover andare in quello dell'utente e selezionare dalla lista "Amici". 
-    \end{itemize}
-
-    \subsubsection{Miglioramenti}
-    Tentiamo di correggere E1 sostituendo, all'interno della lista del menu omino, il "Nome utente" con la scritta "Profilo", di conseguenza dovremmo risolvere anche E2. (\textbf{Risolviamo E2 tenendo soltanto una delle due opzioni, ovvero la sezione "Profilo", e poi da lì sarà possibile raggiungere le impostazioni???}). 
+    \end{table}    
 
     \subsubsection{Risultati di Mattia}
     \begin{table}[H]
@@ -584,31 +574,42 @@
             \hline
             \textbf{Domanda} & \textbf{Voto}\\
             \hline
-            1. \cellcolor{green} Credo che utilizzerei il sistema frequentemente & 5\\
+            1. \cellcolor{green} Credo che utilizzerei il sistema frequentemente & 3\\
             \hline
             2. \cellcolor{red} Ho trovato il sistema inultimente complesso & 2 \\
             \hline
-            3. \cellcolor{green} Credo che il sistema sia facile da usare & 4 \\
+            3. \cellcolor{green} Credo che il sistema sia facile da usare & 5 \\
             \hline
-            4. \cellcolor{red} Penso che sia necessario il supporto di una persona tecnica per riuscire ad utilizzare il sistema & 1 \\
+            4. \cellcolor{red} Penso che sia necessario il supporto di una persona tecnica per riuscire ad utilizzare il sistema & 2 \\
             \hline
             5. \cellcolor{green} Ho trovato le varie funzioni del sistema ben integrate & 4 \\
             \hline
-            6. \cellcolor{red} Credo ci sia troppa inconsistenza nel sistema. & 1\\
+            6. \cellcolor{red} Credo ci sia troppa inconsistenza nel sistema. & 2\\
             \hline
             7. \cellcolor{green} Immagino che la maggior parte delle persone impari ad usare il sistema molto velocemente & 5 \\
             \hline
-            8. \cellcolor{red} Ho trovato il sistema molto difficile da usare. & 1 \\
+            8. \cellcolor{red} Ho trovato il sistema molto difficile da usare. & 2 \\
             \hline
-            9. \cellcolor{green} Mi sono sentito molto a mio agio ad usare il sistema. & 5\\
+            9. \cellcolor{green} Mi sono sentito molto a mio agio ad usare il sistema. & 3\\
             \hline
             10. \cellcolor{red} Ho dovuto imparare tante cose prima di riuscire ad usare il sistema. & 1 \\ 
             \hline
-            Punteggio SUS & 92.5, grado A \\
+            Punteggio SUS & 77.5 , grado C \\
             \hline
         \end{tabular}
     \end{table}
     \subsection{Analisi dei risultati}
-
+    Valuteremo adesso gli errori commessi dagli utenti ed il loro impatto. A seguito elencheremo delle possibili modifiche per la loro risoluzione. 
+    Il primo errore è stato commesso da Aldo, un utente molto esperto.
+    Aldo ha per cercare un nuovo amico da aggiungere utilizzato la barra di ricerca dei giochi (\textbf{E1}). Aprendo la barra però è presente la scritta "Cerca giochi" che ha subito fatto notare il suo errore. 
+    Per quanto riguarda monica la  performance è stata complessivamente ottima per un utente non troppo esperto dell'età di Monica. Seguono alcune considerazioni. Nel task 3 c'è stato un po' di backtracking. Ha cliccato il menu sbagliato andando in quello delle categorie (\textbf{E2}), ha capito poi di dover andare in quello dell'utente e non capendo che la sezione del profilo era raggiungibile cliccando sul nome utente (\textbf{E3}) e non accorgendosi dell'opzione "Amici" è finita nelle impostazioni (\textbf{E4}). Infatti, infine, è dovuta tornare indietro e si è accorta dal menù che c'era l'opzione "Amici" o comunque che la lista degli amici era raggiungibile anche dalla sezione profilo. 
+    Per quanto riguarda Mattia, ha nel task 3 commesso lo stesso errore di Monica (\textbf{E2}), per poi correggersi e andare correttamente nel profilo. Nella sezione dei propri amici Mattia per aggiungere un nuovo amico ha utilizzato la ricerca tra i propri amici piuttosto che il pulsante di aggiunta (\textbf{E5}). Anche per Leonardo ci diciamo soddisfatti dei risultati ottenuti. Anche lui ha commesso lo stesso errore di Mattia (\textbf{E5}). Per quanto riguarda il task 2 invece ha avuto un po' di fatica nell'eliminazione del commento, non riconoscendo a primo impatto i tre puntini come un menù. Più complessa è la situazione per il task 6. L'utente ha dapprima aperto il menù delle categorie non trovando risultati, si sposta poi verso il menù del profilo cliccando subito sulle impostazioni (\textbf{E4}). Dopo aver capito che anche questa non era la sezione che cercava, riapre il menù del profilo e trova la sezione del parental control, completando poi correttamente il resto del task.\\
+    \begin{figure}[H]
+        \includegraphics[width=0.9\linewidth]{UrgencyCurveFinalDesignù.png}
+        \centering
+    \end{figure}{}
+    \section{Miglioramenti}
+    Siamo andati quindi a correggere il design per migliorare e rimuovere gli errori trovati. Tentiamo di correggere E3 sostituendo, all'interno della lista del menu dell'utente, il "Nome utente" con la scritta "Profilo". L'errore con maggior impatto e frequenza è invece l'errore 4. Poichè consideriamo le impostazioni una sezione marginale del sito che verrà utilizzata di rado, per evitare confusione l'abbiamo rimossa dal menù ed essa rimane accessibile solo all'interno della sezione profilo, lasciando così meno voci nel menù: quelle più utili e di più frequente accesso. Per quanto riguarda l'E5 abbiamo aggiunto delle label esplicative che permettono quindi all'utente di non cadere in errore. 
     \chapter{Conclusioni}
+
 \end{document}
