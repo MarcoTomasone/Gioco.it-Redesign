@@ -274,9 +274,9 @@
         \caption{Blueprint Header: Utente loggato}
     \end{figure}
 
-    Nell'Header troviamo componenti quali: la ricerca, il pulsante che ti permette di accedere al profilo(poiché ricordiamo che l'utente ha eseguito l'accesso), il menu contenente tutte le categorie e che possono riferirsi direttamente a una pagina contenente il \textbf{Gioco}.\\
+    Nell'Header troviamo componenti quali: la ricerca, il pulsante che ti permette di accedere al menù del profilo(poiché ricordiamo che l'utente ha eseguito l'accesso) dal quale si può accedere a quasi tutti i servizi offerti dal sito, il menu contenente tutte le categorie e che possono riferirsi direttamente a una pagina contenente il \textbf{Gioco}.\\
 
-    Per eseguire l'accesso è necessario passare attraverso un meccanismo di login/registrano illustrato come segue, che al termine in caso di successo verrà reindirizzato alla HomePage (loggato):
+    Per eseguire l'accesso è necessario passare attraverso un meccanismo di login/registrazione illustrato come segue, che al termine in caso di successo verrà reindirizzato alla HomePage (loggato):
 
     \begin{figure}[H]
         \includegraphics[width=.6\linewidth]{BP_registrazione login.png}
@@ -298,7 +298,6 @@
         \caption{Blueprint Risultati Ricerca}
     \end{figure}
 
-    Troviamo sempre nell'Header 
     La pagina dei \textbf{Giochi} conterrà oltre la possibilità di giocare anche una descrizione e una sezione commenti in cui tutti gli utenti possono discuterlo.
     Il componente spiegazione è solitamente un video-tutorial del gioco.
     \begin{figure}[H]
@@ -307,7 +306,7 @@
         \caption{Blueprint Gioco}
     \end{figure}
 
-    L'\textbf{Area Riservata} riferito al profilo dell'utente contiene oltre all'Header e Footer, componenti quali la lista dei preferiti, degli amici e una sezione dedicata alle conversazioni. 
+    \textbf{Il profilo}  dell'utente contiene oltre all'Header e Footer, componenti quali la lista dei preferiti, degli amici e una sezione dedicata alle conversazioni. 
     è possibile inoltre accedere alle pagine delle impostazione, del parental control e alla modifica dell'immagine del profilo. 
     \begin{figure}[H]
         \includegraphics[width=\linewidth]{BP_profilo.png}
@@ -316,7 +315,7 @@
     \end{figure}
 
 
-    è Possibile accedere a una pagina relativa alle lista di categorie, che conterra sempre Header e Footer, dalla quale è possibile accedere ad un'ulteriore pagina relativa ad una determinata sottocategoria.
+    Sarà possibile accedere a una pagina relativa alle lista di categorie, che conterra sempre Header e Footer, dalla quale è possibile accedere ad un'ulteriore pagina relativa ad una determinata sottocategoria o ad una categoria.
     \begin{figure}[H]
         \includegraphics[width=.7\linewidth]{BP_listaCategoria.png}
         \centering
@@ -328,7 +327,12 @@
         \centering
         \caption{Blueprint Lista di giochi per sottocategoria}
     \end{figure}
-
+    Una pagina di categoria invece, conterrà una lista di giochi per ogni sottocategoria. 
+    \begin{figure}[H]
+        \includegraphics[width=.7\linewidth]{BP_PaginaCategoria.png}
+        \centering
+        \caption{Blueprint Pagina di categoria}
+    \end{figure}
     \section{Wireframes}
     Illustriamo qui di seguito i Wireframes delle schermate principali
 
@@ -341,7 +345,7 @@
         \caption{Wireframes per HomePage}
     \end{figure}
 
-         L'\textbf{Header} è stato modificato rendendolo piú semplice e minimale. Il menu è stato totalmente rimpiazzato dalla Toast Icon, il pannello di ricerca verrà mostrato solo al click nell'apposita icona\\
+         L'\textbf{Header} è stato modificato rendendolo piú semplice e minimale. Il menu è stato totalmente rimpiazzato dal Burger Icon, il pannello di ricerca verrà mostrato solo al click nell'apposita icona e presenterà di default la scritta "Cerca giochi".\\
          
          Il \textbf{Footer} contiene gli stessi collegamenti contenuti in precedenza e viene ridotto lo spazio occupato dalla funzionalità del cambio della lingua\\
 
@@ -355,8 +359,8 @@
 
 
     \subsection{Login e Registrazione}
-    La login secondo la nostra proposta rimane invariata, viene pero cambiata la parte di Registrazione dovendo andare ad impostare anche i controlli per impostare o meno la password per il parental control.\\
-    Come vediamo nel 'Callout' 1, se l'utente inserisce una data di nascita in cui l'utente è minorenne l'opzione sarà impostata di default a 'sí' altrimenti verrà impostato di default a 'no' perché se un adulto vuole creare un account per un bambino deve avere comunque la possibilità di settare il parental control.
+    La login secondo la nostra proposta rimane invariata, viene pero cambiata la parte di Registrazione dovendo andare a definire anche i controlli per impostare o meno la password per il parental control.\\
+     Se l'utente inserisce una data di nascita in cui l'utente è minorenne l'opzione della password del parental control sarà impostata di default a 'sí' altrimenti verrà impostato di default a 'no', ma non verrà disattivata perché se un adulto vuole creare un account per un bambino deve avere comunque la possibilità di settare il parental control.
 
     \begin{figure}[H]
         \hspace{-1.5cm}
@@ -373,7 +377,7 @@
 
     \subsection{Barra di Ricerca}
     \begin{figure}[H]
-        \includegraphics[width=\linewidth]{WSearchBar.png}
+        \includegraphics[width=12cm]{WSearchBar.png}
         \centering
     \end{figure}
     
@@ -398,10 +402,10 @@
     \subsection{Menu}
     Aprendo il menu laterale si presenta una lista di categorie come di seguito:
     \begin{figure}[H]
-        \includegraphics[width=10cm]{WMenu.png}
+        \includegraphics[width=12cm]{WMenu.png}
         \centering
     \end{figure}
-    Quando si clicca su di una categoria viene aperta una piccola finestra che illustra i primi quattro giochi in tendeza e diverse sottocategorie. Cliccando su di una sottocategoria si andrà nella schermata delle sottocategorie (vedere Figura \ref{fig: sottocategorie}), oppure si può cliccare su "Visualizza tutti i giochi di sport" e l'utente verrà reindirizzato sulla schermata della categorie (vedere Figura \ref{fig: categoria})
+    Quando si clicca su di una categoria viene aperta una piccola finestra che illustra i primi quattro giochi in tendenza e diverse sottocategorie. Cliccando su di una sottocategoria si andrà nella schermata delle sottocategorie (vedere Figura \ref{fig: sottocategorie}), oppure si può cliccare su "Visualizza tutti i giochi di sport" e l'utente verrà reindirizzato sulla schermata della categorie (vedere Figura \ref{fig: categoria})
     
     \subsection{Categoria e sottocategorie}
     La schermata che si presenta dopo aver selezionato una categoria dal menu è la Figura \ref{fig: categoria}
@@ -429,7 +433,7 @@
         \includegraphics[width=10cm]{WGioco_1.png}
         \centering
     \end{figure}
-    In primo piano abbiamo il riquadro di gioco, che è possibile ingrandire tramite il pulsante laterale di full screen in basso a destra. Abbiamo spostato la barra laterale dei pulsanti a sinistra e cambiato il pulsante dei preferiti (usando un cuore) rendendolo coerente con quello dei giochi preferiti all'interno della sezione profilo. Gli altri pulsanti rimandano a delle sotto sezioni della schermata di gioco cioè, seguendo l'ordine, quella della descrizione del gioco, dei commenti e del video tutorial del gioco.\\
+    In primo piano abbiamo il riquadro di gioco, che è possibile ingrandire tramite il pulsante laterale di full screen in basso a destra. Abbiamo spostato la barra laterale dei pulsanti a destra e cambiato il pulsante dei preferiti (usando un cuore) rendendolo coerente con quello dei giochi preferiti all'interno della sezione profilo. Gli altri pulsanti rimandano a delle sotto sezioni della schermata di gioco cioè, seguendo l'ordine, quella della descrizione del gioco, dei commenti e del video tutorial del gioco. Nella parte sinistra del gioco abbiamo inserito i simboli che rappresentano i contenuti del gioco, sui quali facendo mouse over è possibile ottenere il nome.\\
     \\
     Rispetto al vecchio design, abbiamo tenuto soltanto la sezione orizzontale dei giochi correlati, eliminando anche quella laterale verticale, fatto per diminuire il carico cognitivo dell'utente.\\
     Sia il pulsante per mettere il gioco nei preferiti, che quello per commentare, se premuti quando non si è loggati, mostrano un messaggio che rimanda al fare login o al registrarsi  per utilizzare queste funzioni.
@@ -483,7 +487,11 @@
 
 
     \subsubsection{Sotto sezione 2}
-    In questa sotto sezione è possibile creare nuove conversazioni e visualizzare quelle attive, in ordine cronologico. Ogni conversazione ha un nome e un pulsante (tre puntini: serve per eliminare o modificare la conversazione), cliccandoci sopra è possibile visualizzare tutti i commenti e inserirne di nuovi.
+    In questa sotto sezione è possibile creare nuove conversazioni e visualizzare quelle attive, in ordine cronologico. Ogni conversazione ha un nome e un pulsante (tre puntini: serve per eliminare o modificare la conversazione), cliccandoci sopra è possibile visualizzare tutti i commenti e inserirne di nuovi. Cliccando sul pulsante per ingrandire una conversazione si verrà portati alla pagina di una conversazione.
+    \begin{figure}[H]
+        \includegraphics[width=10cm]{WConversazioni.png}
+        \centering
+    \end{figure}
 
     \subsubsection{Sotto sezione 3}
     In questa sotto sezione si possono vedere gli ultimi amici aggiunti e c'è la possibilità, con due pulsanti diversi, di aggiungerne altri o mostrarli tutti.
@@ -521,7 +529,7 @@
 
     \subsection{Parental Control}
     \label{section: parental control}
-    Per accedere alla sezione "Parental Control", tramite la schermata Impostazioni \ref{section: profilo} oppure dal menu a tendina che viene fuori quando si clicca sull'omino del profilo dall'Header, servirà la password di accesso del supervisore (impostata durante la fase di registrazione) come si può vedere nell'immagine seguente
+    Per accedere alla sezione "Parental Control", lo si può fare dal pulsante presente nella schermata del profilo oppure dal menu a tendina che viene fuori quando si clicca sull'omino del profilo dall'Header, servirà la password di accesso del supervisore (impostata durante la fase di registrazione) come si può vedere nell'immagine seguente:
     \begin{figure}[H]
         \includegraphics[width=10cm]{WParentalControlAcces.png}
         \centering
