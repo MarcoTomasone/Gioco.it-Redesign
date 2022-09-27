@@ -140,25 +140,6 @@
         \item I messaggi di errore sono scritti facilmente e comprensibilmente
         
     \end{enumerate}
-
-    \subsubsection{Le euristiche di Nielsen }
-    \begin{enumerate}
-        \item Visibilità dello stato del sistema 
-        \item Corrispondenza tra sistema e mondo reale
-        \item Controllo e libertà dell’utente 
-        \item Consistenza e standard
-        \item Prevenzione degli errori 
-        \item Riconoscimento piuttosto che richiamo 
-        \item Flessibilità ed efficenza d’uso 
-        \item Estetica e design minimalista
-        \item Aiuta gli utenti a riconoscere e diagnosticare gli errori 
-        \item Aiuto e documentazione    
-    \end{enumerate}
-    \subsubsection{Le euristiche di ambito}
-    Sono delle euristiche selezionate da noi che valgono nel contesto preciso di un sito di giochi per bambini e ragazzi.
-    \begin{enumerate}
-        \item Il sito deve correttamente vietare di giocare ad utenti che non rispettano il vincolo di età
-    \end{enumerate}
     \subsection{Analisi Diretta: Sistema contro linee guida}
     Analizzeremo adesso ogni schermata del sito Gioco.it per andare a valutare se rispettano o meno queste euristiche.
 
@@ -433,11 +414,8 @@
     }    
     Quando si elimina un gioco dai preferiti non viene richiesto nessun messaggio di conferma dell'azione. Viene solo comunicata l'effettivo compimento dell'azione.
 
-    \subsubsection{Le euristiche di Nielsen \& le Euristiche di ambito}
-        \textbf{Estetica e design minimalista}\\
-        Il design del sito è veramente ricco di elementi che generano confusione e difficoltà di scelta nell’utente.\\ 
-        \textbf{Il sito deve correttamente vietare di giocare a determinati giochi ad utenti  registrati che non rispettano il vincolo di età.}\\
-        Non rispettato poichè pur creando un account con un’età inferiore a 18 anni è comunque permesso giocare a giochi 18+ come i giochi d’azzardo.
+    Inoltre, un'altro errore riscontrato, che potremmo considerare come "un'euristica di ambito", quindi che vale solo per siti web in di questo tipo è che 
+        \textbf{il sito deve correttamente vietare di giocare a determinati giochi ad utenti  registrati che non rispettano il vincolo di età.} Questa non è rispettata  poichè pur creando un account con un’età inferiore a 18 anni è comunque permesso giocare a giochi 18+ come i giochi d’azzardo. Il sito si limita esclusivamente a mostrare un semplice banner in cui indica che quel determinato gioco selezionato si riferisce un pubblico adulto.
 
     \section{Testing Utenti}
     \label{section: initial_testing}
@@ -585,8 +563,7 @@
     \begin{itemize}
         \item Per quanto riguarda il task 2 entrambi gli utenti hanno cliccato sul primo risultato che la ricerca offriva (E1), ma questo allungava di un passaggio il completamento del task poichè si trattava della categoria di giochi e non del gioco in sè. Inoltre Emili in questo caso, capendo l’errore commesso ha manifestato un po’ di dissenso sulla scelta da parte dei progettisti di gioco.it di creare una categoria di giochi di questo tipo. 
         \item Per il task 4 Emili tentava invano di premere invio per inviare il commento come fosse una chat (E2) per poi successivamente capire che bisognava utilizzare il pulsante “Posta”. 
-        \item Per il task 5 entrambi gli utenti hanno riscontrato errori più gravi. Entrambi sono rimasti “storditi” da un messaggio di errore 
-        %IMMAGINE 20%
+        \item Per il task 5 entrambi gli utenti hanno riscontrato errori più gravi. Entrambi sono rimasti “storditi” da un messaggio di errore.
         Inoltre gli utenti cercavano invano di modificare l’immagine tramite le impostazioni (E3) o cliccando sull’anteprima dell’avatar (E4). Emili è riuscita dopo un po di esitazioni a trovare il menu avatar, Ada si stava arrendendo e noi membri del team abbiamo indicato il menu avatar per permetterle di concludere il task. Ada ha dichiarato di cercare una pagina o un’impostazione nominata “immagine del profilo”, come su Facebook
         \item Per il task 10 l’errore è stato commesso solo da Emili che però è subito tornata sui suoi passi passando dalla sezione impostazioni (E5) a quella preferiti.
         \item Il task numero 11 è quello che ha causato più problemi. Tutti gli utenti hanno denunciato la mancanza di un opportuno sistema di filtraggio e ordinamento (E6) all’interno del sito oltre che una mancanza di chiara  classificazione e divisione nelle categorie(E7). Un’altro problema riscontrato da Ada è legato al fatto che nonostante avesse cliccato sulla categoria Abilità (quella corretta per il gioco fruit ninja) il menu delle sottocategorie si è aperto nella sezione sbagliata (E8). Inoltre nessuno dei due utenti è riuscito a completare il task, poichè le ricerche per categoria riportano troppi giochi.       
@@ -601,7 +578,7 @@
             \hline
             \textbf{Errore} & \textbf{Frequenza} & \textbf{Classificazione} \\
             \hline
-            E1. Il sito attuale propone prima nei risultati le categorie di giochi che il gioco stesso. Gli utenti sono attirati dal cliccare il primo risultato allungando di un passo il path per il task. & 80\% & Cosmetico \\
+            E1. Il sito attuale propone prima nei risultati le categorie di giochi che il gioco stesso. Gli utenti sono attirati dal cliccare il primo risultato allungando di un passo il path per il task. & 50\% & Cosmetico \\
             \hline
             E2. Non è possibile postare un commento premendo invio invece che il tasto "Posta". & 50\% & Cosmetico \\
             \hline
@@ -609,20 +586,20 @@
             \hline
             E4. Gli utenti cercavano di accedere alla modifica dell'avatar cliccando sull'anteprima. & 80\% & Serio \\
             \hline
-            E5. Gli utenti accedevano alla sezione impostazioni per eliminare un gioco dai preferiti. & 30\% & Cosmetico \\
+            E5. Gli utenti accedevano alla sezione impostazioni per eliminare un gioco dai preferiti. & 20\% & Cosmetico \\
             \hline 
-            E6. Non è presente un sistema di filtraggio e ordinamento dei contenuti. & 90\% & Catastrofico \\
+            E6. Non è presente un sistema di filtraggio e ordinamento dei contenuti. & 70\% & Catastrofico \\
             \hline 
             E7. Mancanza di coerenza tra categorie e sottocategorie, oltre che nella classificazione dei giochi. & 50\% & Serio. \\
             \hline
-            E8. Quando si clicca per accedere a un sottomenù di una categoria quest'ultimo si apre indirizzato ad una categoria sbagliata. & 70\% & Cosmetico. \\
+            E8. Quando si clicca per accedere a un sottomenù di una categoria quest'ultimo si apre indirizzato ad una categoria sbagliata. & 40\% & Cosmetico. \\
             \hline 
         \end{tabular}
     \end{table}
     \subsubsection{Urgency curves}
     Utilizzando i risultati del test dell'utente, possiamo definire le seguenti curve di urgenza dell'impatto, in cui è quantificato l’impatto in relazione alla frequenza o la persistenza degli errori, individuati dall'utente nella fase di test. La linea rossa, nel grafico, costituisce una soglia fissa: gli errori al di sopra della soglia devono essere corretti il prima possibile.     
     \begin{figure}[H]
-        \includegraphics[width=\linewidth]{UrgencyCurve.png}
+        \includegraphics[width=1.1\linewidth]{UrgencyCurve.png}
         \centering
     \end{figure}
 \end{document}
