@@ -358,8 +358,8 @@
     Per questo test sono stati utilizzati quattro soggetti:
     \begin{itemize}
         \item Aldo ha 26 anni, studente di medicina. Ha una sorella minore di 12 anni chiamata Lucia a cui si trova spesso a fare da babysitter.
-        \item Monica ha 47 anni, professoressa presso la facoltà di lingue e letterature straniere all'Università di Bologna. Ha un figlio di 10 anni e non vuole che stia troppo tempo davanti al pc. 
-        \item Mattia ha 15 anni, frequenta l'ultimo anno dell'Istituto Tecnico Industriale con indirizzo meccanico.
+        \item Monica ha 51 anni, lavora come receptionist in un famoso Hotel di Vasto. Ha un figlio di 10 anni e non vuole che stia troppo tempo davanti al pc. 
+        \item Mattia ha 15 anni, frequenta l'Istituto Tecnico Industriale con indirizzo meccanico.
         \item Leonardo ha 62 anni, è un militare in pensione. Lavorava negli uffici dell'aereonautica quindi ha una sufficiente padronanza dei computer. Si occupa spesso di tenere le sue nipotine quando suo figlio è a lavoro. 
     \end{itemize}
     \subsection{Testing}
@@ -419,7 +419,8 @@
             \hline
         \end{tabular}
     \end{table}
-
+    \subsubsection{Analisi dei risultati Aldo}
+    Aldo ha per cercare un nuovo amico da aggiungere utilizzato la barra di ricerca dei giochi (\textbf{E1}). Aprendo la barra però è presente la scritta "Cerca giochi" che ha subito fatto notare il suo errore. Non riteniamo necessario proporre una curva di urgenza per Aldo poichè si tratta di un errore ad impatto bassissimo e con una bassa frequenza.
     \subsubsection{Risultati di Monica}
     \begin{table}[H]
         \begin{tabular}{|c|c|p{5cm}|c|}
@@ -479,6 +480,12 @@
             \hline
         \end{tabular}
     \end{table}    
+    \subsection{Analisi dei risultati per Monica}
+    Per quanto riguarda Monica la  performance è stata complessivamente ottima per un utente non troppo esperto dell'età di Monica. Seguono alcune considerazioni. Nel task 3 c'è stato un po' di backtracking. Ha cliccato il menu sbagliato andando in quello delle categorie (\textbf{E2}), ha capito poi di dover andare in quello dell'utente e non capendo che la sezione del profilo era raggiungibile cliccando sul nome utente (\textbf{E3}) e non accorgendosi dell'opzione "Amici" è finita nelle impostazioni (\textbf{E4}). Infatti, infine, è dovuta tornare indietro e si è accorta dal menù che c'era l'opzione "Amici" o comunque che la lista degli amici era raggiungibile anche dalla sezione profilo. Mostriamo la curva di urgenza degli errori commessi da Monica:
+    \begin{figure}[H]
+        \includegraphics[width=0.9\linewidth]{UrgencyCurveMonica.png}
+        \centering
+    \end{figure}
 
     \subsubsection{Risultati di Mattia}
     \begin{table}[H]
@@ -525,20 +532,27 @@
             \hline
             5. \cellcolor{green} Ho trovato le varie funzioni del sistema ben integrate & 4 \\
             \hline
-            6. \cellcolor{red} Credo ci sia troppa inconsistenza nel sistema. & 1\\
+            6. \cellcolor{red} Credo ci sia troppa inconsistenza nel sistema. & 2\\
             \hline
-            7. \cellcolor{green} Immagino che la maggior parte delle persone impari ad usare il sistema molto velocemente & 5 \\
+            7. \cellcolor{green} Immagino che la maggior parte delle persone impari ad usare il sistema molto velocemente & 4 \\
             \hline
             8. \cellcolor{red} Ho trovato il sistema molto difficile da usare. & 1 \\
             \hline
-            9. \cellcolor{green} Mi sono sentito molto a mio agio ad usare il sistema. & 5\\
+            9. \cellcolor{green} Mi sono sentito molto a mio agio ad usare il sistema. & 4\\
             \hline
             10. \cellcolor{red} Ho dovuto imparare tante cose prima di riuscire ad usare il sistema. & 1 \\ 
             \hline
-            Punteggio SUS & 92.5, grado A \\
+            Punteggio SUS & 85, grado B \\
             \hline
         \end{tabular}
     \end{table}
+    \subsubsection{Analisi dei risultati Mattia}
+    Per quanto riguarda Mattia, ha nel task 3 commesso lo stesso errore di Monica (\textbf{E2}), per poi correggersi e andare correttamente nel profilo. Nella sezione dei propri amici Mattia per aggiungere un nuovo amico ha utilizzato la ricerca tra i propri amici piuttosto che il pulsante di aggiunta (\textbf{E5}). Crediamo però che questo sia un errore minimale commesso solo da Mattia, che è subito tornato sui suoi passi. Mostriamo ora la sua curva di urgenza.
+    \begin{figure}[H]
+        \includegraphics[width=0.9\linewidth]{UrgencyCurveMattia.png}
+        \centering
+    \end{figure}
+   
 
     \subsubsection{Risultati di Leonardo}
     \begin{table}[H]
@@ -599,12 +613,9 @@
             \hline
         \end{tabular}
     \end{table}
-    \subsection{Analisi dei risultati}
-    Valuteremo adesso gli errori commessi dagli utenti ed il loro impatto. A seguito elencheremo delle possibili modifiche per la loro risoluzione. 
-    Il primo errore è stato commesso da Aldo, un utente molto esperto.
-    Aldo ha per cercare un nuovo amico da aggiungere utilizzato la barra di ricerca dei giochi (\textbf{E1}). Aprendo la barra però è presente la scritta "Cerca giochi" che ha subito fatto notare il suo errore. 
-    Per quanto riguarda monica la  performance è stata complessivamente ottima per un utente non troppo esperto dell'età di Monica. Seguono alcune considerazioni. Nel task 3 c'è stato un po' di backtracking. Ha cliccato il menu sbagliato andando in quello delle categorie (\textbf{E2}), ha capito poi di dover andare in quello dell'utente e non capendo che la sezione del profilo era raggiungibile cliccando sul nome utente (\textbf{E3}) e non accorgendosi dell'opzione "Amici" è finita nelle impostazioni (\textbf{E4}). Infatti, infine, è dovuta tornare indietro e si è accorta dal menù che c'era l'opzione "Amici" o comunque che la lista degli amici era raggiungibile anche dalla sezione profilo. 
-    Per quanto riguarda Mattia, ha nel task 3 commesso lo stesso errore di Monica (\textbf{E2}), per poi correggersi e andare correttamente nel profilo. Nella sezione dei propri amici Mattia per aggiungere un nuovo amico ha utilizzato la ricerca tra i propri amici piuttosto che il pulsante di aggiunta (\textbf{E5}). Anche per Leonardo ci diciamo soddisfatti dei risultati ottenuti. Anche lui ha commesso lo stesso errore di Mattia (\textbf{E5}). Per quanto riguarda il task 2 invece ha avuto un po' di fatica nell'eliminazione del commento, non riconoscendo a primo impatto i tre puntini come un menù. Più complessa è la situazione per il task 6. L'utente ha dapprima aperto il menù delle categorie non trovando risultati, si sposta poi verso il menù del profilo cliccando subito sulle impostazioni (\textbf{E4}). Dopo aver capito che anche questa non era la sezione che cercava, riapre il menù del profilo e trova la sezione del parental control, completando poi correttamente il resto del task.\\
+    \subsection{Analisi dei risultati Leonardo}    
+     Anche per Leonardo ci diciamo soddisfatti dei risultati ottenuti. Anche lui ha commesso lo stesso errore di Mattia (\textbf{E5}). Per quanto riguarda il task 2 invece ha avuto un po' di fatica nell'eliminazione del commento, non riconoscendo a primo impatto i tre puntini come un menù. Più complessa è la situazione per il task 6. L'utente ha dapprima aperto il menù delle categorie non trovando risultati, si sposta poi verso il menù del profilo cliccando subito sulle impostazioni (\textbf{E4}). Dopo aver capito che anche questa non era la sezione che cercava, riapre il menù del profilo e trova la sezione del parental control, completando poi correttamente il resto del task.\\
+     I risultati di Leonardo, che ha ripetuto errori commessi da altri utenti che consideravamo a bassa frequenza, ci hanno fatto riflettere e ci portano a questa curva di urgenza:
     \begin{figure}[H]
         \includegraphics[width=0.9\linewidth]{UrgencyCurveFinalDesignù.png}
         \centering
@@ -613,26 +624,30 @@
     Siamo andati quindi a correggere il design per migliorare e rimuovere gli errori trovati. Tentiamo di correggere E3 sostituendo, all'interno della lista del menu dell'utente, il "Nome utente" con la scritta "Profilo". L'errore con maggior impatto e frequenza è invece l'errore 4. Poichè consideriamo le impostazioni una sezione marginale del sito che verrà utilizzata di rado, per evitare confusione l'abbiamo rimossa dal menù ed essa rimane accessibile solo all'interno della sezione profilo, lasciando così meno voci nel menù: quelle più utili e di più frequente accesso. Per quanto riguarda l'E5 abbiamo aggiunto delle label esplicative che permettono quindi all'utente di non cadere in errore.\\
     
     \section{Design Aggiornati}
-    Mostriamo quindi ora i wireframes che abbiamo ottenuto dai miglioramenti applicati a seguito delle inspezioni e del testing. Non mostreremo tutti i wireframes, ma solo quelli che sono stati modificati. 
+    Mostriamo quindi ora i wireframes che abbiamo ottenuto dai miglioramenti applicati a seguito delle inspezioni e del testing. Non mostreremo tutti i wireframes, ma solo quelli che sono stati modificati.\\
+    Il menù è stato semplificato lasciando solo le voci più importanti. Un importante modifica è stata quella di eliminare dal menù le impostazioni, accessibili ora solo dal profilo, poichè si tratta secondo noi di una pagina a cui bisogna accedere molto raramente e che porta invece molta confusione negli utenti.
+
     \begin{figure}[H]
         \includegraphics[width=0.9\linewidth]{WProfileMenu (Clear version).png}
         \centering
     \end{figure}
 
     \begin{figure}[H]
-        \includegraphics[width=0.9\linewidth]{WAmici1 (Labeled).png}
+        \includegraphics[width=0.8\linewidth]{WAmici1 (Labeled).png}
         \centering
     \end{figure}
-
+    La schermata del profilo e degli amici vedranno aggiunte delle label esplicative dei pulsanti. Sono state quindi aggiunti dei signifiers per il Parental Control e per le impostazioni, oltre che per la sezione amici per distinguere la ricerca tra i propri amici e l'aggiunta di nuovi.
     \begin{figure}[H]
         \includegraphics[width=0.9\linewidth]{WParentalControlAcces (Whit Forgotten).png}
         \centering
     \end{figure}
+    Nella schermata di accesso al parental control abbiamo aggiunto un pulsante ho dimenticato la password non presente in precedenza. Mentre per la schermata del gioco abbiamo modificato l'icona della descrizione per renderla più esplicativa.
 
     \begin{figure}[H]
         \includegraphics[width=0.9\linewidth]{WGioco_1 (new version).png}
         \centering
     \end{figure}
+
     
     \chapter{Conclusioni}
     Il nostro lavoro di redesign del sito Gioco.it ha avuto lo scopo di offrire ad un segmento target complementare a quello degli utenti primari (i bambini) una serie di servizi, che possiamo descrivere come fondamentali per l'utilizzo in sicurezza del sistema. Nonostante l'offerta di nuovi servizi si sia rivolta per lo più ad un pubblico adulto abbiamo effettuato un complessivo redesign per rendere il sito più minimale e di facile comprensione, per diminuire al minimo le frizioni che possono esserci tra gli utilizzatori bambini ed il loro scopo: divertirsi ed imparare. \\
